@@ -87,7 +87,10 @@ export const FIELD_LABELS = {
   frequency: 'תדירות',
   quarter: 'רבעון',
   value: 'ערך',
+  data_quality_status: 'איכות נתון',
+  notes_hebrew: 'הערה',
   revenue: 'הכנסות',
+  annual_revenue_reference: 'הכנסה שנתית מדווחת',
   yoy_growth: 'צמיחה YoY',
   qoq_growth: 'צמיחה QoQ',
   revenue_yoy_growth: 'צמיחת הכנסות YoY',
@@ -116,6 +119,9 @@ export const FIELD_LABELS = {
   // EPS / EBITDA
   reported_eps: 'EPS מדווח',
   consensus_eps: 'EPS קונצנזוס',
+  actual_eps: 'EPS בפועל',
+  estimate_eps: 'EPS תחזית',
+  result: 'תוצאה',
   surprise_pct: '% הפתעה',
   adjusted_ebitda: 'EBITDA מתואם',
   adjusted_ebitda_margin: 'מרווח EBITDA מתואם',
@@ -130,6 +136,7 @@ export const FIELD_LABELS = {
   // Health / valuation
   current_ratio: 'יחס שוטף',
   quick_ratio: 'יחס מהיר',
+  normalized_roe: 'ROE מנורמל',
   price_to_book: 'Price/Book',
   peg_ratio: 'PEG',
   roic: 'ROIC',
@@ -165,6 +172,7 @@ export const FIELD_LABELS = {
   value_usd: 'שווי ($)',
   price_range: 'טווח מחיר',
   share_pct: '% מההכנסות',
+  shares_outstanding: 'מספר מניות',
 };
 
 export function fieldLabel(key) {

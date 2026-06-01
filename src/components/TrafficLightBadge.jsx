@@ -16,7 +16,8 @@ function normalize(status) {
 export default function TrafficLightBadge({ status, label }) {
   const norm = normalize(status);
   const cls = norm ? CLASS_BY_STATUS[norm] : 'tl-gray';
-  const text = label ?? (norm ? STATUS_LABELS[norm] : 'לא ידוע');
+  const statusText = norm ? STATUS_LABELS[norm] : 'לא ידוע';
+  const text = label ? `${label}: ${statusText}` : statusText;
   return (
     <span className={`tl-badge ${cls}`}>
       <span className="tl-dot" />

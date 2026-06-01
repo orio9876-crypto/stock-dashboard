@@ -1,8 +1,9 @@
 import TrafficLightBadge from './TrafficLightBadge.jsx';
 import { TRAFFIC_LIGHT_KEYS, TRAFFIC_LIGHT_LABELS } from '../utils/labels.js';
+import { formatUsd } from '../utils/format.js';
 
 function MetaItem({ label, value }) {
-  if (!value) return null;
+  if (value === null || value === undefined || value === '') return null;
   return (
     <span>
       <span className="k">{label}: </span>
@@ -32,16 +33,16 @@ export default function CompanyHeader({ data }) {
             <MetaItem label="תעשייה" value={meta.industry} />
             <MetaItem label="רבעון מדווח" value={meta.latest_reported_quarter} />
             <MetaItem label="נכון לתאריך" value={meta.as_of_date} />
+            <MetaItem label="מחיר מניה" value={meta.price_usd == null ? null : formatUsd(meta.price_usd)} />
+            <MetaItem label="שווי שוק" value={meta.market_cap_usd == null ? null : formatUsd(meta.market_cap_usd)} />
           </div>
         </div>
-        {overall != null && (
-          <div className="score-pill">
-            <span className="num" style={{ color: 'var(--accent)' }}>
-              {overall}
-            </span>
-            <span className="den">/10 ציון כולל</span>
-          </div>
-        )}
+        <div className="score-pill">
+          <span className="num" style={{ color: 'var(--accent)' }}>
+            {overall ?? '—'}
+          </span>
+          <span className="den">/10 ציון כולל</span>
+        </div>
       </div>
 
       {oneLiner && <div className="ch-oneliner">{oneLiner}</div>}

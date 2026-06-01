@@ -36,8 +36,10 @@ export default function CompanyPage() {
   const { ticker } = useParams();
   const history = useMemo(() => getSnapshotHistory(ticker), [ticker]);
   const [date, setDate] = useState(() => getLatestDate(ticker));
+  const latestDate = useMemo(() => getLatestDate(ticker), [ticker]);
+  const selectedDate = history.some((snapshot) => snapshot.date === date) ? date : latestDate;
 
-  const data = date ? getSnapshot(ticker, date) : null;
+  const data = selectedDate ? getSnapshot(ticker, selectedDate) : null;
   const validation = useMemo(() => (data ? validateSnapshot(data) : null), [data]);
 
   if (!data) {
@@ -64,7 +66,7 @@ export default function CompanyPage() {
         {history.length > 1 && (
           <div className="snap-select">
             <span>השוואת תאריך ניתוח:</span>
-            <select value={date} onChange={(e) => setDate(e.target.value)}>
+            <select value={selectedDate} onChange={(e) => setDate(e.target.value)}>
               {history.map((h) => (
                 <option key={h.date} value={h.date}>
                   {h.date}

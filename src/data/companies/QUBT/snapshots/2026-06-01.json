@@ -1,0 +1,654 @@
+{
+  "meta": {
+    "ticker": "QUBT",
+    "company_name": "Quantum Computing Inc.",
+    "exchange": "NASDAQ",
+    "sector": "Technology",
+    "industry": "Computer Hardware / Quantum Computing and Integrated Photonics",
+    "business_model_hebrew": "Quantum Computing Inc. היא חברת טכנולוגיה בשלב מוקדם בתחום המחשוב הקוונטי והפוטוניקה המשולבת. חומר המקור מתאר את Qatalyst, מערכות QPhoton photonic QPUs ומפעל שבבי TFLN, אך אינו מספק פירוט מאומת של הכנסות לפי קו מוצר, לקוחות, backlog או פריסות מסחריות.",
+    "currency": "USD",
+    "as_of_date": "2026-06-01",
+    "latest_reported_quarter": "Q1 2026 (מופיע ברשימת IR; נתוני השורה אינם מאומתים עצמאית)",
+    "fiscal_year_end": null,
+    "price_usd": 11.94,
+    "market_cap_usd": 2700000000,
+    "shares_outstanding_m": 224.12,
+    "selected_peers": [],
+    "sector_benchmark_used": null,
+    "data_freshness_hebrew": "העדכון מבוסס אך ורק על קובץ qubt_kpi_data_pack.md שסופק. מחיר המניה ושווי השוק הם snapshot סביב 2026-05-30 עד 2026-05-31. חלק ניכר מנתוני הדוחות הראשוניים לא היה נגיש למחבר החבילה. בנוסף, נתוני Q1 2026 המיוחסים ל-Investing.com נושאים source_date של 2025-05-13, תאריך שאינו יכול לאמת את רבעון Q1 2026; לכן הם מסומנים חלקיים בלבד."
+  },
+  "executive_summary_hebrew": {
+    "one_liner": "QUBT היא חברת quantum / integrated photonics בשלב מוקדם. החבילה מתעדת מוצרי Qatalyst, QPhoton ומפעל TFLN, אך רוב נתוני הדוחות, התזרים והמסחור חסרים; גם נתוני Q1 2026 כוללים סתירת תאריך מקור ולכן מוצגים בזהירות.",
+    "overall_view": "חבילת הנתונים מאפשרת לזהות פרופיל טכנולוגי ומספר snapshots שוק, אך אינה מאפשרת ניתוח פיננסי מלא. מחיר המניה בחבילה הוא $11.94 ושווי השוק $2.70B סביב סוף מאי 2026. נתון הכנסות Q1 2026 של $3.7M וצמיחה של 9,385% YoY נשמרים כהפניה חלקית בלבד: source_date המצורף הוא 2025-05-13, לפני התקופה המדווחת. אין בחבילה תזרים מזומנים, חוב, יתרת מזומן, backlog, customer count או פירוט דילול מספק.",
+    "bull_case": [
+      "חומר ה-IR המצוטט בחבילה מתאר שלושה תחומי מוצר: Qatalyst, מערכות QPhoton photonic QPUs ומפעל שבבי TFLN.",
+      "החבילה מתארת מערכות פוטוניות הפועלות בטמפרטורת חדר ובמספר מצבי חישוב.",
+      "לפי חומר ה-IR המצוטט, הוזכרו הזמנות רכש חדשות למפעל TFLN; לא נמסרו ערך כספי, backlog או מספר לקוחות."
+    ],
+    "bear_case": [
+      "רוב נתוני הליבה חסרים: Gross Margin, Operating Margin, Adjusted EBITDA, OCF, FCF, חוב, מזומן ו-ROIC.",
+      "נתוני Q1 2026 המיוחסים ל-Investing.com אינם ניתנים לאימות לפי source_date המצורף ולכן אינם בסיס מספיק למסקנת צמיחה חזקה.",
+      "P/S חיצוני של 2,508.56 אינו ניתן לפיוס מול סדרת ההכנסות החלקית; Trailing P/E שלילי ולכן אינו מדד תמחור שימושי.",
+      "יש snapshot יחיד של 224.12M מניות, ללא היסטוריית הנפקות, ATM, warrants או convertibles; אי אפשר להעריך דילול."
+    ],
+    "main_risks": [
+      "סיכון מסחור: אין בחבילה customer count, backlog, מספר deployments או חוזים כמותיים.",
+      "סיכון איכות נתונים: גישה מוגבלת לדוחות ראשוניים ותלות במקורות שניוניים.",
+      "סיכון תמחור: יחסי P/S ונזילות חיצוניים חריגים ואינם מגובים ברכיבי חישוב מלאים.",
+      "סיכון מזומן ודילול: אין נתוני cash burn, runway, ATM, warrants או convertibles.",
+      "סיכון חשבונאי: רכישות Luminar Semiconductor ו-NuCrypt עשויות לעוות השוואת הכנסות ומרווחים."
+    ],
+    "main_opportunities": [
+      "אימות הזמנות מפעל TFLN עם ערך כספי, לקוחות ו-backlog עשוי לשפר את יכולת מדידת המסחור.",
+      "פרסום דוחות ראשוניים מלאים עשוי לאפשר חישוב runway, cash burn ומדדי תמחור בני-השוואה.",
+      "פירוט הכנסות לפי קווי Qatalyst, QPhoton ו-TFLN עשוי להבהיר אילו פעילויות כבר מייצרות הכנסה מהותית."
+    ],
+    "what_to_watch_next_quarter": [
+      "דוח 10-Q מלא עם Revenue, Gross Profit, Operating Income, OCF, CapEx, Cash ו-Debt.",
+      "פירוט השפעת רכישות Luminar Semiconductor ו-NuCrypt על הכנסות ומרווחים.",
+      "מספר לקוחות, deployments, backlog וערך הזמנות למפעל TFLN.",
+      "היסטוריית מניות מלאה: הנפקות, ATM, warrants ו-convertibles.",
+      "גילוי פורמלי לגבי going concern, cash runway ושריפת מזומן רבעונית."
+    ],
+    "bottom_line_hebrew": "QUBT אינה ניתנת להערכה מלאה מהחבילה הנוכחית. יש תיאור טכנולוגי ברור ומספר נתוני שוק, אך אין בסיס מספק לקבוע רווחיות, runway, איכות מאזנית או תמחור יחסי. יש להתייחס לנתוני Q1 2026 כהפניה חלקית עד לאימות מול דוח ראשוני מתאים."
+  },
+  "company_profile": {
+    "description_hebrew": "Quantum Computing Inc. (NASDAQ: QUBT) מתוארת בחבילה כחברת quantum computing ו-integrated photonics בשלב מוקדם. חומר ה-IR המצוטט מציג תוכנת Qatalyst, מערכות QPhoton photonic QPUs ומפעל שבבי thin-film lithium niobate (TFLN).",
+    "main_revenue_drivers": [
+      "חסר נתון: החבילה אינה מספקת פילוח הכנסות לפי קו מוצר.",
+      "נדרש לאמת בנפרד מהו חלקן של Qatalyst, QPhoton ומפעל TFLN בהכנסות."
+    ],
+    "geographic_exposure": [
+      "חסר נתון: לא נמסר פילוח גאוגרפי בחבילת הנתונים."
+    ],
+    "customer_segments": [
+      "חסר נתון: לא נמסר פילוח לקוחות או מספר לקוחות בחבילת הנתונים."
+    ],
+    "key_products_or_services": [
+      "Qatalyst optimization software",
+      "QPhoton photonic QPUs",
+      "TFLN photonic chip foundry"
+    ],
+    "competitive_position_hebrew": "אין בחבילה טבלת peer comparison מאומתת מול IONQ, RGTI, QBTS, QSI, ARQQ, INFQ או חברות אחרות. לכן אין להסיק מיקום תמחורי או תפעולי יחסי. ההשוואה הסקטוריאלית מסומנת כחסרה ודורשת מחקר ייעודי."
+  },
+  "layers": {
+    "profitability": {
+      "01_revenue_growth": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "סדרת 2023-2024 היא רבעונית ומגיעה מטבלת Investing.com שניונית. חסרה כל שנת 2025. נתון Q1 2026 של $3.7M ו-9,385% YoY נשמר כהפניה חלקית בלבד משום ש-source_date המצורף הוא 2025-05-13, לפני הרבעון המדווח. נתון שנתי יחיד של $3.69M אינו ממופה לתקופה."
+        },
+        "confidence": "low",
+        "description_hebrew": "אין סדרת FY מלאה ואין רצף רבעוני ל-2025. הגרף מציג רק את רבעוני 2023-2024 מאותה תדירות ומחריג את Q1 2026 השנוי במחלוקת.",
+        "company_data": [
+          { "period": "2023-Q1", "frequency": "quarterly", "revenue": 120530, "confidence": "medium", "source": "Investing.com" },
+          { "period": "2023-Q2", "frequency": "quarterly", "revenue": 110000, "confidence": "medium", "source": "Investing.com" },
+          { "period": "2023-Q3", "frequency": "quarterly", "revenue": 50440, "confidence": "medium", "source": "Investing.com" },
+          { "period": "2023-Q4", "frequency": "quarterly", "revenue": 100000, "confidence": "medium", "source": "Investing.com" },
+          { "period": "2024-Q1", "frequency": "quarterly", "revenue": 27330, "confidence": "medium", "source": "Investing.com" },
+          { "period": "2024-Q2", "frequency": "quarterly", "revenue": 183000, "confidence": "medium", "source": "Investing.com" },
+          { "period": "2024-Q3", "frequency": "quarterly", "revenue": 101000, "confidence": "medium", "source": "Investing.com" },
+          { "period": "2024-Q4", "frequency": "quarterly", "revenue": 62000, "confidence": "medium", "source": "Investing.com" },
+          { "period": "2026-Q1", "frequency": "quarterly", "revenue": 3700000, "headline_yoy_growth": 9385, "confidence": "low", "data_quality_status": "partial", "source": "Investing.com summary", "notes_hebrew": "source_date 2025-05-13 קודם לרבעון Q1 2026; אין להציג כנתון מאומת." }
+        ],
+        "annual_reference": [
+          { "period": "UNSPECIFIED", "frequency": "annual period unclear", "annual_revenue_reference": 3690000, "confidence": "low", "source": "CNN Markets", "notes_hebrew": "התקופה הפיסקלית אינה מזוהה בחבילה." }
+        ],
+        "headline_calculation_formula_hebrew": "החבילה מציינת: (Q1 2026 Revenue - Q1 2025 Revenue) / Q1 2025 Revenue. ערך הבסיס Q1 2025 אינו מופיע ולכן החישוב לא שוחזר בדאשבורד.",
+        "chart_recommendation": {
+          "chart_id": "qubt_revenue_quarterly_verified",
+          "chart_type": "bar",
+          "title_hebrew": "הכנסות רבעוניות QUBT — 2023-2024 בלבד"
+        }
+      },
+      "02_gross_margin": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "Gross Profit ו-Cost of Revenue אינם מופיעים בחבילה לתקופות מיושרות ולכן אין לחשב Gross Margin."
+        },
+        "confidence": "low",
+        "description_hebrew": "חסר נתון: אין קלט אמין לחישוב Gross Profit / Revenue."
+      },
+      "03_operating_margin": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "Operating Income אינו מופיע בחבילה ולכן אין לחשב Operating Margin."
+        },
+        "confidence": "low",
+        "description_hebrew": "חסר נתון: השפעת R&D, SBC ורכישות אינה ניתנת לכימות מהחבילה."
+      },
+      "04_net_margin": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "CNN Markets מציג Net Margin של -109.73% אך התקופה אינה מזוהה. אין להשתמש בנקודה יחידה זו כמגמה."
+        },
+        "confidence": "low",
+        "current_value": -109.73,
+        "reported_reference": [
+          { "period": "UNSPECIFIED", "frequency": "unclear", "revenue": 3690000, "net_income": -4050000, "net_margin": -109.73, "confidence": "low", "source": "CNN Markets", "notes_hebrew": "התקופה אינה מזוהה בחבילה." }
+        ],
+        "interpretation_hebrew": "הנתון נשמר כהפניה חיצונית חלקית בלבד. לא נוצר גרף משום שאין סדרה בת-השוואה."
+      },
+      "05_eps_surprise": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "קיימת היסטוריה שניונית חלקית ל-2023-2024. שורת Q1 2026 נשמרת כהפניה חלקית בלבד בגלל source_date של 2025-05-13. אין רצף מלא ל-2025."
+        },
+        "confidence": "low",
+        "company_data": [
+          { "period": "2023-Q1", "actual_eps": -0.11, "estimate_eps": -0.11, "result": "Inline", "confidence": "medium", "source": "Investing.com" },
+          { "period": "2023-Q2", "actual_eps": -0.05, "estimate_eps": -0.11, "result": "Beat", "confidence": "medium", "source": "Investing.com" },
+          { "period": "2023-Q3", "actual_eps": -0.09, "estimate_eps": -0.1, "result": "Beat", "confidence": "medium", "source": "Investing.com" },
+          { "period": "2023-Q4", "actual_eps": -0.09, "estimate_eps": -0.09, "result": "Inline", "confidence": "medium", "source": "Investing.com" },
+          { "period": "2024-Q1", "actual_eps": -0.08, "estimate_eps": -0.08, "result": "Inline", "confidence": "medium", "source": "Investing.com" },
+          { "period": "2024-Q2", "actual_eps": -0.06, "estimate_eps": -0.06, "result": "Inline", "confidence": "medium", "source": "Investing.com" },
+          { "period": "2024-Q3", "actual_eps": -0.06, "estimate_eps": -0.08, "result": "Beat", "confidence": "medium", "source": "Investing.com" },
+          { "period": "2024-Q4", "actual_eps": -0.47, "estimate_eps": -0.08, "result": "Miss", "confidence": "medium", "source": "Investing.com" },
+          { "period": "2026-Q1", "actual_eps": -0.02, "estimate_eps": -0.04, "result": "Beat", "confidence": "low", "data_quality_status": "partial", "source": "Investing.com summary", "notes_hebrew": "source_date 2025-05-13 קודם לרבעון Q1 2026." }
+        ]
+      },
+      "06_ebitda": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "Adjusted EBITDA וההתאמות הנלוות אינם מופיעים בחבילה. אין לאמוד ללא reconciliation רשמי."
+        },
+        "confidence": "low",
+        "description_hebrew": "חסר נתון: אין Adjusted EBITDA מדווח או reconciliation."
+      }
+    },
+    "valuation": {
+      "07_trailing_pe": {
+        "data_quality": {
+          "status": "na",
+          "note_hebrew": "Robinhood מציג Trailing P/E שלילי של -44.46 ו-Google Finance מציג TTM EPS של -0.27. כאשר Earnings שליליים, P/E אינו מדד תמחור משמעותי. בנוסף, $11.94 / -$0.27 אינו מתכנס בדיוק ל--44.46."
+        },
+        "confidence": "low",
+        "reported_external_reference": -44.46,
+        "ttm_eps": -0.27,
+        "interpretation_hebrew": "לא רלוונטי כעוגן תמחור. הערכים מוצגים כהפניה חיצונית בלבד."
+      },
+      "08_forward_pe": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "אין בחבילה קונצנזוס Forward EPS אמין ולכן Forward P/E חסר."
+        },
+        "confidence": "low",
+        "description_hebrew": "חסר נתון: Forward EPS consensus אינו זמין."
+      },
+      "09_price_to_sales": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "Morningstar מציג P/S של 2,508.56, אך אין בחבילה TTM Revenue שניתן לשחזור מסדרה מלאה. היחס חריג ואינו ניתן לפיוס מול נתוני ההכנסה הזמינים."
+        },
+        "confidence": "low",
+        "current_value": 2508.56,
+        "interpretation_hebrew": "הערך נשמר כהפניה חיצונית בסיכון גבוה לטעות או אי-יישור תקופות, ולא כיחס מאומת."
+      },
+      "10_ev_to_ebitda": {
+        "data_quality": {
+          "status": "na",
+          "note_hebrew": "לא רלוונטי: Enterprise Value ו-EBITDA אינם זמינים, ו-EBITDA עשוי להיות שלילי בחברה בשלב מוקדם."
+        },
+        "confidence": "low",
+        "description_hebrew": "לא רלוונטי ללא EV ו-EBITDA אמינים."
+      },
+      "11_peg_ratio": {
+        "data_quality": {
+          "status": "na",
+          "note_hebrew": "לא רלוונטי: אין Forward P/E או תחזית צמיחת EPS אמינה, וה-Earnings הנוכחיים שליליים."
+        },
+        "confidence": "low",
+        "description_hebrew": "לא רלוונטי ללא רכיבי החישוב."
+      },
+      "12_price_to_book": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "Morningstar מציג P/B של 2.29, אך raw book equity אינו מופיע בחבילה והערך נשען על מקור שניוני יחיד."
+        },
+        "confidence": "medium",
+        "current_value": 2.29,
+        "interpretation_hebrew": "היחס נשמר כהפניה שניונית חלקית בלבד."
+      }
+    },
+    "cash_flow": {
+      "13_operating_cash_flow": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "Cash-flow statement אינו מופיע בחבילה ולכן OCF חסר בכל התדירויות."
+        },
+        "confidence": "low",
+        "description_hebrew": "חסר נתון: OCF שנתי, רבעוני ו-TTM אינם זמינים."
+      },
+      "14_free_cash_flow": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "OCF ו-CapEx חסרים ולכן אין לחשב FCF."
+        },
+        "confidence": "low",
+        "description_hebrew": "חסר נתון: FCF = OCF - CapEx, אך שני רכיבי הקלט אינם זמינים."
+      },
+      "15_fcf_margin": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "FCF חסר ולכן אין לחשב FCF Margin."
+        },
+        "confidence": "low",
+        "description_hebrew": "חסר נתון: FCF / Revenue אינו ניתן לחישוב."
+      },
+      "16_fcf_yield": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "TTM FCF חסר ולכן אין לחשב FCF Yield."
+        },
+        "confidence": "low",
+        "description_hebrew": "חסר נתון: TTM FCF / Market Cap אינו ניתן לחישוב."
+      }
+    },
+    "financial_health": {
+      "17_debt_to_equity": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "Total Debt ו-Shareholders' Equity אינם מופיעים כערכים גולמיים בחבילה."
+        },
+        "confidence": "low",
+        "description_hebrew": "חסר נתון: אין לחשב Debt-to-Equity ללא Debt ו-Equity."
+      },
+      "18_net_cash_net_debt": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "Cash, Short-term Investments ו-Total Debt אינם מופיעים בחבילה."
+        },
+        "confidence": "low",
+        "description_hebrew": "חסר נתון: Net Cash / Net Debt אינו ניתן לחישוב."
+      },
+      "19_current_ratio": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "Morningstar מציג Current Ratio של 154.87 ו-Quick Ratio של 154.36. הערכים חריגים מאוד ורכיבי המאזן אינם זמינים לאימות."
+        },
+        "confidence": "low",
+        "current_ratio": 154.87,
+        "quick_ratio": 154.36,
+        "interpretation_hebrew": "היחסים נשמרים כהפניה שניונית בלבד ואינם מספיקים לקביעת איכות המאזן."
+      },
+      "20_return_on_equity": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "Morningstar מציג normalized ROE של -6.99%, אך בסיס ההון אינו מופיע. DuPont אינו רלוונטי ללא Net Margin, Asset Turnover ו-Equity Multiplier מיושרים."
+        },
+        "confidence": "low",
+        "normalized_roe": -6.99,
+        "interpretation_hebrew": "ROE נשמר כהפניה חלקית. DuPont מסומן לא רלוונטי בשל קלט חסר ועיוותי רכישות אפשריים."
+      },
+      "21_return_on_invested_capital": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "NOPAT ו-Invested Capital אינם מופיעים בחבילה ולכן ROIC חסר."
+        },
+        "confidence": "low",
+        "description_hebrew": "חסר נתון: אין לחשב ROIC."
+      }
+    },
+    "forward_signals": {
+      "22_management_guidance": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "אין בחבילה guidance כמותי להכנסות, EPS, margins, CapEx, capacity, contracts או backlog."
+        },
+        "confidence": "low",
+        "description_hebrew": "חסר נתון: קיימים עדכונים איכותניים אך לא טבלת guidance כמותית."
+      },
+      "23_analyst_consensus": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "אין בחבילה analyst count, התפלגות Buy/Hold/Sell או טווח יעדי מחיר אמין."
+        },
+        "confidence": "low",
+        "description_hebrew": "חסר נתון: אין consensus panel מאומת."
+      },
+      "24_earnings_revisions": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "בחבילה מופיעים Actual מול Estimate בחלק מהרבעונים, אך אין מסלול שינוי תחזיות לאורך זמן ואין price-target revisions."
+        },
+        "confidence": "low",
+        "description_hebrew": "נתון חלקי: אפשר לראות הפתעות EPS היסטוריות חלקיות, אך לא למדוד רוויזיות."
+      },
+      "25_share_buybacks": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "קיים snapshot יחיד של 224.12M מניות. אין היסטוריה של buybacks, issuance, ATM, warrants או convertibles."
+        },
+        "confidence": "low",
+        "shares_outstanding": 224120000,
+        "interpretation_hebrew": "אין להסיק מגמת דילול מ-snapshot יחיד. נדרש equity roll-forward מלא."
+      },
+      "26_insider_transactions": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "אין בחבילה Form 4 summary או פירוט עסקאות insider ל-6 עד 12 חודשים."
+        },
+        "confidence": "low",
+        "description_hebrew": "חסר נתון: לא ניתן להבחין בין עסקאות שוק פתוח לעסקאות מנהליות."
+      }
+    },
+    "sector_specific_metrics": {
+      "description_hebrew": "המדדים הבאים מוגבלים למה שנמסר בחבילת QUBT בלבד. גילוי איכותני מוצג כטקסט; שדות כמותיים שלא נמסרו נשארים חסרים.",
+      "metrics": [
+        {
+          "key": "quantum_product_lines",
+          "label_hebrew": "קווי מוצר Quantum",
+          "frequency": "point-in-time",
+          "confidence": "high",
+          "data_quality": { "status": "complete", "note_hebrew": "" },
+          "values": [
+            { "value": "Qatalyst optimization software; QPhoton photonic QPUs; TFLN photonic chip foundry", "source": "QUBT IR" }
+          ]
+        },
+        {
+          "key": "quantum_hardware_type",
+          "label_hebrew": "סוג חומרת Quantum",
+          "frequency": "point-in-time",
+          "confidence": "high",
+          "data_quality": { "status": "complete", "note_hebrew": "" },
+          "values": [
+            { "value": "Photonic systems operating at room temperature with multiple computation modes", "source": "QUBT IR" }
+          ]
+        },
+        {
+          "key": "foundry_status",
+          "label_hebrew": "סטטוס מפעל TFLN",
+          "frequency": "point-in-time",
+          "confidence": "medium",
+          "data_quality": { "status": "partial", "note_hebrew": "חומר ה-IR מזכיר הזמנות רכש חדשות למפעל TFLN, אך אינו מספק ערך הזמנות, backlog או מספר לקוחות." },
+          "values": [
+            { "value": "New purchase orders mentioned; value and backlog not disclosed", "source": "QUBT IR" }
+          ]
+        },
+        {
+          "key": "commercial_deployments",
+          "label_hebrew": "פריסות מסחריות",
+          "confidence": "low",
+          "data_quality": { "status": "missing", "note_hebrew": "לא נמסר מספר deployments בחבילה." },
+          "values": []
+        },
+        {
+          "key": "customer_count",
+          "label_hebrew": "מספר לקוחות",
+          "confidence": "low",
+          "data_quality": { "status": "missing", "note_hebrew": "לא נמסר customer count בחבילה." },
+          "values": []
+        },
+        {
+          "key": "backlog",
+          "label_hebrew": "Backlog",
+          "confidence": "low",
+          "data_quality": { "status": "missing", "note_hebrew": "לא נמסר backlog כמותי בחבילה." },
+          "values": []
+        },
+        {
+          "key": "government_contracts",
+          "label_hebrew": "חוזי ממשל",
+          "confidence": "low",
+          "data_quality": { "status": "missing", "note_hebrew": "לא נמסרו ערך או מספר חוזי ממשל בחבילה." },
+          "values": []
+        },
+        {
+          "key": "enterprise_contracts",
+          "label_hebrew": "חוזי Enterprise",
+          "confidence": "low",
+          "data_quality": { "status": "missing", "note_hebrew": "לא נמסרו ערך או מספר חוזי enterprise בחבילה." },
+          "values": []
+        },
+        {
+          "key": "rd_expense",
+          "label_hebrew": "הוצאות R&D",
+          "confidence": "low",
+          "data_quality": { "status": "missing", "note_hebrew": "פירוט R&D אינו מופיע בחבילה." },
+          "values": []
+        },
+        {
+          "key": "rd_intensity",
+          "label_hebrew": "R&D Intensity",
+          "confidence": "low",
+          "data_quality": { "status": "missing", "note_hebrew": "אין לחשב R&D / Revenue ללא R&D Expense." },
+          "values": []
+        },
+        {
+          "key": "patents_ip_portfolio",
+          "label_hebrew": "פטנטים ו-IP",
+          "confidence": "low",
+          "data_quality": { "status": "missing", "note_hebrew": "לא נמסר מספר פטנטים או פירוט IP portfolio בחבילה." },
+          "values": []
+        },
+        {
+          "key": "partnerships",
+          "label_hebrew": "שותפויות",
+          "confidence": "low",
+          "data_quality": { "status": "missing", "note_hebrew": "לא נמסר פירוט שותפויות מאומת בחבילה." },
+          "values": []
+        },
+        {
+          "key": "product_milestones",
+          "label_hebrew": "אבני דרך מוצריות",
+          "confidence": "low",
+          "data_quality": { "status": "missing", "note_hebrew": "לא נמסרה סדרת milestones כמותית או מתוארכת בחבילה." },
+          "values": []
+        },
+        {
+          "key": "manufacturing_capacity",
+          "label_hebrew": "קיבולת ייצור",
+          "confidence": "low",
+          "data_quality": { "status": "missing", "note_hebrew": "לא נמסרה קיבולת ייצור של מפעל TFLN בחבילה." },
+          "values": []
+        },
+        {
+          "key": "cash_runway",
+          "label_hebrew": "Cash Runway",
+          "confidence": "low",
+          "data_quality": { "status": "missing", "note_hebrew": "אין לחשב runway ללא Cash ו-Cash Burn." },
+          "values": []
+        },
+        {
+          "key": "quarterly_cash_burn",
+          "label_hebrew": "שריפת מזומן רבעונית",
+          "confidence": "low",
+          "data_quality": { "status": "missing", "note_hebrew": "Cash-flow statement אינו מופיע בחבילה." },
+          "values": []
+        },
+        {
+          "key": "share_dilution",
+          "label_hebrew": "דילול מניות",
+          "confidence": "low",
+          "data_quality": { "status": "partial", "note_hebrew": "יש snapshot יחיד של 224.12M מניות בלבד; אין סדרה היסטורית." },
+          "values": [
+            { "period": "2026-01-01", "shares_outstanding": 224120000, "source": "Morningstar" }
+          ]
+        },
+        {
+          "key": "warrants_convertibles",
+          "label_hebrew": "Warrants / Convertibles",
+          "confidence": "low",
+          "data_quality": { "status": "missing", "note_hebrew": "לא נמסר פירוט warrants או convertibles בחבילה." },
+          "values": []
+        },
+        {
+          "key": "going_concern_risk",
+          "label_hebrew": "Going Concern Risk",
+          "confidence": "low",
+          "data_quality": { "status": "missing", "note_hebrew": "שפת גילוי פורמלית לגבי going concern אינה מופיעה בחבילה." },
+          "values": []
+        },
+        {
+          "key": "revenue_by_segment",
+          "label_hebrew": "הכנסות לפי סגמנט",
+          "confidence": "low",
+          "data_quality": { "status": "missing", "note_hebrew": "לא נמסר פילוח הכנסות לפי סגמנט בחבילה." },
+          "values": []
+        },
+        {
+          "key": "peer_comparison",
+          "label_hebrew": "השוואת עמיתים",
+          "confidence": "low",
+          "data_quality": { "status": "missing", "note_hebrew": "לא נאספו בחבילה נתוני peer מאומתים ל-IONQ, RGTI, QBTS, QSI, ARQQ, INFQ או peers נוספים." },
+          "values": []
+        }
+      ]
+    }
+  },
+  "dashboard_summary": {
+    "scorecard": {
+      "growth_score_1_to_10": null,
+      "profitability_score_1_to_10": null,
+      "valuation_score_1_to_10": null,
+      "cash_flow_score_1_to_10": null,
+      "financial_health_score_1_to_10": null,
+      "forward_signals_score_1_to_10": null,
+      "overall_quality_score_1_to_10": null
+    },
+    "traffic_lights": {
+      "growth": null,
+      "profitability": null,
+      "valuation": null,
+      "cash_flow": null,
+      "financial_health": null,
+      "forward_signals": null
+    },
+    "top_positive_signals_hebrew": [
+      "החבילה מתעדת שלושה תחומי פעילות: Qatalyst, QPhoton ומפעל שבבי TFLN.",
+      "חומר ה-IR המצוטט מתאר מערכות פוטוניות הפועלות בטמפרטורת חדר.",
+      "הוזכרו הזמנות רכש חדשות למפעל TFLN, אך ללא ערך כספי או backlog."
+    ],
+    "top_negative_signals_hebrew": [
+      "רוב נתוני הדוחות הראשוניים, התזרים והמאזן חסרים.",
+      "נתוני Q1 2026 נושאים source_date בלתי אפשרי ולכן אינם מאומתים.",
+      "P/S חיצוני של 2,508.56 ויחסי נזילות מעל 154 אינם ניתנים לפיוס מול רכיבי חישוב מלאים.",
+      "אין יכולת להעריך runway, burn rate או דילול עתידי."
+    ],
+    "key_questions_for_investor_hebrew": [
+      "מהם Revenue, Gross Profit, OCF, CapEx, Cash ו-Debt לפי 10-Q ראשוני?",
+      "כמה לקוחות, deployments ו-backlog קיימים לכל קו מוצר?",
+      "מהו equity roll-forward המלא, כולל ATM, warrants ו-convertibles?",
+      "מהי השפעת רכישות Luminar Semiconductor ו-NuCrypt על ההכנסות והרווחיות?"
+    ],
+    "final_takeaway_hebrew": "אין בחבילה בסיס מספיק להענקת scorecard מספרי או רמזורים מהימנים ל-QUBT. הדאשבורד מציג במפורש את החסר ואת ההפניות החלקיות במקום להשלים הנחות."
+  },
+  "chart_data": [
+    {
+      "chart_id": "qubt_revenue_quarterly_verified",
+      "chart_type": "bar",
+      "title_hebrew": "הכנסות רבעוניות QUBT — 2023-2024 בלבד",
+      "x_axis": "quarter",
+      "y_axis": "USD",
+      "frequency_hebrew": "נתונים רבעוניים בלבד",
+      "note_hebrew": "Q1 2026 הוחרג מהגרף: source_date המצורף 2025-05-13 קודם לתקופה המדווחת. שנת 2025 חסרה במלואה.",
+      "series": [
+        {
+          "name": "revenue",
+          "data": [
+            { "x": "2023-Q1", "y": 120530 },
+            { "x": "2023-Q2", "y": 110000 },
+            { "x": "2023-Q3", "y": 50440 },
+            { "x": "2023-Q4", "y": 100000 },
+            { "x": "2024-Q1", "y": 27330 },
+            { "x": "2024-Q2", "y": 183000 },
+            { "x": "2024-Q3", "y": 101000 },
+            { "x": "2024-Q4", "y": 62000 }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "qubt_perplexity_pack",
+      "source_name": "QUBT Dashboard KPI Data Pack — Perplexity Markdown",
+      "url": "local:/Users/oriroth/שוק ההון/qubt_kpi_data_pack.md",
+      "accessed_date": "2026-06-01",
+      "used_for": ["כל נתוני QUBT בעדכון זה"],
+      "notes_hebrew": "זהו מקור הנתונים היחיד ששימש לעדכון הדאשבורד. לא בוצעה גלישה או השלמת נתונים ממקור חיצוני."
+    },
+    {
+      "source_id": "qubt_ir_reference",
+      "source_name": "QUBT Investor Relations — referenced by the supplied pack",
+      "url": "https://quantumcomputinginc.com/investor-relations",
+      "accessed_date": "undated in supplied pack",
+      "used_for": ["company profile", "product lines", "hardware type", "foundry status"]
+    },
+    {
+      "source_id": "investing_reference",
+      "source_name": "Investing.com QUBT Earnings — referenced by the supplied pack",
+      "url": "https://www.investing.com/equities/quantum-computing-otc-earnings",
+      "accessed_date": "2025-05-13 in supplied pack",
+      "used_for": ["quarterly revenue references", "EPS surprise references", "disputed Q1 2026 headline"]
+    },
+    {
+      "source_id": "morningstar_reference",
+      "source_name": "Morningstar QUBT Quote — referenced by the supplied pack",
+      "url": "https://www.morningstar.com/stocks/xmex/qubt/quote",
+      "accessed_date": "2026-01-01 in supplied pack",
+      "used_for": ["shares outstanding", "P/S", "P/B", "current ratio", "quick ratio", "normalized ROE"]
+    },
+    {
+      "source_id": "robinhood_reference",
+      "source_name": "Robinhood QUBT Quote — referenced by the supplied pack",
+      "url": "https://robinhood.com/us/en/stocks/QUBT/",
+      "accessed_date": "2026-05-31 in supplied pack",
+      "used_for": ["stock price", "market cap", "reported negative trailing P/E"]
+    },
+    {
+      "source_id": "cnn_reference",
+      "source_name": "CNN Markets QUBT — referenced by the supplied pack",
+      "url": "https://www.cnn.com/markets/stocks/QUBT",
+      "accessed_date": "2023-06-26 in supplied pack",
+      "used_for": ["ambiguous-period annual revenue reference", "ambiguous-period net margin reference"]
+    }
+  ],
+  "data_quality_warnings": [
+    "Primary-source limitation — חבילת Perplexity מציינת שדוחות 10-K, 10-Q, 8-K ו-XBRL מלאים לא נותחו ישירות. רוב נתוני הליבה הפיננסיים חסרים ולכן אינם מושלמים בהנחות.",
+    "Q1 2026 source-date conflict (major) — Revenue של $3.7M, צמיחה של 9,385% YoY ו-EPS של -$0.02 מול -$0.04 מיוחסים ל-Investing.com summary עם source_date של 2025-05-13. התאריך קודם לרבעון Q1 2026 ולכן הערכים נשמרים כ-partial בלבד ומוחרגים מהגרף.",
+    "Annual revenue ambiguity — CNN Markets מציג $3.69M Revenue ו--$4.05M Net Income עם Net Margin של -109.73%, אך התקופה אינה מזוהה. אין להשתמש בנקודה זו כמגמה שנתית או רבעונית.",
+    "Acquisition comparability risk — החבילה מייחסת את השינוי בהכנסות לרכישות Luminar Semiconductor ו-NuCrypt. ללא דוחות מלאים אי אפשר להפריד צמיחה אורגנית מרכישות או לכמת עיוותי purchase accounting.",
+    "Negative P/E is not meaningful — Trailing P/E חיצוני של -44.46 אינו משמש מדד תמחור. בנוסף, $11.94 / -$0.27 אינו מתכנס בדיוק ל--44.46.",
+    "P/S conflict — Morningstar מציג P/S של 2,508.56, אך סדרת 2025 חסרה ולכן TTM Revenue אינו ניתן לשחזור. היחס מוצג כ-partial בלבד.",
+    "Liquidity-ratio limitation — Current Ratio של 154.87 ו-Quick Ratio של 154.36 חריגים מאוד ורכיבי Current Assets ו-Current Liabilities אינם מופיעים בחבילה לאימות.",
+    "Price-to-book limitation — P/B של 2.29 נשען על מקור שניוני יחיד ללא raw book equity ולכן מסומן partial.",
+    "Dilution assessment gap — יש snapshot יחיד של 224.12M מניות. אין היסטוריית buybacks, issuance, ATM, warrants או convertibles, ולכן אין להסיק מגמת דילול.",
+    "Cash burn and runway gap — Cash, OCF ו-CapEx חסרים. אי אפשר לחשב burn rate או cash runway.",
+    "Going-concern gap — שפת גילוי פורמלית לגבי going concern אינה מופיעה בחבילה ולכן אין לקבוע אם קיים או לא קיים סיכון כזה.",
+    "Commercialization gap — customer count, deployments, backlog, government contracts, enterprise contracts, segment revenue, patents, partnerships, product milestones ו-manufacturing capacity אינם נמסרים בכמות מאומתת.",
+    "Peer-comparison gap — החבילה אינה כוללת טבלת נתונים מאומתת מול IONQ, RGTI, QBTS, QSI, ARQQ, INFQ או peers אחרים.",
+    "Scorecard intentionally omitted — החבילה אינה מספקת מתודולוגיית ציונים או ציונים מקוריים ל-QUBT. כל ציוני ה-scorecard והרמזורים נשארו חסרים כדי לא להמציא דירוג."
+  ],
+  "missing_metrics": [
+    "Fiscal year end",
+    "Complete annual revenue series",
+    "2025 quarterly revenue series",
+    "Gross Profit / Gross Margin",
+    "Operating Income / Operating Margin",
+    "Adjusted EBITDA",
+    "Forward P/E",
+    "Reliable TTM Price-to-Sales",
+    "Enterprise Value / EV-to-EBITDA",
+    "PEG Ratio",
+    "Operating Cash Flow",
+    "CapEx / Free Cash Flow / FCF Margin / FCF Yield",
+    "Debt / Equity raw values",
+    "Net Cash / Net Debt",
+    "DuPont breakdown",
+    "ROIC",
+    "Quantitative management guidance",
+    "Analyst consensus",
+    "Price-target revision history",
+    "Buybacks / ATM / Warrants / Convertibles history",
+    "Insider transactions",
+    "Customer count / Deployments / Backlog",
+    "Government and enterprise contract values",
+    "R&D expense / R&D intensity",
+    "Patents / IP portfolio",
+    "Partnerships / Product milestones / Manufacturing capacity",
+    "Cash runway / Quarterly cash burn",
+    "Going-concern disclosure",
+    "Peer comparison"
+  ]
+}

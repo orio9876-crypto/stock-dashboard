@@ -6,15 +6,19 @@ import { LAYER_ORDER, LAYER_LABELS } from '../utils/labels.js';
 import { REQUIRED_KPIS } from '../data/validateSnapshot.js';
 import { DATA_STATUS } from '../utils/dataQuality.js';
 
-// A sector metric is "missing" when it carries no numeric values; otherwise its
-// values are shown as a small comparison table. Never invents a value.
+// A sector metric is "missing" when it carries no usable values; otherwise its
+// values are shown as a small comparison table. Text disclosures are valid
+// sector data too (e.g. hardware type or product families).
 // Accepts two schemas:
 //   - legacy: { name, unit, values[], confidence, description_hebrew }
 //   - extended: { key, label_hebrew, frequency, data_quality:{status,note_hebrew}, values[] }
 function SectorMetric({ metric }) {
   const values = Array.isArray(metric.values) ? metric.values : [];
   const hasValues = values.some(
-    (v) => v && typeof v === 'object' && Object.values(v).some((x) => typeof x === 'number'),
+    (v) =>
+      v &&
+      typeof v === 'object' &&
+      Object.values(v).some((x) => x !== null && x !== undefined && x !== ''),
   );
 
   // Title prefers explicit Hebrew label, then legacy name, then snake_case key.
@@ -66,7 +70,7 @@ function SectorSpecific({ sectorMetrics }) {
         </div>
       )}
       {metrics.map((m, i) => (
-        <SectorMetric metric={m} key={m.name ?? i} />
+        <SectorMetric metric={m} key={m.key ?? m.name ?? i} />
       ))}
     </div>
   );
