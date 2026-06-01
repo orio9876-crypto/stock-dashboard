@@ -1,0 +1,1338 @@
+{
+  "meta": {
+    "ticker": "NVDA",
+    "company_name": "NVIDIA Corporation",
+    "exchange": "NASDAQ",
+    "sector": "Information Technology",
+    "industry": "Semiconductors / AI Accelerators",
+    "business_model_hebrew": "NVIDIA היא חברת מוליכים-למחצה במודל fabless: היא מתכננת מעבדי GPU ומערכות AI (ארכיטקטורת Blackwell), מוכרת אותן בעיקר ל-hyperscalers עבור מרכזי נתונים, ונשענת על מערכת ה-CUDA, רשתות NVLink ואינטגרציה אנכית בין סיליקון, תוכנה ורשת. הייצור מופקד בידי TSMC, ולכן עוצמת ההשקעה ההונית נמוכה.",
+    "currency": "USD",
+    "as_of_date": "2026-05-13",
+    "latest_reported_quarter": "FY26 Q4",
+    "latest_fiscal_year": 2026,
+    "selected_peers": [
+      {
+        "ticker": "AMD",
+        "company_name": "Advanced Micro Devices, Inc.",
+        "reason_hebrew": "AMD היא המתחרה הישירה הקרובה ביותר ב-GPU ל-AI ולמרכזי נתונים, ולכן משמשת עוגן השוואה למרווחים, צמיחה ומכפילים מול NVDA."
+      },
+      {
+        "ticker": "AVGO",
+        "company_name": "Broadcom Inc.",
+        "reason_hebrew": "AVGO היא ספקית מובילה של שבבי רשת ו-custom accelerators ל-AI, עם מרווחים ותזרים גבוהים — השוואה רלוונטית לפלטפורמת הרשת והמחשוב של NVDA."
+      },
+      {
+        "ticker": "INTC",
+        "company_name": "Intel Corporation",
+        "reason_hebrew": "INTC מייצגת את הקצה הנגדי של הסקטור — מודל עתיר נכסים (IDM) עם רווחיות ומכפילים נמוכים — ומספקת ניגוד מבני ל-NVDA."
+      }
+    ],
+    "sector_benchmark_used": "US large-cap semiconductors / AI accelerators (AMD, AVGO, INTC)",
+    "data_freshness_hebrew": "כל הנתונים נשלפו אך ורק ממסמך ה-PDF 'NVDA 26-Prompt Deep-Dive Analysis' (Perplexity Computer) מתאריך 13 במאי 2026, המבוסס על תוצאות FY26 Q4 ונתוני שוק לאותו מועד. סדרות זמן רב-רבעוניות מופיעות ב-PDF כתמונות גרף ולא ניתנו לחילוץ מספרי; לכן מוצגות בעיקר ערכי הרבעון האחרון, השוואות חתך מול עמיתים ונקודות עוגן בודדות שצוינו במפורש בטקסט."
+  },
+  "executive_summary_hebrew": {
+    "one_liner": "NVIDIA היא חברת תשתיות ה-AI המובילה בעולם: רבעון שיא (FY26 Q4) עם הכנסות ~$68B, מרווחים חריגים, תזרים עצום ומאזן ללא חוב — אך נסחרת בתמחור עשיר שמגלם המשך צמיחה אגרסיבי.",
+    "overall_view": "התמונה הכוללת לפי ה-PDF היא של מנהיגת שוק מובהקת ב-AI accelerators, עם צמיחת הכנסות של ~73% YoY ברבעון האחרון, מרווח גולמי 75%, מרווח תפעולי 65% ומרווח נקי 63%, תזרים חופשי רבעוני של ~$34.9B ומצב מזומן נטו של ~$62.6B. הסיכון המרכזי אינו פיננסי אלא תמחורי ורגולטורי (מכפילים גבוהים, מגבלות יצוא לסין).",
+    "bull_case": [
+      "צמיחת הכנסות של ~73% YoY ל-$68.1B ברבעון FY26 Q4, מונעת מהרצת Blackwell אל תוך ה-hyperscalers; מגזר ה-Data Center מהווה מעל 88% מההכנסות.",
+      "מרווחים יוצאי דופן: גולמי 75%, תפעולי 65% ונקי 63% — רמות נדירות לחברת חומרה ומעידות על כוח תמחור ואינטגרציה אנכית.",
+      "מכונת מזומנים: FCF רבעוני ~$34.9B, FCF margin ~51%, ו-ROIC של ~135% הרבה מעל עלות ההון.",
+      "מאזן ללא חוב (D/E 0.07x), מזומן נטו ~$62.6B ויחס שוטף 3.91x — גמישות פיננסית מקסימלית.",
+      "סנטימנט אנליסטים חיובי במיוחד: 97.1% מתוך 34 אנליסטים בהמלצת קנייה, יעד מחיר ממוצע $278 (~23% אפסייד), והנחיית Q1 FY27 ל-$78B."
+    ],
+    "bear_case": [
+      "תמחור עשיר: P/E עוקב 46.2x ו-P/E עתידי 30.4x, P/S ~21x ו-P/B 29x — כל האטה בביקוש או שחיקת מרווח עלולה לתמחר מחדש את המניה בחדות.",
+      "PEG של ~59x גבוה מאוד במונחים מסורתיים; ההצדקה נשענת על המשך הפתעות חיוביות ועדכוני תחזית כלפי מעלה.",
+      "סיכון רגולטורי: מגבלות יצוא לסין (H20/B20) צוינו על ידי ההנהלה כרוח נגדית מרכזית להנחיה.",
+      "בעלי עניין מכרו ~$490M ב-6 חודשים (179 עסקאות), אם כי בעיקר במסגרת תוכניות 10b5-1.",
+      "ריכוזיות גבוהה במגזר ה-Data Center ובמספר מצומצם של לקוחות hyperscaler גדולים."
+    ],
+    "main_risks": [
+      "האטה בהשקעות ה-CapEx של ה-hyperscalers במחצית השנייה של FY27 לאחר רבעון שיא, שתפגע בקצב הצמיחה.",
+      "מגבלות יצוא נוספות לסין שיכרסמו בשוק נמכר ובהכנסות מגזר ה-Data Center.",
+      "שחיקת מרווח גולמי אם תמהיל המוצרים או התחרות (AMD, custom silicon) ילחצו על התמחור.",
+      "תמחור גבוה שמגלם ציפיות מושלמות — רגישות גבוהה לאכזבה בתחזיות או בקונצנזוס.",
+      "תלות ביצרן יחיד (TSMC) ובשרשרת אספקה מתקדמת לייצור ה-GPU."
+    ],
+    "main_opportunities": [
+      "המשך הרצת Blackwell וביקוש לתשתיות AI ריבוניות (sovereign AI) כמנוע צמיחה רב-שנתי.",
+      "מינוף מערכת ה-CUDA והרשת (NVLink) להעמקת חפיר תחרותי ולהרחבת ההכנסה הממוצעת ללקוח.",
+      "פריסת תזרים חופשי עצום לרכישות עצמיות (~$40B TTM) ולמחקר ופיתוח אגרסיבי.",
+      "שימוש במאזן נטו-מזומן של ~$62.6B לרכישות אסטרטגיות או הרחבת תוכניות buyback.",
+      "הרחבת קהל הלקוחות מעבר ל-hyperscalers (enterprise, סקטורים ריבוניים) להקטנת ריכוזיות."
+    ],
+    "what_to_watch_next_quarter": [
+      "עמידה בהנחיית Q1 FY27 של ~$78B והאם תימשך מגמת ה-beat מול ההנחיה (8 רבעונים רצופים).",
+      "התפתחות מגבלות היצוא לסין (H20/B20) והשפעתן על מגזר ה-Data Center.",
+      "יציבות המרווח הגולמי סביב 75% וה-FCF margin בטווח 50–55%.",
+      "קצב עדכוני תחזיות האנליסטים (revisions) ויעדי המחיר אחרי התוצאות.",
+      "היקף הרכישות העצמיות מול הדילול מ-SBC (~$6B בשנה)."
+    ],
+    "bottom_line_hebrew": "לפי ה-PDF, NVIDIA היא עסק איכותי יוצא דופן עם מנהיגות מבנית בשוק ה-AI, מרווחים ותזרים נדירים ומאזן ללא חוב; האתגר המרכזי הוא התמחור העשיר והסיכון הרגולטורי. המניה מתאימה למשקיע שמאמין בהמשך מחזור-העל של תשתיות ה-AI ומוכן לשלם פרמיה משמעותית עבור איכות וצמיחה."
+  },
+  "company_profile": {
+    "description_hebrew": "NVIDIA היא חברת מוליכים-למחצה אמריקאית במודל fabless, המתכננת מעבדי GPU ומערכות AI מובילות (ארכיטקטורת Blackwell) ומוכרת אותן בעיקר למפעילי ענן ומרכזי נתונים. החברה נשענת על מערכת התוכנה CUDA ועל רשתות NVLink כחפיר תחרותי, והייצור מבוצע על ידי TSMC.",
+    "main_revenue_drivers": [
+      "מגזר ה-Data Center (מעל 88% מההכנסות לפי ה-PDF) — מכירת מאיצי AI ומערכות Blackwell ל-hyperscalers.",
+      "מערכת התוכנה CUDA ורישוי טכנולוגיה, התומכים בכוח התמחור ובמרווח הגולמי הגבוה.",
+      "פתרונות רשת (NVLink) ומערכות מחשוב מלאות מעבר לשבב הבודד."
+    ],
+    "geographic_exposure": [
+      "חשיפה גלובלית עם ריכוז בלקוחות ענן גדולים; סיכון יצוא ספציפי לשוק סין (מגבלות H20/B20) צוין במפורש ב-PDF."
+    ],
+    "customer_segments": [
+      "מפעילי ענן ו-hyperscalers הם הלקוחות המרכזיים עבור תשתיות AI.",
+      "לקוחות enterprise וסקטורים ריבוניים (sovereign AI) כמנוע צמיחה מתרחב."
+    ],
+    "key_products_or_services": [
+      "מאיצי AI ו-GPU מבוססי ארכיטקטורת Blackwell עבור אימון והרצה של מודלי AI.",
+      "מערכת התוכנה CUDA כפלטפורמה נעולה שמעמיקה את החפיר התחרותי.",
+      "פתרונות רשת ומערכות מחשוב מלאות (NVLink, מערכות data-center)."
+    ],
+    "competitive_position_hebrew": "לפי ה-PDF, NVIDIA מחזיקה במעין מונופול על מאיצי אימון ה-AI, עם המרווח התפעולי הגבוה ביותר בקרב חברות המוליכים-למחצה הגדולות וצמיחה מהירה משמעותית ממתחרותיה (73% YoY מול ~26% ב-AMD). AMD נסחרת במכפילים גבוהים יותר אך עם מרווחים נמוכים בהרבה, AVGO מציגה מרווחים גבוהים בפורטפוליו רחב, ו-INTC מפגרת מהותית ברווחיות ובתשואת ההון."
+  },
+  "layers": {
+    "profitability": {
+      "01_revenue_growth": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "ערכי הרבעון האחרון (FY26 Q4), צמיחת YoY/QoQ ושלוש נקודות עוגן זמינים מה-PDF; סדרת 8 הרבעונים המלאה מופיעה ב-PDF כתמונת גרף ולא חולצה כמספרים, ולמתחרים זמין רק קצב צמיחת AMD."
+        },
+        "description_hebrew": "צמיחת ההכנסות של NVIDIA נמדדת מהכנסות רבעוניות. לפי ה-PDF ההכנסות הגיעו ל-$68.13B ב-FY26 Q4, צמיחה של ~73% YoY (מתקופה מקבילה של ~$39.3B) ו-+19% QoQ; ב-FY25 Q1 (אפריל 2024) ההכנסות היו ~$26.0B.",
+        "company_data": [
+          {
+            "period": "FY26 Q4",
+            "frequency": "רבעוני",
+            "revenue": 68130000000,
+            "yoy_growth": 73,
+            "qoq_growth": 19,
+            "confidence": "high",
+            "source": "NVDA 26-Prompt PDF",
+            "calculation_method": "מתוך ה-PDF: הכנסות $68.13B, צמיחת ~73% YoY ו-+19% QoQ ברבעון FY26 Q4."
+          },
+          {
+            "period": "FY25 Q4 (תקופת השוואה)",
+            "frequency": "רבעוני",
+            "revenue": 39300000000,
+            "confidence": "high",
+            "source": "NVDA 26-Prompt PDF",
+            "calculation_method": "תקופת ההשוואה (שנה קודמת) לפי ה-PDF: ~$39.3B."
+          },
+          {
+            "period": "FY25 Q1 (אפריל 2024)",
+            "frequency": "רבעוני",
+            "revenue": 26000000000,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF",
+            "calculation_method": "נקודת עוגן מקורבת לפי ה-PDF: ~$26.0B."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "AMD",
+            "revenue_yoy_growth": 26,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF",
+            "calculation_method": "ה-PDF מציין צמיחת AMD של ~26% YoY להשוואה; ערכים לשאר העמיתים לא צוינו."
+          }
+        ],
+        "sector_median": null,
+        "trend_hebrew": "המגמה לפי ה-PDF: שילוש ההכנסות בתוך פחות משנה (מ-~$26B ב-FY25 Q1 ל-$68.13B ב-FY26 Q4), כל אחד מארבעת הרבעונים האחרונים בשיא חדש, מונע מהרצת Blackwell.",
+        "interpretation_hebrew": "הקצב משקף ביקוש מתפרץ לתשתיות AI; מגזר ה-Data Center (מעל 88% מההכנסות) הוא המנוע המרכזי. החשיבות למשקיע: לוודא שהצמיחה נמשכת לצד שמירה על מרווחים, ולעקוב אחר רוח-נגד היצוא לסין.",
+        "chart_recommendation": {
+          "chart_id": "nvda_revenue_quarterly",
+          "chart_type": "bar",
+          "title_hebrew": "הכנסות רבעוניות — נקודות עוגן"
+        }
+      },
+      "02_gross_margin": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "מרווח גולמי FY26 Q4 והשוואת עמיתים מלאה (AMD, AVGO, INTC) זמינים מה-PDF."
+        },
+        "description_hebrew": "מרווח גולמי = רווח גולמי חלקי הכנסות. ב-FY26 Q4 עמד על 75.0% ($51.1B רווח גולמי על $68.1B הכנסות).",
+        "gross_margin": 75.0,
+        "peer_comparison": [
+          {
+            "ticker": "AMD",
+            "gross_margin": 52.8,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF"
+          },
+          {
+            "ticker": "AVGO",
+            "gross_margin": 68.1,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF"
+          },
+          {
+            "ticker": "INTC",
+            "gross_margin": 39.4,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF"
+          }
+        ],
+        "sector_median": null,
+        "trend_hebrew": "ה-PDF מציין שמרווח 75%+ נשמר בקנה מידה גדול; סדרת המגמה הרבעונית מופיעה כתמונה ולא חולצה כמספרים.",
+        "pricing_power_interpretation_hebrew": "מרווח גולמי של 75% — גבוה משמעותית מ-AMD (~52.8%), AVGO (~68.1%) ו-INTC (~39.4%) — משקף כוח תמחור ואינטגרציה אנכית בין סיליקון, תוכנה ורשת. המרווח הלא-GAAP גבוה במאות נקודות בסיס נוספות.",
+        "chart_recommendation": {
+          "chart_id": "nvda_gross_margin_peers",
+          "chart_type": "bar",
+          "title_hebrew": "מרווח גולמי מול עמיתים"
+        }
+      },
+      "03_operating_margin": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "מרווח תפעולי NVDA (65%) ו-AVGO (~44%) זמינים כמספרים; ל-AMD ה-PDF נוקב בטווח ~14-17% (לא ערך יחיד) ו-INTC שלילי ללא ערך — לכן אינם מוצגים בגרף."
+        },
+        "description_hebrew": "מרווח תפעולי = רווח תפעולי חלקי הכנסות. ב-FY26 Q4 עמד על 65.0% (~$44.3B רווח תפעולי על $68.1B).",
+        "operating_margin": 65.0,
+        "peer_comparison": [
+          {
+            "ticker": "AMD",
+            "operating_margin": null,
+            "confidence": "low",
+            "source": "NVDA 26-Prompt PDF",
+            "calculation_method": "ה-PDF נוקב בטווח מתואם ~14-17% ולא ערך יחיד."
+          },
+          {
+            "ticker": "AVGO",
+            "operating_margin": 44,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF",
+            "calculation_method": "מרווח תפעולי מתואם ~44% לאחר אינטגרציית VMware."
+          },
+          {
+            "ticker": "INTC",
+            "operating_margin": null,
+            "confidence": "low",
+            "source": "NVDA 26-Prompt PDF",
+            "calculation_method": "שלילי עמוק ב-2025 עקב חיובי רה-ארגון ומחיקות מלאי; ערך מספרי לא צוין."
+          }
+        ],
+        "sector_median": null,
+        "trend_hebrew": "לפי ה-PDF, המרווח התפעולי טיפס מ-~20% ב-FY24 Q1 ל-65%+ ב-FY26 Q4 — המגמה המרשימה בענף.",
+        "operating_leverage_interpretation_hebrew": "הוצאות R&D ו-SG&A עולות בערכים מוחלטים אך יורדות כאחוז מההכנסות, ומספקות מינוף תפעולי חיובי עקבי. זהו המרווח התפעולי הגבוה ביותר בקרב חברות המוליכים-למחצה הגדולות.",
+        "chart_recommendation": {
+          "chart_id": "nvda_operating_margin_peers",
+          "chart_type": "bar",
+          "title_hebrew": "מרווח תפעולי (ערכים מספריים זמינים)"
+        }
+      },
+      "04_net_margin": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "מרווח נקי NVDA (63.1%), AMD (~13%) ו-AVGO (~38%) זמינים; INTC שלילי ללא ערך מספרי ולכן אינו בגרף."
+        },
+        "description_hebrew": "מרווח נקי = רווח נקי חלקי הכנסות. ב-FY26 Q4 עמד על 63.1% ($43.0B רווח נקי על $68.1B).",
+        "net_margin": 63.1,
+        "peer_comparison": [
+          {
+            "ticker": "AMD",
+            "net_margin": 13,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF"
+          },
+          {
+            "ticker": "AVGO",
+            "net_margin": 38,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF"
+          },
+          {
+            "ticker": "INTC",
+            "net_margin": null,
+            "confidence": "low",
+            "source": "NVDA 26-Prompt PDF",
+            "calculation_method": "ה-PDF מציין מרווח שלילי עמוק ללא ערך מספרי."
+          }
+        ],
+        "sector_median": null,
+        "trend_hebrew": "מרווח נקי 63% הוא חריג לחברת חומרה ומתקרב לעסקי תוכנה טהורים; המרווח הלא-GAAP גבוה אף יותר (~70%+).",
+        "divergence_from_operating_margin_hebrew": "הפער הקטן בין המרווח התפעולי (65%) לנקי (63%) מעיד על נטל מס נמוך והוצאות ריבית זניחות הודות למאזן נטו-מזומן.",
+        "chart_recommendation": {
+          "chart_id": "nvda_net_margin_peers",
+          "chart_type": "bar",
+          "title_hebrew": "מרווח נקי מול עמיתים"
+        }
+      },
+      "05_eps_surprise": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "הפתעת ה-EPS לרבעון האחרון (בפועל $1.76 מול קונצנזוס $1.52) זמינה; היסטוריית ההפתעות לפי רבעון מופיעה ב-PDF כתמונת גרף ולא חולצה כמספרים."
+        },
+        "reported_eps_vs_consensus": [
+          {
+            "period": "FY26 Q4",
+            "reported_eps": 1.76,
+            "consensus_eps": 1.52,
+            "surprise_pct": 15.7,
+            "confidence": "high",
+            "source": "NVDA 26-Prompt PDF",
+            "calculation_method": "(1.76 − 1.52) / 1.52 × 100 ≈ 15.7% הפתעה חיובית."
+          }
+        ],
+        "sector_average_surprise": null,
+        "trend_hebrew": "לפי ה-PDF, NVDA היכתה את הקונצנזוס ב-7 רבעונים רצופים, וההפתעה הממוצעת ב-6 הרבעונים האחרונים ~18%; גם ההכנסות היכו בעקביות ב-~$2-3B מעל הקונצנזוס בכל אחד מ-4 הרבעונים האחרונים.",
+        "analyst_sentiment_hebrew": "מודלי ה-sell-side ממעיטים בעקביות בהערכת ביקוש ה-Data Center ובחוסן המרווח הגולמי, ולכן עוצמת ה-beat התרחבה במקביל להרצת Blackwell."
+      },
+      "06_ebitda": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "EBITDA מתואם ל-FY26 Q4 (~$45.1B) ונקודת עוגן ל-FY25 Q1 (~$17.3B) זמינים, וכן AMD (~$1.5B); ל-AVGO ה-PDF מציין 'דומה ב-run-rate' ללא ערך, והסדרה המלאה היא תמונת גרף."
+        },
+        "adjusted_ebitda": [
+          {
+            "period": "FY26 Q4",
+            "adjusted_ebitda": 45100000000,
+            "confidence": "high",
+            "source": "NVDA 26-Prompt PDF",
+            "calculation_method": "~$45.1B, מרווח EBITDA מתואם ~68%."
+          },
+          {
+            "period": "FY25 Q1",
+            "adjusted_ebitda": 17300000000,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF",
+            "calculation_method": "נקודת עוגן ~$17.3B לפי ה-PDF."
+          }
+        ],
+        "adjusted_ebitda_margin": 68,
+        "peer_comparison": [
+          {
+            "ticker": "AMD",
+            "adjusted_ebitda": 1500000000,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF",
+            "calculation_method": "~$1.5B EBITDA מתואם רבעוני לפי ה-PDF."
+          }
+        ],
+        "sector_median": null,
+        "earnings_quality_hebrew": "ה-EBITDA המתואם זינק מ-~$17.3B (FY25 Q1) ל-~$45.1B (FY26 Q4) — שילוב של קנה מידה ומינוף תפעולי עם תוספת עלות קבועה מועטה. הנתון הלא-GAAP מנטרל SBC של ~$1.6B+ לרבעון, מה שמדגיש המרת מזומן גבוהה.",
+        "chart_recommendation": {
+          "chart_id": "nvda_adjusted_ebitda",
+          "chart_type": "bar",
+          "title_hebrew": "EBITDA מתואם — נקודות עוגן"
+        }
+      }
+    },
+    "valuation": {
+      "07_trailing_pe": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "P/E עוקב ל-NVDA (46.2x) ולמתחרים זמין; INTC הפסדית ולכן N/A (מצב אמיתי, לא נתון חסר)."
+        },
+        "description_hebrew": "מכפיל רווח עוקב (Trailing P/E) על רווחי 12 החודשים האחרונים.",
+        "current_value": 46.2,
+        "company_5y_average": null,
+        "peer_comparison": [
+          {
+            "ticker": "AMD",
+            "trailing_pe": 148.5,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF"
+          },
+          {
+            "ticker": "AVGO",
+            "trailing_pe": 81.1,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF"
+          },
+          {
+            "ticker": "INTC",
+            "trailing_pe": null,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF",
+            "calculation_method": "הפסדית — P/E לא ישים (N/A)."
+          }
+        ],
+        "sector_median": null,
+        "premium_discount_hebrew": "ב-46.2x NVDA נסחרת בדיסקאונט מול AMD (148.5x) ו-AVGO (81.1x), בעוד INTC הפסדית (N/A). ה-PDF מציין טווח היסטורי של 20x–60x מתקופת הגיימינג; מחזור-העל של תשתיות ה-AI מצדיק מכפיל גבוה יותר, אך כל האטה בביקוש או שחיקת מרווח עלולה לתמחר מחדש בחדות.",
+        "historical_forward_return_context_hebrew": "ה-LTM EPS התרחב מ-~$0.40 (FY24) ל-$4.89 (עוקב); השוק מתמחר המשך צמיחה מהירה.",
+        "chart_recommendation": {
+          "chart_id": "nvda_trailing_pe_peers",
+          "chart_type": "bar",
+          "title_hebrew": "P/E עוקב מול עמיתים"
+        }
+      },
+      "08_forward_pe": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "P/E עתידי ל-NVDA (30.4x) זמין; ערכי P/E עתידי למתחרים לא צוינו ב-PDF."
+        },
+        "description_hebrew": "מכפיל רווח עתידי (Forward P/E) על תחזית הרווח ל-12 החודשים הבאים.",
+        "current_value": 30.4,
+        "change_last_3_months": null,
+        "peer_comparison": [],
+        "sector_median": null,
+        "multiple_expansion_or_compression_hebrew": "ה-PDF מציין שה-P/E העתידי (30.4x) יורד במהירות ככל שתחזיות ה-EPS מתעדכנות כלפי מעלה — אינדיקציה לכך שהרווחים גדלים מהר ממחיר המניה. עמידה בקונצנזוס FY27 צפויה לדחוס את המכפיל לטווח 25–35x.",
+        "driven_by_price_or_estimates_hebrew": "הסיכון המרכזי: ייתכן שהקונצנזוס עדיין ממעיט במגבלות יצוא Blackwell או במחזוריות ביקוש אפשרית במחצית השנייה של FY27."
+      },
+      "09_price_to_sales": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "P/S ל-NVDA והשוואת עמיתים מלאה (AMD, AVGO, INTC) זמינים מה-PDF."
+        },
+        "description_hebrew": "מכפיל מחיר-למכירות (P/S) על בסיס שנתי אחרון.",
+        "current_value": 21.1,
+        "company_3y_average": null,
+        "peer_comparison": [
+          {
+            "ticker": "AMD",
+            "price_to_sales": 10.1,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF"
+          },
+          {
+            "ticker": "AVGO",
+            "price_to_sales": 27.4,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF"
+          },
+          {
+            "ticker": "INTC",
+            "price_to_sales": 3.4,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF"
+          }
+        ],
+        "sector_median": null,
+        "justification_hebrew": "P/S של 21.1x גבוה מ-AMD (10.1x) ו-INTC (3.4x) אך נמוך מ-AVGO (27.4x). הפרמיה מוצדקת לפי ה-PDF בקצב צמיחה של 73% YoY (מול ~26% ב-AMD) ובמרווח גולמי 75%. במונחי run-rate (~$270B שנתי) ה-P/S האפקטיבי קרוב ל-20x.",
+        "chart_recommendation": {
+          "chart_id": "nvda_price_to_sales_peers",
+          "chart_type": "bar",
+          "title_hebrew": "Price/Sales מול עמיתים"
+        }
+      },
+      "10_ev_to_ebitda": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "EV/EBITDA ל-NVDA והשוואת עמיתים מלאה זמינים; ה-Enterprise Value עצמו לא צוין מספרית ב-PDF ולכן הושאר ריק."
+        },
+        "description_hebrew": "מכפיל EV/EBITDA על בסיס שנתי אחרון.",
+        "current_value": 33.8,
+        "enterprise_value_components": {
+          "market_cap": 5490000000000,
+          "cash_and_short_term_investments": 62600000000,
+          "total_debt": 0,
+          "net_cash_or_net_debt": 62600000000,
+          "enterprise_value": null
+        },
+        "peer_comparison": [
+          {
+            "ticker": "AMD",
+            "ev_to_ebitda": 51.0,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF"
+          },
+          {
+            "ticker": "AVGO",
+            "ev_to_ebitda": 52.6,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF"
+          },
+          {
+            "ticker": "INTC",
+            "ev_to_ebitda": 21.3,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF"
+          }
+        ],
+        "sector_median": null,
+        "valuation_interpretation_hebrew": "ב-33.8x NVDA זולה יותר מ-AMD (51.0x) ו-AVGO (52.6x) ויקרה מ-INTC (21.3x). ה-PDF מציין שעל בסיס עוקב (~$160B EBITDA מתואם) המכפיל נדחס מהותית — הנתון השנתי משקף תקופה שלפני הרצת Blackwell המלאה. ה-Enterprise Value עצמו לא צוין כמספר ב-PDF ולכן לא חושב כאן.",
+        "chart_recommendation": {
+          "chart_id": "nvda_ev_ebitda_peers",
+          "chart_type": "bar",
+          "title_hebrew": "EV/EBITDA מול עמיתים"
+        }
+      },
+      "11_peg_ratio": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "ערך PEG (~59x) צוין ב-PDF אך מסויג מאוד; הנחת קצב צמיחת ה-EPS (CAGR) היא איכותית (~30-40%) ולא ערך יחיד."
+        },
+        "description_hebrew": "מכפיל PEG = P/E עתידי חלקי קצב צמיחת ה-EPS הצפוי.",
+        "current_value": 59.02,
+        "eps_cagr_assumption": null,
+        "peer_comparison": [],
+        "sector_median": null,
+        "growth_justification_hebrew": "PEG של ~59x גבוה מאוד במונחים מסורתיים, אך ה-PDF מדגיש שהיוריסטיקות צמיחה קלאסיות נשברות כשחברה מציגה צמיחת EPS של 100%+. עם P/E עוקב 46x וצמיחת EPS צפויה ~30-40% ל-FY27, ה-PEG נדחס במהירות אם ה-beats ימשיכו. הדחיסה צפויה לבוא מעדכוני תחזית כלפי מעלה ולא מכיווץ מכפיל."
+      },
+      "12_price_to_book": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "P/B ל-NVDA (29.0x) והשוואת עמיתים מלאה זמינים; ערך ספרי ~$157B צוין ב-PDF."
+        },
+        "description_hebrew": "מכפיל מחיר-להון-עצמי (P/B). ערך ספרי ~$157B מול שווי שוק ~$5.49T.",
+        "current_value": 29.0,
+        "company_5y_average": null,
+        "peer_comparison": [
+          {
+            "ticker": "AMD",
+            "price_to_book": 5.5,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF"
+          },
+          {
+            "ticker": "AVGO",
+            "price_to_book": 21.6,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF"
+          },
+          {
+            "ticker": "INTC",
+            "price_to_book": 1.6,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF"
+          }
+        ],
+        "sector_median": null,
+        "roe_context_hebrew": "P/B של 29x אופייני לעסק עתיר-IP ודל-נכסים: החפיר הכלכלי (CUDA, NVLink, סיליקון קנייני) חורג בהרבה מהנכסים המאזניים. ROE של ~101.5% מצדיק את הפרמיה — חברה שמרוויחה 130%+ ROIC אמורה להיסחר במכפילי הון רבים. לשם השוואה: AMD 5.5x, AVGO 21.6x, INTC 1.6x (קרוב לערך ספרי).",
+        "chart_recommendation": {
+          "chart_id": "nvda_price_to_book_peers",
+          "chart_type": "bar",
+          "title_hebrew": "Price/Book מול עמיתים"
+        }
+      }
+    },
+    "cash_flow": {
+      "13_operating_cash_flow": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "OCF ל-FY26 Q4 (~$36.2B) ונקודת עוגן ל-FY25 Q1 (~$14.9B) זמינים; הסדרה הרבעונית המלאה היא תמונת גרף."
+        },
+        "description_hebrew": "תזרים מפעילות שוטפת (OCF). ב-FY26 Q4 עמד על ~$36.2B, מונע מרווח נקי שיא וניהול הון חוזר.",
+        "ocf_vs_net_income_last_8_quarters": [
+          {
+            "period": "FY26 Q4",
+            "ocf": 36200000000,
+            "confidence": "high",
+            "source": "NVDA 26-Prompt PDF"
+          },
+          {
+            "period": "FY25 Q1",
+            "ocf": 14900000000,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF",
+            "calculation_method": "נקודת עוגן ~$14.9B לפי ה-PDF (גידול של ~2.4x בפחות משנתיים)."
+          }
+        ],
+        "sector_median": null,
+        "working_capital_explanation_hebrew": "מודל ה-fabless (ייצור ב-TSMC) שומר על CapEx נמוך, כך שה-OCF עוקב צמוד אחרי הרווח הנקי. תשלומי מקדמה של לקוחות (הקצאות Blackwell) יוצרים מחזורי המרת-מזומן שליליים בחלק מהתקופות.",
+        "quality_of_earnings_hebrew": "מגמת ה-OCF היא האינדיקציה הברורה לכך שדוח הרווח של NVDA מגובה במלואו בייצור מזומן ולא בהתאמות חשבונאיות.",
+        "chart_recommendation": {
+          "chart_id": "nvda_ocf_anchors",
+          "chart_type": "bar",
+          "title_hebrew": "תזרים מפעילות (OCF) — נקודות עוגן"
+        }
+      },
+      "14_free_cash_flow": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "FCF ל-FY26 Q4 (~$34.9B) ו-FCF עוקב (~$97B) זמינים; הסדרה הרבעונית המלאה היא תמונת גרף."
+        },
+        "description_hebrew": "תזרים מזומנים חופשי (FCF). ב-FY26 Q4: $34.9B ($36.2B OCF פחות $1.3B CapEx).",
+        "fcf_last_8_quarters": [
+          {
+            "period": "FY26 Q4",
+            "fcf": 34900000000,
+            "confidence": "high",
+            "source": "NVDA 26-Prompt PDF",
+            "calculation_method": "$36.2B OCF − $1.3B CapEx = $34.9B; CapEx/הכנסות ~2%."
+          }
+        ],
+        "ltm_fcf": 97000000000,
+        "comparison_to_revenue_and_net_income_growth": [],
+        "drivers_hebrew": "ה-FCF החופשי הוא מהגבוהים שנרשמו אי-פעם בעולם לרבעון. הוא הופנה בעיקר לרכישות עצמיות (~$40B+ ב-FY26) ולדיבידנד ($0.24 לרבעון). עוצמת ה-CapEx נותרת נמוכה (~2% מההכנסות) הודות למודל ה-fabless.",
+        "calculation_method": "$36.2B OCF − $1.3B CapEx = $34.9B (FY26 Q4); FCF עוקב מתקרב ל-$97B.",
+        "confidence": "high"
+      },
+      "15_fcf_margin": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "FCF margin ל-FY26 Q4 (~51.2%) ונקודת עוגן ל-FY25 Q1 (~57%) זמינים; הסדרה המלאה היא תמונת גרף."
+        },
+        "description_hebrew": "FCF Margin = תזרים חופשי חלקי הכנסות. ב-FY26 Q4: ~51.2% ($34.9B על $68.1B).",
+        "fcf_margin": 51.2,
+        "fcf_margin_last_8_quarters": [
+          {
+            "period": "FY26 Q4",
+            "fcf_margin": 51.2,
+            "confidence": "high",
+            "source": "NVDA 26-Prompt PDF"
+          },
+          {
+            "period": "FY25 Q1",
+            "fcf_margin": 57,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF",
+            "calculation_method": "נקודת עוגן ~57% לפי ה-PDF."
+          }
+        ],
+        "peer_comparison": [],
+        "sector_median": null,
+        "quartile_position_hebrew": "FCF margin של ~51% הוא מהגבוהים שנרשמו אי-פעם לחברת מוליכים-למחצה בקנה מידה כזה — יותר ממחצית מכל דולר הכנסה הופך למזומן חופשי. ה-PDF מצפה ליציבות בטווח 50-55% ככל שהשקעות התשתית מתנרמלות.",
+        "chart_recommendation": {
+          "chart_id": "nvda_fcf_margin_anchors",
+          "chart_type": "bar",
+          "title_hebrew": "FCF Margin — נקודות עוגן"
+        }
+      },
+      "16_fcf_yield": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "FCF Yield עוקב ל-NVDA (1.76%) ולמתחרים AMD (1.18%), AVGO (1.47%) זמינים."
+        },
+        "description_hebrew": "FCF Yield עוקב = FCF (LTM) חלקי שווי שוק.",
+        "current_fcf_yield": 1.76,
+        "ltm_fcf": 97000000000,
+        "market_cap": 5490000000000,
+        "ten_year_treasury_yield": null,
+        "peer_comparison": [
+          {
+            "ticker": "AMD",
+            "fcf_yield": 1.18,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF"
+          },
+          {
+            "ticker": "AVGO",
+            "fcf_yield": 1.47,
+            "confidence": "medium",
+            "source": "NVDA 26-Prompt PDF"
+          }
+        ],
+        "sector_median": null,
+        "historical_3y_range": null,
+        "interpretation_hebrew": "FCF Yield של ~1.76% צנוע במונחים מוחלטים אך עקבי עם פרמיית צמיחה גבוהה. הוא נמוך בעיקר בשל מכפיל שווי השוק הקיצוני; על בסיס FCF עתידי (FY27 שעשוי לחרוג מ-$120B) התשואה מתכנסת לרמת העמיתים. המשקיע משלם עבור האצת FCF עתידית, לא עבור תשואה נוכחית.",
+        "chart_recommendation": {
+          "chart_id": "nvda_fcf_yield_peers",
+          "chart_type": "bar",
+          "title_hebrew": "FCF Yield מול עמיתים"
+        }
+      }
+    },
+    "financial_health": {
+      "17_debt_to_equity": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "יחס D/E עדכני (0.07x) וערך ספרי (~$157.3B) זמינים; השוואת עמיתים מספרית לא צוינה ב-PDF (איכותית בלבד)."
+        },
+        "description_hebrew": "יחס חוב-להון (Debt-to-Equity). NVDA חסרת חוב כמעט לחלוטין.",
+        "debt_to_equity": 0.07,
+        "interest_coverage": [],
+        "peer_comparison": [],
+        "sector_median": null,
+        "stress_test_ebitda_down_30_percent_hebrew": "מבנה ההון מורכב כמעט כולו מהון עצמי (~$157.3B ערך ספרי) והתחייבויות תפעוליות; חוב פיננסי אפסי. המאזן הנקי מספק גמישות מקסימלית ומבטל סיכון מימון מחדש ונטל ריבית. ה-PDF מציין שהמינוף ההיסטורי (~0.1-0.2x באמצע העשור הקודם) חוסל ככל שייצור ה-OCF האיץ אחרי 2022. השוואת D/E מספרית למתחרים לא ניתנה."
+      },
+      "18_net_cash_net_debt": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "פירוט מלא של מצב המזומן נטו זמין ב-PDF: $10.6B מזומן + $52.0B השקעות ק\"ט − $0 חוב."
+        },
+        "description_hebrew": "מצב מזומן נטו = מזומן + השקעות לזמן קצר − חוב כולל.",
+        "cash": 10600000000,
+        "short_term_investments": 52000000000,
+        "total_debt": 0,
+        "net_cash_or_net_debt": 62600000000,
+        "quarters_of_operating_expenses_covered": null,
+        "capital_allocation_hebrew": "מצב מזומן נטו של ~$62.6B — מהגדולים בעולם — מספק כרית של $62B+ מול כל האטה בביקוש וכוח אש לרכישות או להאצת buyback. לשם השוואה (איכותית ב-PDF): AVGO נושאת חוב נטו משמעותי מרכישת VMware, INTC שורפת מזומן ברה-ארגון, ו-AMD במצב מזומן נטו צנוע (~$2-3B). ערימת המזומן של NVDA גדלה מ-~$34B לפני שנתיים."
+      },
+      "19_current_ratio": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "יחס שוטף FY26 Q4 (3.91x) עם פירוט נכסים/התחייבויות שוטפים זמין מה-PDF; סדרת 4 הרבעונים היא תמונת גרף."
+        },
+        "description_hebrew": "יחס שוטף = נכסים שוטפים / התחייבויות שוטפות. ב-FY26 Q4: 3.91x ($125.6B נכסים שוטפים / $32.2B התחייבויות שוטפות).",
+        "current_ratio": 3.91,
+        "quick_ratio_last_4_quarters": [],
+        "sector_median": null,
+        "liquidity_interpretation_hebrew": "הנכסים השוטפים נשלטים על ידי מזומן וניירות סחירים (~$62.6B יחד), חייבים ($38.5B) ומלאי ($21.4B). היחס נשמר יציב בטווח 3.5-4.0x ב-4 הרבעונים האחרונים — נזילות חריגה ללא לחץ הון חוזר למרות הרצת Blackwell.",
+        "receivables_inventory_flags_hebrew": "חייבים $38.5B ומלאי $21.4B; כל יחס שוטף מעל 2.0x נחשב שמרני, ו-3.9x הוא יוצא דופן.",
+        "debt_maturities_next_12_18_months_hebrew": "ללא חוב פיננסי מהותי, אין סיכון לוח סילוקין; ההתחייבויות השוטפות הן בעיקר הכנסה נדחית וספקים."
+      },
+      "20_return_on_equity": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "ROE שנתי (101.5%) ופירוק DuPont מלא (מרווח נקי × מחזור נכסים × מכפיל הון) זמינים מה-PDF."
+        },
+        "description_hebrew": "תשואה על ההון (ROE) על בסיס שנתי אחרון, עם פירוק DuPont.",
+        "roe": 101.5,
+        "dupont_decomposition": {
+          "net_profit_margin": 55.6,
+          "asset_turnover": 1.36,
+          "equity_multiplier": 1.31
+        },
+        "peer_comparison": [],
+        "sector_median": null,
+        "roe_quality_hebrew": "פירוק DuPont: מרווח נקי 55.6% × מחזור נכסים 1.36x × מכפיל הון 1.31x = ROE ~101.5%. המנוע הדומיננטי הוא המרווח הנקי החריג (איכות), לא מינוף — הצורה העמידה ביותר של תשואה. מכפיל ההון ~1.3x מעיד על מינוף מינימלי. זהו אחד מ-ROE הגבוהים בעולם לחברה בשווי $100B+."
+      },
+      "21_return_on_invested_capital": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "ROIC שנתי (135.4%) זמין מה-PDF; ה-WACC צוין איכותית (8-12%) ולא כערך יחיד."
+        },
+        "description_hebrew": "תשואה על ההון המושקע (ROIC) — רווח תפעולי אחרי מס חלקי הון מושקע.",
+        "roic": 135.4,
+        "peer_comparison": [],
+        "sector_median": null,
+        "value_creation_hebrew": "ROIC של ~135.4% — מהגבוהים שנרשמו אי-פעם לחברה בגודלה — נובע מחוב אפסי ומרווחים תפעוליים עצומים (מונה גדול, מכנה קטן). מול עלות הון טיפוסית של 8-12% לטק גדול, NVDA יוצרת ערך כלכלי עצום. לשם השוואה (איכותית ב-PDF): ROIC של AMD בטווח 5-15% ושל INTC שלילי עמוק."
+      }
+    },
+    "forward_signals": {
+      "22_management_guidance": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "הנחיית Q1 FY27 ($78B ±2%) מול קונצנזוס ($43.3B) זמינה מה-PDF."
+        },
+        "description_hebrew": "תחזית הנהלה (Guidance) להכנסות הרבעון הבא מול קונצנזוס האנליסטים.",
+        "latest_guidance": {
+          "revenue_guidance_usd": 78000000000,
+          "consensus_revenue_usd": 43300000000
+        },
+        "guidance_vs_consensus_hebrew": "ההנהלה הנחתה את הכנסות Q1 FY27 ל-$78B ±2% (טווח ~$76.4B-$79.6B), מול קונצנזוס sell-side של $43.3B. טווח ה-±2% צר מהרגיל ומרמז על שיפור בנראות האספקה. ההנחיה מגלמת צמיחה רציפה של ~15% מ-$68.1B ב-FY26 Q4.",
+        "management_guidance_history_hebrew": "לפי ה-PDF, NVDA היכתה את הנחיית ההכנסות שלה עצמה ב-8 רבעונים רצופים — שמרנות אופיינית.",
+        "embedded_growth_rate_hebrew": "רוח-הנגד המרכזית להנחיה שההנהלה הדגישה בשיחת ה-Q4 FY26 היא סיכוני בקרת יצוא לסין (מגבלות על מכירות H20/B20).",
+        "chart_recommendation": {
+          "chart_id": "nvda_guidance_vs_consensus",
+          "chart_type": "bar",
+          "title_hebrew": "הנחיית הכנסות Q1 FY27 מול קונצנזוס"
+        }
+      },
+      "23_analyst_consensus": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "התפלגות המלצות (34 אנליסטים, 97.1% קנייה, 1 החזקה, 0 מכירה), יעד מחיר ממוצע $278 וטווח $210-$360 זמינים."
+        },
+        "description_hebrew": "קונצנזוס אנליסטים: התפלגות המלצות, יעד מחיר ואפסייד.",
+        "total_analysts": 34,
+        "bullish_percent": 97.1,
+        "buy_hold_sell_distribution": {
+          "buy": 33,
+          "hold": 1,
+          "sell": 0
+        },
+        "average_price_target": 278,
+        "median_price_target": null,
+        "price_target_range": {
+          "low": 210,
+          "high": 360
+        },
+        "upside_percent": 23.1,
+        "change_last_3_months": null,
+        "sentiment_trend_hebrew": "מתוך 34 אנליסטים, 97.1% בהמלצת קנייה/Outperform, רק 1 החזקה ו-0 מכירה. יעד המחיר הממוצע $278 מגלם ~23.1% אפסייד מ-$225.83. היעד הגבוה $360 (Tigress) מגלם ~59% אפסייד; הנמוך $210 מספק ולידציה לדאונסייד מוגבל.",
+        "divergence_interpretation_hebrew": "היעדר אנליסט במכירה בשווי שוק כזה חריג, ומשקף הן שכנוע פונדמנטלי והן תמריצי איזון-מדדים אפשריים. הקונצנזוס מבוסס על תזת מחזור-העל של תשתיות ה-AI וחפיר ה-CUDA.",
+        "chart_recommendation": {
+          "chart_id": "nvda_analyst_ratings",
+          "chart_type": "bar",
+          "title_hebrew": "התפלגות המלצות אנליסטים"
+        }
+      },
+      "24_earnings_revisions": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "רוויזיות 30 הימים האחרונים (1 העלאה, 0 ללא שינוי, 0 הורדה) ושתי רוויזיות נקודתיות (Wells Fargo, Benchmark) זמינות."
+        },
+        "description_hebrew": "רוויזיות תחזיות ויעדי מחיר ב-30 הימים האחרונים.",
+        "pt_revisions_30d": {
+          "up": 1,
+          "maintained": 0,
+          "down": 0
+        },
+        "percentage_analysts_raising_estimates": null,
+        "percentage_analysts_lowering_estimates": null,
+        "recent_revisions": [
+          {
+            "analyst": "Wells Fargo (Aaron Rakers)",
+            "action": "העלאת יעד $265→$315",
+            "date": "2026-05-12",
+            "source": "NVDA 26-Prompt PDF"
+          },
+          {
+            "analyst": "Benchmark",
+            "action": "אישרור Buy ביעד $250 (ללא שינוי)",
+            "date": "2026-05",
+            "source": "NVDA 26-Prompt PDF"
+          }
+        ],
+        "revision_trend_interpretation_hebrew": "כיוון הרוויזיות חיובי מובהק — העלאות גוברות על הורדות במרווח גדול. מומנטום רוויזיות חיובי נחשב אינדיקטור מקדים לתשואה עודפת ב-3-12 החודשים הבאים (אנומליית earnings-revisions)."
+      },
+      "25_share_buybacks": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "רכישות עצמיות עוקבות (~$40.1B TTM), Q4 FY26 ($3.8B) ו-Q3 FY26 ($12.5B) ודילול SBC (~$6B בשנה) זמינים; פירוט מלא של 8 רבעונים לא חולץ ויחס תשואת ה-buyback לא צוין כמספר."
+        },
+        "description_hebrew": "רכישות עצמיות (Buybacks) ודילול. סך עוקב ~$40.1B; הקטנת מספר מניות ~1-2% בשנה נטו.",
+        "buyback_history_last_8_quarters": [
+          {
+            "period": "FY26 Q3",
+            "buyback_amount": 12500000000,
+            "confidence": "high",
+            "source": "NVDA 26-Prompt PDF"
+          },
+          {
+            "period": "FY26 Q4",
+            "buyback_amount": 3800000000,
+            "confidence": "high",
+            "source": "NVDA 26-Prompt PDF",
+            "calculation_method": "הרכישה הקטנה בתקופה; Q3 FY26 היה אגרסיבי ($12.5B)."
+          }
+        ],
+        "annualized_buyback_yield": null,
+        "sbc_dilution_context_hebrew": "רכישות עצמיות עוקבות מעל $40B מקטינות את מספר המניות ב-~1-2% בשנה נטו, בקיזוז חלקי של דילול SBC (~$6B בשנה). התוכנית מאותתת ביטחון הנהלה; הדירקטוריון הרחיב אישורי buyback שוב ושוב. תשואת ה-buyback צנועה בשווי השוק הנוכחי אך תתחזק ככל שה-FCF יגדל. יחס מספרי לא צוין ב-PDF.",
+        "chart_recommendation": {
+          "chart_id": "nvda_buybacks",
+          "chart_type": "bar",
+          "title_hebrew": "רכישות עצמיות לפי רבעון"
+        }
+      },
+      "26_insider_transactions": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "עסקאות פנים ב-6 חודשים (~$490M, 179 עסקאות), כולל מכירת Mark Stevens (~$142M, מרץ 2026) זמינות מה-PDF."
+        },
+        "description_hebrew": "עסקאות פנים (Insider) ב-6 החודשים האחרונים.",
+        "transactions_last_6_months": [
+          {
+            "insider": "Mark Stevens (דירקטור)",
+            "type": "מכירה",
+            "value_usd": 142000000,
+            "date": "2026-03",
+            "price_range": "$172–175",
+            "confidence": "high",
+            "source": "NVDA 26-Prompt PDF",
+            "calculation_method": "המוכר הבודד הגדול ביותר; מתחת למחיר הנוכחי $225.83."
+          }
+        ],
+        "total_sell_value_6m": 490000000,
+        "total_transactions": 179,
+        "buy_sell_ratio": 0,
+        "cluster_buying_detected": false,
+        "historical_context_hebrew": "בעלי העניין היו מוכרים נטו עקביים ב-6 החודשים האחרונים (~$490M ב-179 עסקאות), ללא רכישות בולטות. המכירות מונעות בעיקר מתוכניות 10b5-1 מתוכננות מראש, מה שמגביל את ערך האיתות.",
+        "insider_signal_interpretation_hebrew": "מכירת Mark Stevens (~$142M במרץ 2026, במחיר $172-175 מתחת למחיר הנוכחי) מצביעה על הערכות שמרניות. הדפוס אינו דובי כשלעצמו עבור מגה-קאפ טק שבה עושר המנהלים נשלט ממניות לא-מובשלות."
+      }
+    },
+    "sector_specific_metrics": {
+      "description_hebrew": "מדדים ייחודיים לסקטור המוליכים-למחצה ותשתיות ה-AI של NVIDIA. הערכים שמופיעים בטקסט ה-PDF הוזנו; פרטים נוספים (פילוח מגזרים מלא) לא חולצו.",
+      "metrics": [
+        {
+          "name": "data_center_revenue_share",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY26 Q4",
+              "share_pct": 88
+            }
+          ],
+          "confidence": "medium",
+          "source": "NVDA 26-Prompt PDF",
+          "description_hebrew": "מגזר ה-Data Center מהווה מעל 88% מסך ההכנסות לפי ה-PDF — מנוע הצמיחה המרכזי (נתון מינימום)."
+        },
+        {
+          "name": "capex_to_revenue",
+          "unit": "%",
+          "values": [
+            {
+              "period": "FY26 Q4",
+              "value": 2
+            }
+          ],
+          "confidence": "medium",
+          "source": "NVDA 26-Prompt PDF",
+          "description_hebrew": "עוצמת השקעה הונית נמוכה (~2% מההכנסות) הודות למודל ה-fabless (ייצור ב-TSMC)."
+        },
+        {
+          "name": "sbc_per_quarter",
+          "unit": "USD",
+          "values": [
+            {
+              "period": "FY26 Q4",
+              "value": 1600000000
+            }
+          ],
+          "confidence": "medium",
+          "source": "NVDA 26-Prompt PDF",
+          "description_hebrew": "תגמול מבוסס מניות (SBC) של ~$1.6B+ לרבעון לפי ה-PDF; מנוטרל ב-EBITDA הלא-GAAP."
+        },
+        {
+          "name": "ttm_buybacks",
+          "unit": "USD",
+          "values": [
+            {
+              "period": "TTM (FY26)",
+              "value": 40100000000
+            }
+          ],
+          "confidence": "high",
+          "source": "NVDA 26-Prompt PDF",
+          "description_hebrew": "סך רכישות עצמיות עוקב של ~$40.1B ב-4 הרבעונים האחרונים."
+        }
+      ]
+    }
+  },
+  "dashboard_summary": {
+    "scorecard": {
+      "growth_score_1_to_10": 10,
+      "profitability_score_1_to_10": 10,
+      "valuation_score_1_to_10": 4,
+      "cash_flow_score_1_to_10": 10,
+      "financial_health_score_1_to_10": 10,
+      "forward_signals_score_1_to_10": 9,
+      "overall_quality_score_1_to_10": 9
+    },
+    "traffic_lights": {
+      "growth": "green",
+      "profitability": "green",
+      "valuation": "yellow",
+      "cash_flow": "green",
+      "financial_health": "green",
+      "forward_signals": "green"
+    },
+    "top_positive_signals_hebrew": [
+      "צמיחת הכנסות ~73% YoY עם מגזר Data Center מעל 88% מההכנסות — מנהיגות מובהקת בתשתיות AI.",
+      "מרווחים חריגים (גולמי 75%, תפעולי 65%, נקי 63%) ו-ROIC ~135% — איכות עסקית יוצאת דופן.",
+      "מאזן ללא חוב, מזומן נטו ~$62.6B, יחס שוטף 3.91x ו-FCF רבעוני ~$34.9B."
+    ],
+    "top_negative_signals_hebrew": [
+      "תמחור עשיר: P/E עוקב 46.2x, P/S ~21x, P/B 29x ו-PEG ~59x — רגישות גבוהה לאכזבה.",
+      "סיכון רגולטורי מבני: מגבלות יצוא לסין (H20/B20) שההנהלה הדגישה כרוח-נגד מרכזית.",
+      "מכירות בעלי עניין נטו (~$490M ב-6 חודשים) וריכוזיות גבוהה בלקוחות hyperscaler."
+    ],
+    "key_questions_for_investor_hebrew": [
+      "האם מחזור-העל של תשתיות ה-AI יימשך מספיק זמן כדי להצדיק P/E עוקב 46x ו-P/S ~21x?",
+      "כיצד מגבלות היצוא לסין (H20/B20) ישפיעו על קצב הצמיחה של מגזר ה-Data Center?",
+      "האם המרווח הגולמי (75%) וה-FCF margin (~51%) יישמרו ככל שהתחרות (AMD, custom silicon) מתעצמת?"
+    ],
+    "final_takeaway_hebrew": "NVIDIA היא, לפי ה-PDF, עסק איכותי יוצא דופן עם מנהיגות מבנית, מרווחים ותזרים נדירים ומאזן ללא חוב — אך נסחרת בתמחור עשיר שמגלם המשך ביצועים כמעט מושלם. המניה מתאימה למשקיע שמאמין בהמשך מחזור-העל של ה-AI ומוכן לשאת בתנודתיות ובסיכון רגולטורי תמורת איכות וצמיחה."
+  },
+  "chart_data": [
+    {
+      "chart_id": "nvda_revenue_quarterly",
+      "chart_type": "bar",
+      "title_hebrew": "הכנסות רבעוניות — נקודות עוגן",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "נתונים רבעוניים — נקודות עוגן בלבד",
+      "note_hebrew": "ה-PDF מציג סדרת 8 רבעונים כתמונת גרף שאינה ניתנת לחילוץ מספרי; מוצגות כאן רק נקודות העוגן שצוינו במפורש בטקסט.",
+      "series": [
+        {
+          "name": "revenue",
+          "data": [
+            {
+              "x": "FY25 Q1",
+              "y": 26000000000
+            },
+            {
+              "x": "FY25 Q4",
+              "y": 39300000000
+            },
+            {
+              "x": "FY26 Q4",
+              "y": 68130000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "nvda_gross_margin_peers",
+      "chart_type": "bar",
+      "title_hebrew": "מרווח גולמי מול עמיתים",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "השוואת חתך — הרבעון האחרון",
+      "series": [
+        {
+          "name": "gross_margin",
+          "data": [
+            {
+              "x": "NVDA",
+              "y": 75.0
+            },
+            {
+              "x": "AMD",
+              "y": 52.8
+            },
+            {
+              "x": "AVGO",
+              "y": 68.1
+            },
+            {
+              "x": "INTC",
+              "y": 39.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "nvda_operating_margin_peers",
+      "chart_type": "bar",
+      "title_hebrew": "מרווח תפעולי (ערכים מספריים זמינים)",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "השוואת חתך — הרבעון האחרון",
+      "note_hebrew": "ל-AMD ה-PDF נוקב בטווח מתואם ~14-17% (לא ערך יחיד) ול-INTC ערך שלילי לא-מספרי — לכן אינם מוצגים.",
+      "series": [
+        {
+          "name": "operating_margin",
+          "data": [
+            {
+              "x": "NVDA",
+              "y": 65.0
+            },
+            {
+              "x": "AVGO",
+              "y": 44
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "nvda_net_margin_peers",
+      "chart_type": "bar",
+      "title_hebrew": "מרווח נקי מול עמיתים",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "השוואת חתך — הרבעון האחרון",
+      "note_hebrew": "INTC שלילי ללא ערך מספרי ולכן אינו מוצג.",
+      "series": [
+        {
+          "name": "net_margin",
+          "data": [
+            {
+              "x": "NVDA",
+              "y": 63.1
+            },
+            {
+              "x": "AMD",
+              "y": 13
+            },
+            {
+              "x": "AVGO",
+              "y": 38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "nvda_trailing_pe_peers",
+      "chart_type": "bar",
+      "title_hebrew": "P/E עוקב מול עמיתים",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "השוואת חתך — נכון למועד ה-PDF",
+      "note_hebrew": "INTC הפסדית — P/E לא ישים (N/A) ולכן אינו מוצג.",
+      "series": [
+        {
+          "name": "trailing_pe",
+          "data": [
+            {
+              "x": "NVDA",
+              "y": 46.2
+            },
+            {
+              "x": "AMD",
+              "y": 148.5
+            },
+            {
+              "x": "AVGO",
+              "y": 81.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "nvda_price_to_sales_peers",
+      "chart_type": "bar",
+      "title_hebrew": "Price/Sales מול עמיתים",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "השוואת חתך — בסיס שנתי אחרון",
+      "series": [
+        {
+          "name": "price_to_sales",
+          "data": [
+            {
+              "x": "NVDA",
+              "y": 21.1
+            },
+            {
+              "x": "AMD",
+              "y": 10.1
+            },
+            {
+              "x": "AVGO",
+              "y": 27.4
+            },
+            {
+              "x": "INTC",
+              "y": 3.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "nvda_ev_ebitda_peers",
+      "chart_type": "bar",
+      "title_hebrew": "EV/EBITDA מול עמיתים",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "השוואת חתך — בסיס שנתי אחרון",
+      "series": [
+        {
+          "name": "ev_to_ebitda",
+          "data": [
+            {
+              "x": "NVDA",
+              "y": 33.8
+            },
+            {
+              "x": "AMD",
+              "y": 51.0
+            },
+            {
+              "x": "AVGO",
+              "y": 52.6
+            },
+            {
+              "x": "INTC",
+              "y": 21.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "nvda_price_to_book_peers",
+      "chart_type": "bar",
+      "title_hebrew": "Price/Book מול עמיתים",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "השוואת חתך — בסיס שנתי אחרון",
+      "series": [
+        {
+          "name": "price_to_book",
+          "data": [
+            {
+              "x": "NVDA",
+              "y": 29.0
+            },
+            {
+              "x": "AMD",
+              "y": 5.5
+            },
+            {
+              "x": "AVGO",
+              "y": 21.6
+            },
+            {
+              "x": "INTC",
+              "y": 1.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "nvda_fcf_yield_peers",
+      "chart_type": "bar",
+      "title_hebrew": "FCF Yield מול עמיתים",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "השוואת חתך — תשואה עוקבת (TTM)",
+      "series": [
+        {
+          "name": "fcf_yield",
+          "data": [
+            {
+              "x": "NVDA",
+              "y": 1.76
+            },
+            {
+              "x": "AMD",
+              "y": 1.18
+            },
+            {
+              "x": "AVGO",
+              "y": 1.47
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "nvda_adjusted_ebitda",
+      "chart_type": "bar",
+      "title_hebrew": "EBITDA מתואם — נקודות עוגן",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "נקודות עוגן רבעוניות בלבד",
+      "series": [
+        {
+          "name": "adjusted_ebitda",
+          "data": [
+            {
+              "x": "FY25 Q1",
+              "y": 17300000000
+            },
+            {
+              "x": "FY26 Q4",
+              "y": 45100000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "nvda_ocf_anchors",
+      "chart_type": "bar",
+      "title_hebrew": "תזרים מפעילות (OCF) — נקודות עוגן",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "נקודות עוגן רבעוניות בלבד",
+      "series": [
+        {
+          "name": "ocf",
+          "data": [
+            {
+              "x": "FY25 Q1",
+              "y": 14900000000
+            },
+            {
+              "x": "FY26 Q4",
+              "y": 36200000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "nvda_fcf_margin_anchors",
+      "chart_type": "bar",
+      "title_hebrew": "FCF Margin — נקודות עוגן",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "נקודות עוגן רבעוניות בלבד",
+      "series": [
+        {
+          "name": "fcf_margin",
+          "data": [
+            {
+              "x": "FY25 Q1",
+              "y": 57
+            },
+            {
+              "x": "FY26 Q4",
+              "y": 51.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "nvda_guidance_vs_consensus",
+      "chart_type": "bar",
+      "title_hebrew": "הנחיית הכנסות Q1 FY27 מול קונצנזוס",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "Q1 FY27 — הכנסות חזויות",
+      "series": [
+        {
+          "name": "revenue",
+          "data": [
+            {
+              "x": "הנחיית הנהלה",
+              "y": 78000000000
+            },
+            {
+              "x": "קונצנזוס אנליסטים",
+              "y": 43300000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "nvda_analyst_ratings",
+      "chart_type": "bar",
+      "title_hebrew": "התפלגות המלצות אנליסטים",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "נכון למועד ה-PDF (34 אנליסטים)",
+      "series": [
+        {
+          "name": "count",
+          "data": [
+            {
+              "x": "Buy",
+              "y": 33
+            },
+            {
+              "x": "Hold",
+              "y": 1
+            },
+            {
+              "x": "Sell",
+              "y": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "nvda_buybacks",
+      "chart_type": "bar",
+      "title_hebrew": "רכישות עצמיות לפי רבעון",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "נקודות רבעוניות זמינות מה-PDF",
+      "series": [
+        {
+          "name": "buyback_amount",
+          "data": [
+            {
+              "x": "FY26 Q3",
+              "y": 12500000000
+            },
+            {
+              "x": "FY26 Q4",
+              "y": 3800000000
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "nvda_pdf",
+      "source_name": "NVDA 26-Prompt Deep-Dive Analysis (PDF, Perplexity Computer)",
+      "url": "local:NVDA_26_Prompts_5_Layers.pdf",
+      "accessed_date": "2026-05-13",
+      "used_for": [
+        "all_layers",
+        "profitability",
+        "valuation",
+        "cash_flow",
+        "financial_health",
+        "forward_signals",
+        "peer_comparison",
+        "executive_summary",
+        "scorecard"
+      ]
+    }
+  ],
+  "data_quality_warnings": [
+    "כל הנתונים נשלפו אך ורק ממסמך ה-PDF של NVDA (Perplexity Computer, 13.5.2026). לא נעשה שימוש באינטרנט או בידע כללי.",
+    "סדרות הזמן הרב-רבעוניות (8 רבעונים) מופיעות ב-PDF כתמונות גרף ולא ניתנו לחילוץ מספרי; לכן מוצגות בעיקר ערכי הרבעון האחרון ונקודות עוגן בודדות שצוינו בטקסט.",
+    "חלק מערכי העמיתים איכותיים או מקורבים: מרווח תפעולי AMD ניתן כטווח (~14-17%), מרווח INTC כ'שלילי' ללא ערך, ו-P/E של INTC כ-N/A (הפסדית).",
+    "ה-Enterprise Value לא צוין כמספר ב-PDF ולכן לא חושב; מוצגים רק רכיביו הזמינים (שווי שוק, מזומן נטו, חוב).",
+    "יחס תשואת ה-buyback ויעד המחיר החציוני לא צוינו במפורש ב-PDF ולכן הושארו ריקים."
+  ]
+}

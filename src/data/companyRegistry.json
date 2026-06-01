@@ -1,0 +1,25 @@
+{
+  "companies": [
+    {
+      "ticker": "CLSK",
+      "company_name": "CleanSpark, Inc.",
+      "sector": "Information Technology",
+      "industry": "Bitcoin Mining + AI/HPC Data Centers",
+      "latest_as_of_date": "2026-05-31"
+    },
+    {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA Corporation",
+      "sector": "Information Technology",
+      "industry": "Semiconductors / AI Accelerators",
+      "latest_as_of_date": "2026-05-13"
+    },
+    {
+      "ticker": "INFQ",
+      "company_name": "Infleqtion, Inc.",
+      "sector": "Information Technology",
+      "industry": "Quantum Computing / Quantum Sensing",
+      "latest_as_of_date": "2026-05-13"
+    }
+  ]
+}

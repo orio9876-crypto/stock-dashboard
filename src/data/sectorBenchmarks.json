@@ -1,0 +1,9 @@
+{
+  "description": "Optional sector-level median benchmarks. Used as a fallback when a snapshot does not provide sector_median for a metric.",
+  "sectors": {
+    "Information Technology": {
+      "label_hebrew": "טכנולוגיית מידע",
+      "medians": {}
+    }
+  }
+}

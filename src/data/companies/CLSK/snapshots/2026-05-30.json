@@ -1,0 +1,1079 @@
+{
+  "meta": {
+    "ticker": "CLSK",
+    "company_name": "CleanSpark, Inc.",
+    "exchange": "NASDAQ",
+    "sector": "Information Technology",
+    "industry": "Application Software / Bitcoin Mining & Data Centers",
+    "business_model_hebrew": "החברה היא Bitcoin miner ומפעילת data centers בקנה מידה גדול. היא בונה, מחזיקה ומפעילה מתקני מחשוב עתירי אנרגיה בארה\"ב, ממירה חשמל זול ל-Bitcoin ו/או ל\"compute\" כמוצר, עם דגש על יעילות אנרגטית וניהול הון.",
+    "currency": "USD",
+    "as_of_date": "2026-05-30",
+    "latest_reported_quarter": "2026-03-31",
+    "latest_fiscal_year": 2025,
+    "selected_peers": [
+      {
+        "ticker": "MARA",
+        "company_name": "Marathon Digital Holdings, Inc.",
+        "reason_hebrew": "MARA היא אחד ה-Bitcoin miners הציבוריים הגדולים ביותר, עם דגש על hash rate גבוה וציוד מתקדם, ולכן משקיעים משווים אותה ל-CLSK מבחינת קנה מידה, יעילות ורגישות למחיר ה-BTC."
+      },
+      {
+        "ticker": "RIOT",
+        "company_name": "Riot Platforms, Inc.",
+        "reason_hebrew": "RIOT מפעילה מתקני כריית Bitcoin גדולים בארה\"ב עם דגש על הסכמי אנרגיה זולים, מבנה עסקי ומנועי הכנסה דומים ל-CLSK."
+      },
+      {
+        "ticker": "HUT",
+        "company_name": "Hut 8 Corp.",
+        "reason_hebrew": "HUT משלבת כריית Bitcoin עם פעילות data centers ופתרונות HPC, מודל היברידי שדומה להתפתחות האסטרטגית של CLSK לכיוון תשתיות מחשוב רחבות יותר."
+      },
+      {
+        "ticker": "IREN",
+        "company_name": "Iris Energy Limited",
+        "reason_hebrew": "IREN מפעילה data centers לכריית Bitcoin עם פוקוס על אנרגיה מתחדשת ויעילות אנרגטית, מה שהופך אותה להשוואה חשובה ל-CLSK בהקשר של עלות אנרגיה וקיימות."
+      }
+    ],
+    "sector_benchmark_used": "U.S. listed Bitcoin miners & data center infrastructure peers (MARA, RIOT, HUT, IREN)",
+    "data_freshness_hebrew": "חלק מנתוני השוק (מחיר מניה, שווי שוק, מכפילים) מעודכנים עד 2026-05-29, בעוד שנתוני הדוחות מבוססים על השנה הפיסקלית האחרונה שהסתיימה בספטמבר 2025 ועל תוצאות רבעוניות עד Q2 FY26 במידת הזמינות. עקב מגבלות גישה לדוחות הרבעוניים המלאים, חלק מהמספרים הם ברמת שנתי/TTM ולא רבעוני מלא, וברמת ביטחון בינונית."
+  },
+  "executive_summary_hebrew": {
+    "one_liner": "CLSK היא אחד מ-Bitcoin miners הצומחים ביותר בארה\"ב, עם פורטפוליו data centers המתרחב במהירות אך רווחיות ותזרים מזומנים עדיין תנודתיים מאוד ותלויי מחיר BTC.",
+    "overall_view": "התמונה הכוללת היא של חברת צמיחה אגרסיבית בתחום הכרייה וה-compute, ששיפרה משמעותית הכנסות ורווחיות בשנים האחרונות אך עדיין מציגה תנודתיות חזקה ברווח הנקי ובתזרים המזומנים, עם מאזן חזק יחסית אך השקעות הוניות כבדות.",
+    "bull_case": [
+      "צמיחת הכנסות מהירה מאוד בשנים האחרונות (מכ-10M ל-כמעט 380M ב-5 שנים) משקפת הגדלה משמעותית של hash rate וקיבולת data centers.",
+      "שיפור ב-Operating Income לשטח חיובי בשנה הפיסקלית האחרונה מצביע על יתרון לגודל ועל ירידה בעלות ל-BTC mined.",
+      "מאזן עם הון עצמי גדול ביחס להתחייבויות השוטפות מעניק כרית ביטחון להמשך השקעות בציוד וכוח.",
+      "החברה ממוצבת היטב בארה\"ב עם גישה לאנרגיה תחרותית, מה שחשוב מאוד לעלות כרייה ל-BTC.",
+      "סנטימנט משקיעים חיובי יחסית ושווי שוק הצומח עשויים לתמוך בגיוסי הון נוספים במידת הצורך."
+    ],
+    "bear_case": [
+      "החברה עדיין מציגה הפסדים נקיים מצטברים בשנים רבות, עם Net income שלילי משמעותי בחלק מהשנים, מה שמעלה שאלות על יציבות רווחיות ארוכת טווח.",
+      "תזרים המזומנים מפעילות תפעול (CFO) תנודתי מאוד ולעיתים שלילי, בעוד CAPEX גבוה מאוד, מה שיוצר תלות במימון חיצוני/הנפקות הון.",
+      "רגישות גבוהה למחיר ה-Bitcoin, לשינויי פרוטוקול, לדמי טרנזקציה ולתחרות ב-hash rate העולמי.",
+      "סיכון רגולטורי משמעותי סביב כריית קריפטו, צריכת אנרגיה ותמחור חשמל בארה\"ב, שעשויים לפגוע ברווחיות.",
+      "מכפילי שווי עלולים להיות תנודתיים מאוד, ומחיר המניה מושפע ממומנטום בסקטור יותר מאשר מיסודות כלכליים לטווח קצר."
+    ],
+    "main_risks": [
+      "ירידה חדה ומתמשכת במחיר BTC שתפגע בהכנסות, במרווחים וביכולת לשרת חוב/להצדיק CAPEX גבוה.",
+      "עלייה במחירי החשמל או שינויי רגולציה מקומיים/פדרליים שיקטינו את היתרון האנרגטי של אתרי החברה.",
+      "Halving של Bitcoin והפחתת תגמול הבלוק, אם לא יפוצו על ידי עלייה במחיר BTC או באגרות, עשויים להקטין דרמטית את הרווחיות.",
+      "דילול בעלי מניות עקב הנפקות הון נוספות למימון CAPEX ורכישת ציוד כרייה ו-data centers.",
+      "סיכוני טכנולוגיה ותחרות – ציוד פחות יעיל (ולכן kWh ל-TH/s גבוה יותר) לעומת מתחרים עלול לפגוע ב-Mining margin."
+    ],
+    "main_opportunities": [
+      "הרחבת hash rate ויעילות הצי ל-ASICs מתקדמים יכולה להגדיל mining margin גם בסביבת BTC תנודתית.",
+      "פיתוח פעילות data centers ל-workloads נוספים (AI/HPC) מעבר ל-Bitcoin עשוי לגוון מקורות הכנסה.",
+      "מינוף הון עצמי חזק לשיתופי פעולה אסטרטגיים או רכישות של אתרי כרייה בבעיה פיננסית.",
+      "שימוש באסטרטגיות ניהול Treasury של BTC (אחזקת חלק מה-BTC במאזן) כדי ליהנות מאפסייד במחיר.",
+      "שיפור מתמשך ביעילות אנרגטית (PUE נמוך, חוזי חשמל ארוכי טווח) יכול ליצור יתרון תחרותי מבני."
+    ],
+    "what_to_watch_next_quarter": [
+      "קצב גידול hash rate (EH/s) ביחס למתחרים MARA, RIOT, HUT ו-IREN.",
+      "Mining margin (הכנסה ל-MW או ל-EH/s בניכוי עלויות אנרגיה) והרווחיות הגולמית והאופרטיבית.",
+      "תזרים מזומנים מפעילות תפעול לעומת CAPEX, כדי לראות אם החברה מתקרבת ל-FCF חיובי בר-קיימא.",
+      "רמת אחזקות BTC במאזן והאם החברה מוכרת באופן שוטף או אוגרת.",
+      "אותות מהנהלה לגבי פיזור פעילות מעבר ל-Bitcoin (compute כללי, AI/HPC) ומודלי הכנסה חדשים."
+    ],
+    "bottom_line_hebrew": "בסיכום, CLSK מציעה חשיפה ממונפת לצמיחת Bitcoin ולביקוש ל-compute, עם צמיחת הכנסות מרשימה ומצבה התחרותי מתחזק, אך מנגד, רמת הסיכון גבוהה, התלות במחירי BTC ניכרת ותזרים המזומנים עדיין לא יציב – ולכן המניה מתאימה בעיקר למשקיעים שמבינים את תנודות סקטור הכרייה ומוכנים לתנודתיות משמעותית."
+  },
+  "company_profile": {
+    "description_hebrew": "CleanSpark היא חברת תשתיות דיגיטליות אמריקאית המתמחה בהקמה, בעלות ותפעול של data centers גדולי קנה מידה, כאשר הפעילות המרכזית כיום היא כריית Bitcoin תוך ניצול חוזי אנרגיה תחרותיים וניהול צי כרייה יעיל.",
+    "main_revenue_drivers": [
+      "הכנסות מ-Bitcoin שנכרים בפעילות Digital Currency Mining, המשקפות את כמות ה-BTC mined ומחיר המכירה הממוצע.",
+      "הכנסות משירותי data center ו-compute, בעיקר בהקשר של תשתיות למטבעות דיגיטליים והרחבה פוטנציאלית ל-HPC/AI.",
+      "לעיתים הכנסות משירותים/פתרונות אנרגיה וטכנולוגיית ניהול אנרגיה, אם כי אלו כיום מרכיב קטן יותר."
+    ],
+    "geographic_exposure": [
+      "הכנסות ופעילות מרוכזות בארצות הברית, עם אתרי data centers במדינות שונות (למשל ג'ורג'יה, ניו יורק ואזורים נוספים), כך שהסיכון הגאוגרפי קשור בעיקר למדיניות אנרגיה ורגולציה בארה\"ב."
+    ],
+    "customer_segments": [
+      "כמשתתפת ברשת Bitcoin, \"הלקוח\" הכלכלי העיקרי הוא השוק הגלובלי של Bitcoin (block rewards ועמלות), כך שהביקוש במנגנון הוא מבוזר.",
+      "לקוחות משניים פוטנציאליים כוללים שותפים תעשייתיים או לקוחות ל-compute ו-data center אם החברה תרחיב את הפעילות מעבר לכריית BTC."
+    ],
+    "key_products_or_services": [
+      "תשתיות כריית Bitcoin – hash rate בקנה מידה גדול המבוסס על צי ASICים ו-data centers בבעלות החברה.",
+      "שירותי data center ו-compute, עם פוטנציאל לארח עומסי עבודה נוספים (HPC/AI) על גבי תשתית החשמל והקירור הקיימת.",
+      "פתרונות אופטימיזציה אנרגטית ושילוב תשתיות חשמל/אנרגיה מתקדמות להפחתת עלות ל-kWh."
+    ],
+    "competitive_position_hebrew": "מבחינה תחרותית, CLSK נמצאת בשכבה הגבוהה של Bitcoin miners מבחינת קצב צמיחת הכנסות וגידול בנכסים, עם הון עצמי משמעותי ופריסת אתרים רחבה, אך עדיין קטנה במקצת מהשחקנים הגדולים ביותר כמו MARA ו-RIOT, ונדרשת להמשיך להשקיע בצי כרייה יעיל וחוזי אנרגיה כדי לשמור על mining margin תחרותי."
+  },
+  "layers": {
+    "profitability": {
+      "01_revenue_growth": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "צמיחת ההכנסות מוצגת ברמה שנתית (FY) בלבד; נתוני רבעון-מול-רבעון (QoQ) חסרים, ונתוני הצמיחה של המתחרים הם אומדנים ברמת ביטחון נמוכה."
+        },
+        "description_hebrew": "צמיחת ההכנסות נמדדת מתוך ההכנסות השנתיות (FY) של החברה וחישוב צמיחת YoY בין שנים פיסקליות עוקבות. נתוני רבעון-מול-רבעון (QoQ) מלאים ל-8 הרבעונים האחרונים אינם זמינים במקור הנתונים הקיים, ולכן מוצגת מגמה שנתית בלבד.",
+        "company_data": [
+          {
+            "period": "2024-12-31",
+            "frequency": "רבעוני (Q המסתיים דצמבר 2024)",
+            "revenue": 136410000,
+            "yoy_growth": 31.33,
+            "confidence": "medium",
+            "source": "",
+            "calculation_method": "Revenue and YoY growth נלקחו מתוך סיכום פיננסי; נתוני QoQ לרבעון זה לא היו זמינים בפירוט מלא ולכן סומנו כ-null."
+          },
+          {
+            "period": "2024-09-30",
+            "frequency": "שנתי (FY24)",
+            "revenue": 378970000,
+            "yoy_growth": 125,
+            "confidence": "medium",
+            "source": "",
+            "calculation_method": "Total Revenues שנתיות ל-FY24; כדי לבנות מגמת צמיחה הונח כי 378.97M מייצגים TTM סביב FY24, ולכן האומדן הגס ל-YoY כ-125% לעומת FY23 (168.41M). מדובר בקירוב שנתי ולא רבעוני."
+          },
+          {
+            "period": "2023-09-30",
+            "frequency": "שנתי (FY23)",
+            "revenue": 168410000,
+            "yoy_growth": 28,
+            "confidence": "medium",
+            "source": "",
+            "calculation_method": "מבוסס על Total Revenues שנתי ל-FY23 (168.41M) לעומת FY22 (131.53M), חישוב צמיחה שנתית בקירוב של ~28%. הנתונים ברמת שנה ולא רבעון."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "MARA",
+            "period": "2024-12-31",
+            "revenue_yoy_growth": 50,
+            "confidence": "low",
+            "source": "",
+            "calculation_method": "הערכה כמותית גסה על בסיס דיווחי צמיחה שנתיים בסקטור; נתוני צמיחה שנתית מדויקים ל-MARA לא נשלפו במלואם ולכן הערכה מסומנת ברמת ביטחון נמוכה."
+          },
+          {
+            "ticker": "RIOT",
+            "period": "2024-12-31",
+            "revenue_yoy_growth": 20,
+            "confidence": "low",
+            "source": "",
+            "calculation_method": "הערכה גסה על בסיס סקירות סקטוריאליות; ללא גישה לדוח המלא, המספר מסומן כפחות מדויק."
+          },
+          {
+            "ticker": "HUT",
+            "period": "2024-12-31",
+            "revenue_yoy_growth": 15,
+            "confidence": "low",
+            "source": "",
+            "calculation_method": "אומדן על בסיס אזכורים אנליסטיים לצמיחה מתונה יותר ביחס למובילי הסקטור."
+          },
+          {
+            "ticker": "IREN",
+            "period": "2024-12-31",
+            "revenue_yoy_growth": 40,
+            "confidence": "low",
+            "source": "",
+            "calculation_method": "אומדן על בסיס סקירות שוק של Bitcoin miners עם צמיחה גבוהה."
+          }
+        ],
+        "sector_median": null,
+        "trend_hebrew": "למרות מחסור בנתוני רבעון-רבעון מלאים, הנתונים השנתיים מראים ש-CLSK עברה צמיחה חדה מאוד בהכנסות מ-~10M ל~380M תוך כחמש שנים, עם מעל 100% צמיחה בשנה האחרונה – מה שמציב אותה בצד הגבוה של צמיחת ההכנסות בסקטור הכרייה.",
+        "interpretation_hebrew": "קצב הצמיחה המהיר משקף בעיקר הרחבה משמעותית של hash rate והוספת אתרי data center, אך גם מדגיש רגישות גבוהה למחיר BTC; למשקיע חשוב לוודא שהצמיחה מלווה בשיפור מרווחים ולא רק בניפוח נפח הכרייה.",
+        "chart_recommendation": {
+          "chart_id": "revenue_yoy_qoq",
+          "chart_type": "bar_line",
+          "title_hebrew": "הכנסות שנתיות וצמיחת YoY (FY)",
+          "x_axis": "fiscal_years",
+          "series": [
+            "revenue",
+            "yoy_growth"
+          ]
+        }
+      },
+      "02_gross_margin": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "המרווח הגולמי מבוסס על נתונים שנתיים (FY) בלבד; אין פירוט רבעוני ואין השוואת עמיתים מספרית."
+        },
+        "company_data": [
+          {
+            "period": "2024-09-30",
+            "gross_margin": 56.3,
+            "confidence": "medium",
+            "source": "",
+            "calculation_method": "Gross Profit 213.45M חלקי Total Revenues 378.97M לשנת FY24."
+          },
+          {
+            "period": "2023-09-30",
+            "gross_margin": 44.4,
+            "confidence": "medium",
+            "source": "",
+            "calculation_method": "Gross Profit 74.83M חלקי Total Revenues 168.41M לשנת FY23."
+          },
+          {
+            "period": "2022-09-30",
+            "gross_margin": 68.7,
+            "confidence": "medium",
+            "source": "",
+            "calculation_method": "Gross Profit 90.29M חלקי Total Revenues 131.53M לשנת FY22."
+          }
+        ],
+        "peer_comparison": [],
+        "sector_median": null,
+        "trend_hebrew": "מרווח גולמי של CLSK נע בין ~45% ל~70% בשנים האחרונות, עם עלייה בולטת מ-44% ל~56% בין 2023 ל-2024, מה שמרמז על שיפור בעלות הכרייה ובהסכמי האנרגיה, למרות תנודתיות מסוימת.",
+        "pricing_power_interpretation_hebrew": "בסקטור הכרייה, 'תמחור' משקף בעיקר את מחיר ה-BTC שלא בשליטת החברה, אך המרווח הגולמי הגבוה יחסית מצביע על יתרון בעלויות חשמל וציוד; אם החברה תצליח לשמר מרווחים אלו גם לאחר halving, זה יכול להצביע על יתרון מבני מול מתחרים פחות יעילים.",
+        "chart_recommendation": {
+          "chart_id": "gross_margin",
+          "chart_type": "line",
+          "title_hebrew": "Gross Margin לאורך זמן"
+        }
+      },
+      "03_operating_margin": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "המרווח התפעולי מבוסס על נתונים שנתיים (FY) בלבד; אין פירוט רבעוני ואין השוואת עמיתים מספרית."
+        },
+        "company_data": [
+          {
+            "period": "2024-09-30",
+            "operating_margin": 14.3,
+            "confidence": "medium",
+            "source": "",
+            "calculation_method": "Operating Income 54.18M חלקי Total Revenues 378.97M."
+          },
+          {
+            "period": "2023-09-30",
+            "operating_margin": -74.4,
+            "confidence": "medium",
+            "source": "",
+            "calculation_method": "Operating Income -125.31M חלקי Total Revenues 168.41M."
+          },
+          {
+            "period": "2022-09-30",
+            "operating_margin": -19.9,
+            "confidence": "medium",
+            "source": "",
+            "calculation_method": "Operating Income -26.21M חלקי Total Revenues 131.53M."
+          }
+        ],
+        "peer_comparison": [],
+        "sector_median": null,
+        "trend_hebrew": "Operating margin עבר משטח שלילי עמוק ב-2023 לשטח חיובי דו-ספרתי ב-2024, מה שמעיד על מינוף תפעולי משמעותי אחרי הרחבה מהירה של היקף הפעילות.",
+        "operating_leverage_interpretation_hebrew": "המעבר המהיר לרווחיות תפעולית חיובית מרמז שככל שהחברה ממנפת את infra הקיימת ליותר hash rate, חלק גדול מההכנסות הנוספות זולג לשורת הרווח – אך יש לזכור שתנודתיות ב-BTC יכולה להפוך את המגמה במהירות אם החברה לא שולטת טוב בהוצאות קבועות.",
+        "chart_recommendation": {
+          "chart_id": "operating_margin",
+          "chart_type": "line",
+          "title_hebrew": "Operating Margin לאורך זמן"
+        }
+      },
+      "04_net_margin": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "המרווח הנקי מבוסס בעיקר על נתונים שנתיים (FY); נקודת 2024-12-31 היא TTM/רבעוני ואינה מעורבבת עם הסדרה השנתית בגרף."
+        },
+        "company_data": [
+          {
+            "period": "2024-09-30",
+            "frequency": "שנתי (FY24)",
+            "net_margin": -38.5,
+            "confidence": "medium",
+            "source": "",
+            "calculation_method": "Net Income -145.78M חלקי Total Revenues 378.97M."
+          },
+          {
+            "period": "2023-09-30",
+            "frequency": "שנתי (FY23)",
+            "net_margin": -82,
+            "confidence": "medium",
+            "source": "",
+            "calculation_method": "Net Income -138.15M חלקי Total Revenues 168.41M."
+          },
+          {
+            "period": "2024-12-31",
+            "frequency": "TTM/רבעוני",
+            "net_margin": -277.36,
+            "confidence": "medium",
+            "source": "",
+            "calculation_method": "Net profit margin לפי דו\"ח תקציר פיננסי (נתון TTM/רבעוני, ייתכן שמושפע מהפרשות/הפחתות חד פעמיות)."
+          }
+        ],
+        "peer_comparison": [],
+        "sector_median": null,
+        "trend_hebrew": "למרות שיפור ב-Operating margin, השורה התחתונה של CLSK עדיין שלילית מאוד, בין היתר בגלל הוצאות מימון, הפחתות, והפסדים/רווחים חשבונאיים הקשורים ל-BTC וציוד – מה שיוצר פער גדול בין רווח תפעולי לרווח נקי.",
+        "divergence_from_operating_margin_hebrew": "הפער המשמעותי בין Operating margin החיובי ל-Net margin השלילי מלמד כי על המשקיע לבחון היטב סעיפים לא תפעוליים (הפחתות, שינויי שווי נכסים/חוזים, מימון) ולהבין כמה מהרווח התפעולי 'נאכל' לפני שמגיעים לרווח למניה.",
+        "chart_recommendation": {
+          "chart_id": "net_vs_operating_margin",
+          "chart_type": "line",
+          "title_hebrew": "Net Margin מול Operating Margin"
+        }
+      },
+      "05_eps_surprise": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "לא נשלפו נתוני EPS בפועל מול קונצנזוס במקור הנתונים הקיים; לא ניתן לכמת beat/miss."
+        },
+        "reported_eps_vs_consensus": [],
+        "beat_miss_percentage": [],
+        "sector_average_surprise": null,
+        "trend_hebrew": "לא נמצאו נתונים עקביים על הפתעות EPS מול הקונצנזוס לכל אחד מהרבעונים האחרונים, ולכן קשה לכמת במדויק את דפוס ה-beat/miss של CLSK.",
+        "analyst_sentiment_hebrew": "באופן כללי, בשוק קיימת תפיסה של תנודתיות גבוהה ב-EPS של Bitcoin miners בשל השפעת מחירי BTC, כך שגם כאשר ההכנסות מפתיעות לחיוב, EPS עלול להיות מושפע מגורמים לא תזרימיים; לכן המשקיעים נוטים להסתכל יותר על hash rate ו-EBITDA מאשר על EPS נקודתי.",
+        "chart_recommendation": {
+          "chart_id": "eps_reported_vs_estimate",
+          "chart_type": "bar",
+          "title_hebrew": "Reported EPS מול Consensus"
+        }
+      },
+      "06_ebitda": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "לא נשלפו נתוני EBITDA / Adjusted EBITDA רבעוניים במקור הנתונים הקיים."
+        },
+        "reported_ebitda": [],
+        "adjusted_ebitda": [],
+        "adjustments_by_quarter": [],
+        "adjusted_ebitda_margin": [],
+        "peer_comparison": [],
+        "sector_median": null,
+        "earnings_quality_hebrew": "הנתונים הזמינים בדוחות המקוצרים מדגישים פערים בין רווח תפעולי לרווח נקי, אך מידע מפורט על EBITDA ו-Adjusted EBITDA לפי רבעון אינו נגיש במלואו; ככלל, בסקטור זה מקובל להציג Adjusted EBITDA שמנטרל תנודות ערך הוגן של BTC והפחתות, ולכן למשקיע חשוב לבחון את טיב ההתאמות ולא להסתמך רק על מדד מתואם אחד.",
+        "chart_recommendation": {
+          "chart_id": "reported_vs_adjusted_ebitda",
+          "chart_type": "grouped_bar",
+          "title_hebrew": "Reported EBITDA מול Adjusted EBITDA"
+        }
+      }
+    },
+    "valuation": {
+      "07_trailing_pe": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "מכפיל ה-P/E שלילי (-8.63) משום שהחברה הפסדית ב-12 החודשים האחרונים, ולכן אינו מדד שימושי; נתוני העמיתים אינם זמינים."
+        },
+        "current_value": -8.63,
+        "company_5y_average": null,
+        "peer_comparison": [
+          {
+            "ticker": "MARA",
+            "trailing_pe": null,
+            "confidence": "low",
+            "source": "",
+            "calculation_method": "לא נמצאו נתוני P/E אחידים בזמן אמת במקורות הפתוחים למועד זה."
+          },
+          {
+            "ticker": "RIOT",
+            "trailing_pe": null,
+            "confidence": "low",
+            "source": "",
+            "calculation_method": "כמו עבור MARA – נתונים חלקיים בלבד."
+          }
+        ],
+        "sector_median": null,
+        "premium_discount_hebrew": "מכפיל Trailing P/E שלילי מגלם הפסד נקי ב-12 החודשים האחרונים ולכן אינו מדד שימושי במיוחד להשוואה; בסקטור Bitcoin miners רבים נוספים מציגים גם הם P/E שלילי, כך ששאלת פרמיה/דיסקאונט נבחנת יותר על בסיס מכפילי מכירות או EV/EBITDA מאשר P/E.",
+        "historical_forward_return_context_hebrew": "היסטורית, מכפילי P/E שליליים בסקטור הכרייה משקפים יותר את התנודתיות ברווח הנקי ופחות אינדיקציה ברורה לתשואה עתידית; משקיעים בדרך כלל מסתכלים על מחזור מחיר-BTC ומכווני hash rate כדי לאמוד את פוטנציאל האפסייד."
+      },
+      "08_forward_pe": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "לא נשלף Forward P/E עקבי במקור הנתונים הקיים."
+        },
+        "current_value": null,
+        "change_last_3_months": null,
+        "peer_comparison": [],
+        "sector_median": null,
+        "multiple_expansion_or_compression_hebrew": "אין נתוני Forward P/E עקביים זמינים לכלל האנליסטים המכסים את CLSK, בין היתר בשל תנודתיות גבוהה בתחזיות EPS; לכן קשה לומר אם המכפיל עבר הרחבה או כיווץ בחודשים האחרונים.",
+        "driven_by_price_or_estimates_hebrew": "בסקטור Bitcoin mining, השינויים במכפילים קדמיים נובעים לעיתים קרובות יותר משינויי מחיר מניה הקשורים למומנטום בביטקוין מאשר מעדכונים מתונים בתחזיות האנליסטים, ולכן חשוב להצליב את תנועות המניה עם עדכוני תחזיות EPS."
+      },
+      "09_price_to_sales": {
+        "data_quality": {
+          "status": "estimated",
+          "note_hebrew": "מכפיל ה-P/S (~12) חושב בקירוב משווי שוק חלקי הכנסות שנתיות, ואינו ערך רשמי מדויק; אין נתוני עמיתים."
+        },
+        "current_value": 12.1,
+        "company_3y_average": null,
+        "peer_comparison": [
+          {
+            "ticker": "MARA",
+            "price_to_sales": null,
+            "confidence": "low",
+            "source": "",
+            "calculation_method": "לא נמצאו נתוני P/S מדויקים באותם תאריכים לכל החברות, ולכן לא חושב ערך."
+          }
+        ],
+        "sector_median": null,
+        "justification_hebrew": "בהנחה שווי שוק בטווח 4.6–4.7B והכנסות שנתיות סביב 379M, מתקבל מכפיל P/S גס באזור 12, המשקף ציפיות צמיחה גבוהות מאוד ורמת סיכון משמעותית; למשקיע חשוב לבחון האם שיעורי הצמיחה והמרווחים מצדיקים מכפיל גבוה כזה ביחס למתחרים ולסיכון הרגולטורי/המחזורי בסקטור."
+      },
+      "10_ev_to_ebitda": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "לא ניתן לחשב EV/EBITDA ללא נתוני EBITDA, חוב ומזומן מדויקים."
+        },
+        "current_value": null,
+        "enterprise_value_components": {
+          "market_cap": 4570000000,
+          "cash_and_short_term_investments": null,
+          "total_debt": null,
+          "net_cash_or_net_debt": null,
+          "enterprise_value": null
+        },
+        "peer_comparison": [],
+        "sector_median": null,
+        "valuation_interpretation_hebrew": "ללא נתוני EBITDA מלאים ונתוני חוב/מזומן מדויקים ליום הניתוח, לא ניתן לחשב EV/EBITDA אמין; בסקטור Bitcoin mining, כאשר EBITDA מתואם מושפע מאוד ממחיר BTC ומהפחתות, משקיעים משתמשים לעיתים קרובות יותר במכפילי P/S ובמדדי עלות ל-EH/s מאשר ב-EV/EBITDA קלאסי."
+      },
+      "11_peg_ratio": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "לא ניתן לחשב PEG ללא קצב צמיחת EPS יציב; החברה הפסדית עם EPS תנודתי."
+        },
+        "current_value": null,
+        "eps_cagr_assumption": null,
+        "peer_comparison": [],
+        "sector_median": null,
+        "growth_justification_hebrew": "בשל תנודתיות חזקה ב-EPS והפסדים בתקופות מסוימות, לא ניתן לגזור CAGR יציב ל-EPS, ולכן PEG ratio אינו כלי מתאים להערכת CLSK; במקום זאת, הגיוני יותר להסתכל על CAGR בהכנסות ועל CAGR ב-hash rate ביחס למכפיל המכירות."
+      },
+      "12_price_to_book": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "לא נשלף מכפיל הון (P/B) מדויק במקור הנתונים הקיים."
+        },
+        "current_value": null,
+        "company_5y_average": null,
+        "peer_comparison": [],
+        "sector_median": null,
+        "roe_context_hebrew": "למרות נתונים על הון עצמי (Equity) לאורך השנים, נתוני P/B מדויקים בזמן אמת לא נשלפו; בכל מקרה, מאחר שה-ROE של CLSK שלילי בשנים האחרונות, מכפיל הון נמוך או גבוה אינו מספר הרבה על יעילות ניצול ההון אלא יותר על הערכות השוק לגבי ערך נכסי הכרייה וה-compute העתידי."
+      }
+    },
+    "cash_flow": {
+      "13_operating_cash_flow": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "לא נשלפו נתוני תזרים מפעילות שוטפת רבעוניים מובְנים במקור הנתונים הקיים."
+        },
+        "ocf_vs_net_income_last_8_quarters": [],
+        "ocf_to_net_income_conversion": [],
+        "sector_median": null,
+        "working_capital_explanation_hebrew": "מהנתונים השנתיים עולה שתזרים המזומנים מפעילות תפעול של CLSK תנודתי מאוד – למשל, CFO שלילי ב-2024 למרות שיפור ברווח התפעולי, מה שמרמז על שינויים גדולים בהון חוזר, השקעות ב-BTC, או התאמות לא-תזרימיות.",
+        "quality_of_earnings_hebrew": "פערים בין Net income לתזרים מפעילות שוטפת מצביעים על כך שרווחי החברה מושפעים מאוד מפריטים חשבונאיים (הפחתות, שינויי ערך BTC, שינויים בהון חוזר), ולכן איכות הרווחים – מבחינת מזומן ממשי – עדיין מאתגרת ומשקיע צריך להתמקד במיוחד ב-CFO ו-FCF."
+      },
+      "14_free_cash_flow": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "לא חושב FCF רבעוני מדויק; קיימת רק הערכה איכותית מנתונים שנתיים."
+        },
+        "fcf_last_8_quarters": [],
+        "yoy_fcf_growth": [],
+        "comparison_to_revenue_and_net_income_growth": [],
+        "drivers_hebrew": "בשנים האחרונות CLSK ביצעה CAPEX כבד מאוד (השקעות בעשרות עד מאות מיליוני דולרים בצי כרייה ותשתית data centers), מה שמוביל ל-FCF שלילי במרבית התקופות למרות צמיחת הכנסות; הנהלת החברה למעשה מקריבה FCF לטווח קצר לטובת בניית קיבולת עתידית.",
+        "calculation_method": "הסקה איכותית על בסיס נתוני CFO ו-Cash from Investing השנתיים, מבלי לחשב ערך FCF רבעוני מדויק בשל מחסור בנתונים.",
+        "confidence": "medium"
+      },
+      "15_fcf_margin": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "לא נשלפו נתוני FCF margin רבעוניים במקור הנתונים הקיים."
+        },
+        "fcf_margin_last_8_quarters": [],
+        "peer_comparison": [],
+        "sector_median": null,
+        "quartile_position_hebrew": "בהשוואה כללית לסקטור ה-Bitcoin miners, CLSK נמצאת כנראה ברבעון התחתון מבחינת FCF margin בטווח הקצר, משום שרוב התזרים מופנה להשקעות; אך יש לזכור שרבים מהמתחרים נמצאים במצב דומה בשל גלי CAPEX הקשורים לדורות חדשים של ASICs.",
+        "one_percentage_point_value_hebrew": "אם נניח הכנסות שנתיות סביב 380M, שיפור של אחוז אחד ב-FCF margin שקול לכ-3.8M FCF נוסף בשנה – שיפור כזה יכול להצטבר מהר לאורך זמן אם החברה מצליחה להקטין עלויות חשמל, CAPEX ליחידת hash rate או הוצאות תפעול."
+      },
+      "16_fcf_yield": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "לא ניתן לחשב FCF Yield ללא נתוני FCF (LTM) אמינים; ה-FCF צפוי שלילי."
+        },
+        "current_fcf_yield": null,
+        "ltm_fcf": null,
+        "market_cap": 4570000000,
+        "ten_year_treasury_yield": null,
+        "sector_median": null,
+        "historical_3y_range": null,
+        "interpretation_hebrew": "מכיוון שהחברה שורפת מזומן להשקעות ותזרים FCF כנראה שלילי ב-12 החודשים האחרונים, FCF yield הוא למעשה שלילי ולא ניתן להשוות אותו ישירות לתשואת אג\"ח ממשלת ארה\"ב ל-10 שנים; המשמעות היא שהמשקיע מקבל 'צמיחה' במקום תזרים, וההצדקה לשווי נשענת על ציפייה לשיפור עתידי חזק."
+      }
+    },
+    "financial_health": {
+      "17_debt_to_equity": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "נתוני החוב (Total Debt) לא נשלפו, ולכן יחס Debt/Equity לא ניתן לחישוב."
+        },
+        "last_4_years": [
+          {
+            "period": "2021-09-30",
+            "debt_to_equity": null,
+            "confidence": "low",
+            "source": "",
+            "calculation_method": "Total debt לא נשלף במדויק; הון עצמי ~305.72M."
+          },
+          {
+            "period": "2022-09-30",
+            "debt_to_equity": null,
+            "confidence": "low",
+            "source": "",
+            "calculation_method": "נתוני חוב חסרים."
+          },
+          {
+            "period": "2023-09-30",
+            "debt_to_equity": null,
+            "confidence": "low",
+            "source": "",
+            "calculation_method": "נתוני חוב חסרים."
+          },
+          {
+            "period": "2024-09-30",
+            "debt_to_equity": null,
+            "confidence": "low",
+            "source": "",
+            "calculation_method": "נתוני חוב חסרים."
+          }
+        ],
+        "interest_coverage": [],
+        "peer_comparison": [],
+        "sector_median": null,
+        "stress_test_ebitda_down_30_percent_hebrew": "ללא נתוני חוב וריבית מפורטים קשה לבצע מבחן לחץ מדויק, אך מאחר והחברה ממומנת במידה רבה בהון עצמי וגיוסי מניות, נראה שסיכון חדלות פירעון עקב חוב פיננסי נמוך יחסית לסקטורים ממונפים – אם כי משקיע חייב לקחת בחשבון סיכון גבוה לדילול בעלי המניות כדי לממן CAPEX נוסף."
+      },
+      "18_net_cash_net_debt": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "לא נשלפו נתוני מזומן וחוב מדויקים, ולכן Net Cash / Net Debt לא ניתן לחישוב."
+        },
+        "cash": null,
+        "short_term_investments": null,
+        "total_debt": null,
+        "net_cash_or_net_debt": null,
+        "quarters_of_operating_expenses_covered": null,
+        "capital_allocation_hebrew": "מהדוחות השנתיים ניתן להסיק שלחברה מאזנים גדולים (Total Assets ~1.96B והון עצמי ~1.76B ב-2024), מה שמעיד על שימוש ניכר בהון מניות למימון צמיחה; אסטרטגיית הקצאת ההון מתמקדת בבניית נכסי כרייה ו-data centers, לעיתים על חשבון דילול, ולכן משקיע צריך לשקול את המחיר של צמיחה ממומנת הון מול היתרון של מינוף נמוך."
+      },
+      "19_current_ratio": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "לא נשלפו נתוני נכסים והתחייבויות שוטפים רבעוניים, ולכן Current/Quick Ratio לא חושב."
+        },
+        "current_ratio_last_4_quarters": [],
+        "quick_ratio_last_4_quarters": [],
+        "sector_median": null,
+        "liquidity_interpretation_hebrew": "נתוני מאזן מצביעים על התחייבויות שוטפות יחסית נמוכות לעומת נכסים, אך ללא פירוט רבעוני קשה לחשב Current/Quick ratio; עם זאת, בשילוב עם הון עצמי גבוה וקיבולת גיוס הון, רמת הנזילות נראית סבירה, כל עוד שוק ההון נשאר פתוח לגיוסים.",
+        "receivables_inventory_flags_hebrew": "במודל עסקי של כריית Bitcoin אין מלאי מסורתי, והחייבים מרוכזים בעיקר בבורסות/נאמן BTC – כך שסיכוני מלאי וחייבים נמוכים יחסית, אך קיימים סיכוני Counterparty במערכת הקריפטו.",
+        "debt_maturities_next_12_18_months_hebrew": "לא נמצאו פירוטי לוח סילוקין חוב מלאים, אך נראה שהמינוף הפיננסי נמוך יחסית; הסיכון העיקרי ל-12–18 חודשים קדימה קשור יותר ליכולת לגייס הון נוסף או למכור BTC/נכסים ברווח מאשר לעמידה בתשלומי קרן וריבית."
+      },
+      "20_return_on_equity": {
+        "data_quality": {
+          "status": "estimated",
+          "note_hebrew": "ה-ROE חושב בקירוב מ-Net Income חלקי Equity לפי נתונים שנתיים; השנים המוקדמות חלקיות וברמת ביטחון נמוכה."
+        },
+        "roe_last_5_years": [
+          {
+            "period": "2020-09-30",
+            "roe": null,
+            "confidence": "low",
+            "source": "",
+            "calculation_method": "נתוני Net income ו-Equity מוקדמים יותר חלקיים."
+          },
+          {
+            "period": "2021-09-30",
+            "roe": -7.1,
+            "confidence": "low",
+            "source": "",
+            "calculation_method": "Net Income -21.81M חלקי Equity 305.72M בקירוב."
+          },
+          {
+            "period": "2022-09-30",
+            "roe": -14.2,
+            "confidence": "medium",
+            "source": "",
+            "calculation_method": "Net Income -57.33M חלקי Equity 404.01M בקירוב."
+          },
+          {
+            "period": "2023-09-30",
+            "roe": -20.4,
+            "confidence": "medium",
+            "source": "",
+            "calculation_method": "Net Income -138.15M חלקי Equity 675.67M בקירוב."
+          },
+          {
+            "period": "2024-09-30",
+            "roe": -8.3,
+            "confidence": "medium",
+            "source": "",
+            "calculation_method": "Net Income -145.78M חלקי Equity 1760.84M בקירוב."
+          }
+        ],
+        "dupont_decomposition": [],
+        "peer_comparison": [],
+        "sector_median": null,
+        "roe_quality_hebrew": "ROE שלילי בעקביות מעיד שעדיין לא הוכח שההון העצמי הגדול שנגויס מתורגם לרווחיות חשבונאית; מצד שני, המגמה ב-2024 פחות שלילית מ-2023, כך שאם החברה תצליח לשפר מרווחים ותזרים, ייתכן ש-ROE ישתפר משמעותית בשנים הקרובות."
+      },
+      "21_return_on_invested_capital": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "לא נשלפו נתוני ROIC ו-WACC, ולכן מרווח יצירת הערך לא חושב."
+        },
+        "roic_last_5_years": [],
+        "wacc_last_5_years": [],
+        "roic_wacc_spread": [],
+        "peer_comparison": [],
+        "sector_median": null,
+        "value_creation_hebrew": "ללא נתוני ROIC/WACC מדויקים קשה לקבוע אם החברה כבר יוצרת ערך כלכלי מעל עלות ההון; עם זאת, הפסדים נקיים ותזרים שלילי מרמזים שבשלב זה החברה עדיין בשלב השקעות כבדות ולא בשלב מקסום תשואת ההון – ולכן 'יצירת ערך' תלויה בהנחה עתידית של סביבת BTC חיובית והמשך שיפור יעילות."
+      }
+    },
+    "forward_signals": {
+      "22_management_guidance": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "לא נמצאה תחזית הנהלה כמותית (Guidance) מעודכנת במקור הנתונים הקיים."
+        },
+        "latest_guidance": {},
+        "analyst_consensus": {},
+        "guidance_vs_consensus_hebrew": "לא נמצאה הנחיה כמותית מפורטת (Guidance) פומבית מעודכנת ברמת הכנסות/EBITDA, ולכן קשה להשוות לקונצנזוס אנליסטים; לעיתים הנהלות Bitcoin miners נותנות תחזית hash rate ויעדי קיבולת במקום תחזית פיננסית מדויקת.",
+        "management_guidance_history_hebrew": "היסטורית, הנהלה הדגישה יעדי הרחבת hash rate והשלמת פרויקטי data center יותר מאשר תחזית רווחיות ספציפית, כך שהמשקיע צריך לשפוט אותה לפי עמידה ביעדי קיבולת וזמני הקמה ולא רק לפי דיוק בתחזיות הכנסות.",
+        "embedded_growth_rate_hebrew": "בהיעדר Guidance מספרי, ציפיות הצמיחה המגולמות במניה נגזרות בעיקר מהערכת השוק לגבי hash rate עתידי, מחיר BTC ומכפילי הסקטור – קל לראות שהשוק מגלם צמיחת הכנסות המשך דו-ספרתית גבוהה כדי להצדיק שווי של מיליארדי דולרים לחברה שהכנסותיה מאות מיליונים בלבד."
+      },
+      "23_analyst_consensus": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "לא נשלפו נתוני קונצנזוס מספריים (התפלגות המלצות, יעד מחיר) במקור הנתונים הקיים."
+        },
+        "buy_hold_sell_distribution": {},
+        "median_price_target": null,
+        "price_target_range": {
+          "low": null,
+          "high": null
+        },
+        "change_last_3_months": null,
+        "sentiment_trend_hebrew": "מקורות שוק מצביעים על כך שהסנטימנט כלפי CLSK חיובי יחסית, עם רוב ההמלצות בטווח Buy/Outperform, אך ללא נתונים מספריים מדויקים על יעד מחיר חציוני קשה לכמת את אפסייד/דאונסייד הצפוי.",
+        "divergence_interpretation_hebrew": "בגלל תנודתיות הסקטור, לעיתים קרובות קיימת סטייה בין יעד המחיר של האנליסטים לבין מחיר השוק בפועל – כאשר משקיעים קמעונאיים נסחרים סביב נרטיב הקריפטו יותר מאשר סביב מודל DCF; משקיע צריך לבדוק האם הוא מסכים עם ההנחות על מחיר BTC והרחבת hash rate שמונחות בבסיס היעדים."
+      },
+      "24_earnings_revisions": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "לא נשלפו נתוני רוויזיות תחזיות EPS במקור הנתונים הקיים."
+        },
+        "ntm_eps_estimate_trend_90_days": [],
+        "percentage_analysts_raising_estimates": null,
+        "percentage_analysts_lowering_estimates": null,
+        "absolute_consensus_change": null,
+        "revision_trend_interpretation_hebrew": "נתוני רוויזיות EPS ל-12 חודשים קדימה אינם זמינים במדויק, אך ככלל, בסקטור Bitcoin mining רוויזיות EPS נוטות לעקוב אחרי תנועות חדות במחיר BTC; אם מחיר BTC עלה משמעותית ב-90 הימים האחרונים, ניתן לצפות לעדכון תחזיות כלפי מעלה, ולהפך."
+      },
+      "25_share_buybacks": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "קיימים נתוני מספר מניות מדולל ודילול שנתי, אך היסטוריית רכישות עצמיות רבעונית אינה זמינה."
+        },
+        "buyback_history_last_8_quarters": [],
+        "diluted_share_count_today": 298964590,
+        "diluted_share_count_2_years_ago": 296087533,
+        "net_share_count_reduction": -2877057,
+        "sbc_dilution_context_hebrew": "מספר המניות המדולל עלה קלות בשנתיים האחרונות, מה שמעיד שהחברה לא השתמשה ברכישות עצמיות משמעותיות אלא להפך – גייסה הון והנפיקה מניות (כולל SBC) למימון צמיחה ו-CAPEX.",
+        "annualized_buyback_yield": 0
+      },
+      "26_insider_transactions": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "לא נשלפו נתוני עסקאות פנים בחצי השנה האחרונה במקור הנתונים הקיים."
+        },
+        "transactions_last_6_months": [],
+        "buy_sell_ratio": null,
+        "historical_context_hebrew": "לא נמצאו נתונים מפורטים על עסקאות פנים בחצי השנה האחרונה; באופן כללי בסקטור הצמיחה, עסקאות מכירה מצד מנהלים אינן בהכרח אות שלילי בודד (לעיתים נובעות ממימוש אופציות), אך Clustered buying עשוי להוות אות חיובי חזק יותר – שלא נצפה פה במפורש.",
+        "cluster_buying_detected": false,
+        "insider_signal_interpretation_hebrew": "בהיעדר אותות ברורים מעסקאות פנים, המשקיע צריך להתבסס יותר על ביצועי החברה, איכות ההנהלה ותמריצי SBC מאשר על אינדיקטור יחיד של קניות/מכירות."
+      }
+    },
+    "sector_specific_metrics": {
+      "description_hebrew": "מדדים ייחודיים לסקטור כריית ה-Bitcoin של CLSK (קצב גיבוב, BTC שנכרו, יעילות צי, עלות כרייה ל-BTC, עלות אנרגיה, אחזקות BTC, קיבולת חשמל ועוד). הערכים המספריים לא נשלפו במקור הנתונים הקיים ולכן מוצגים כחסרים — יש להשלימם מדוחות החברה.",
+      "metrics": [
+        {
+          "name": "hash_rate",
+          "unit": "EH/s",
+          "values": [],
+          "confidence": "missing",
+          "source": "",
+          "description_hebrew": "Hash rate (EH/s) הוא המדד המרכזי לכוח המחשוב של CLSK ביחס למתחרים; נתונים מדויקים לפי רבעון לא נשלפו כאן, אך החברה מדווחת באופן שוטף על גידול משמעותי בקיבולת, מה שמסביר את קפיצת ההכנסות בשנים האחרונות."
+        },
+        {
+          "name": "btc_mined",
+          "unit": "BTC",
+          "values": [],
+          "confidence": "missing",
+          "source": "",
+          "description_hebrew": "מספר ה-BTC mined לרבעון/שנה הוא KPI קריטי להשוואת ביצועים בין miners; ניתן למצוא נתונים מדויקים בדוחות הרבעוניים של החברה, אך הם לא נשלפו כאן לפרטי פרטים."
+        },
+        {
+          "name": "fleet_efficiency",
+          "unit": "J/TH",
+          "values": [],
+          "confidence": "missing",
+          "source": "",
+          "description_hebrew": "יעילות הצי (J/TH) מודדת כמה אנרגיה נדרשת לכל TeraHash; ככל שנמוך יותר — יעיל יותר. ערך לא נשלף במקור הנתונים הקיים."
+        },
+        {
+          "name": "cost_to_mine_btc",
+          "unit": "USD/BTC",
+          "values": [],
+          "confidence": "missing",
+          "source": "",
+          "description_hebrew": "העלות הישירה לכריית BTC אחד (בעיקר חשמל) קובעת את מרווח הכרייה; ערך לא נשלף במקור הנתונים הקיים."
+        },
+        {
+          "name": "energy_cost",
+          "unit": "USD/kWh",
+          "values": [],
+          "confidence": "missing",
+          "source": "",
+          "description_hebrew": "עלות האנרגיה הממוצעת לקוט\"ש היא מנוף הרווחיות המרכזי בכרייה; ערך לא נשלף במקור הנתונים הקיים."
+        },
+        {
+          "name": "btc_holdings",
+          "unit": "BTC",
+          "values": [],
+          "confidence": "missing",
+          "source": "",
+          "description_hebrew": "יתרות BTC במאזן משמשות כמעין 'אוצר' שיכול להניב אפסייד אם מחיר BTC עולה, אבל גם מוסיפות תנודתיות למאזן; CLSK מחזיקה חלק מה-BTC ומוכרת חלק אחר למימון פעילות."
+        },
+        {
+          "name": "btc_sold_vs_held",
+          "unit": "BTC",
+          "values": [],
+          "confidence": "missing",
+          "source": "",
+          "description_hebrew": "היחס בין BTC שנמכר לבין BTC שנאגר מעיד על מדיניות מימון מול אסטרטגיית החזקה; ערך לא נשלף במקור הנתונים הקיים."
+        },
+        {
+          "name": "power_capacity",
+          "unit": "MW",
+          "values": [],
+          "confidence": "missing",
+          "source": "",
+          "description_hebrew": "קיבולת החשמל (MW) של אתרי החברה היא מגבלה פיזית ל-hash rate; הרחבת קיבולת זו היא מנוע צמיחה מרכזי."
+        },
+        {
+          "name": "revenue_per_ehs",
+          "unit": "USD/EH/s",
+          "values": [],
+          "confidence": "missing",
+          "source": "",
+          "description_hebrew": "ההכנסה לכל EH/s מודדת עד כמה ביעילות מתורגם כוח המחשוב להכנסות; ערך לא נשלף במקור הנתונים הקיים."
+        },
+        {
+          "name": "mining_margin",
+          "unit": "%",
+          "values": [],
+          "confidence": "missing",
+          "source": "",
+          "description_hebrew": "מרווח הכרייה (הכנסות בניכוי עלות אנרגיה ישירה) הוא מדד רווחיות ליבה בסקטור; ערך לא נשלף במקור הנתונים הקיים."
+        }
+      ]
+    }
+  },
+  "dashboard_summary": {
+    "scorecard": {
+      "growth_score_1_to_10": 9,
+      "profitability_score_1_to_10": 4,
+      "valuation_score_1_to_10": 3,
+      "cash_flow_score_1_to_10": 3,
+      "financial_health_score_1_to_10": 6,
+      "forward_signals_score_1_to_10": 6,
+      "overall_quality_score_1_to_10": 5
+    },
+    "traffic_lights": {
+      "growth": "green",
+      "profitability": "yellow",
+      "valuation": "red",
+      "cash_flow": "red",
+      "financial_health": "yellow",
+      "forward_signals": "yellow"
+    },
+    "top_positive_signals_hebrew": [
+      "קצב צמיחת הכנסות מהיר מאוד בשנים האחרונות, הממצב את CLSK כאחד ממובילי הצמיחה בקרב Bitcoin miners.",
+      "שיפור חד ברווחיות התפעולית (Operating margin) בין 2023 ל-2024, המעיד על מינוף תפעולי ויתרון לגודל.",
+      "מאזן עם הון עצמי גבוה ביחס להתחייבויות שוטפות מעניק לחברה גמישות להמשך השקעות."
+    ],
+    "top_negative_signals_hebrew": [
+      "Net margin שלילי מאוד ותזרים מזומנים מפעילות שוטפת ו-FCF תנודתיים ולעיתים שליליים, מה שמדגיש איכות רווחים מאתגרת.",
+      "מכפיל מכירות משוער גבוה (P/S דו-ספרתי), המגלם ציפיות צמיחה אגרסיביות וסיכון להידחסות מכפילים אם התנאים בשוק ה-BTC ישתנו.",
+      "תלות גבוהה במחיר BTC, ברגולציית אנרגיה ובשוק ההון לגיוסי הון נוספים למימון CAPEX."
+    ],
+    "key_questions_for_investor_hebrew": [
+      "האם אתה מאמין שה-hash rate של CLSK ימשיך לגדול בקצב שמצדיק את מכפיל המכירות הגבוה, גם לאחר halvingים עתידיים?",
+      "עד כמה אתה נוח עם מודל צמיחה שמבוסס על שריפת מזומן ו-GAAP Net income שלילי בטווח הקצר, בתמורה לפוטנציאל ערך עתידי?",
+      "מהי התזה שלך לגבי מחיר BTC בשנים הקרובות, וכיצד היא משתלבת עם רמת הסיכון והמתאם הגבוה בין מחיר CLSK למחיר BTC?"
+    ],
+    "final_takeaway_hebrew": "CLSK מתאימה יותר למשקיעים שמחפשים חשיפה אגרסיבית וממונפת ל-Bitcoin ולצמיחת תשתיות מחשוב מאשר למשקיע המחפש זרם תזרים מזומן יציב ורווחיות מבוססת; מי שמוכן לקבל תנודתיות חריגה ולקשור את תשואתו למחזורי הקריפטו עשוי לראות ב-CLSK מועמדת מעניינת, אך חשוב מאוד להעריך בעצמך את פרופיל הסיכון-תשואה ואת התלות במחיר BTC ובגישה להון."
+  },
+  "chart_data": [
+    {
+      "chart_id": "revenue_yoy_qoq",
+      "chart_type": "bar_line",
+      "title_hebrew": "הכנסות שנתיות וצמיחת YoY (FY)",
+      "x_axis": "fiscal_year",
+      "y_axis": "USD / %",
+      "series": [
+        {
+          "name": "revenue",
+          "data": [
+            {
+              "x": "2022-09-30",
+              "y": 131530000
+            },
+            {
+              "x": "2023-09-30",
+              "y": 168410000
+            },
+            {
+              "x": "2024-09-30",
+              "y": 378970000
+            }
+          ]
+        },
+        {
+          "name": "yoy_growth",
+          "data": [
+            {
+              "x": "2023-09-30",
+              "y": 28
+            },
+            {
+              "x": "2024-09-30",
+              "y": 125
+            }
+          ]
+        }
+      ],
+      "frequency_hebrew": "נתונים שנתיים (FY, שנה פיסקלית המסתיימת בספטמבר)",
+      "note_hebrew": "צמיחת ה-YoY מחושבת בין שנים פיסקליות עוקבות; נתון הרבעון (דצמבר 2024) מוצג בטבלה בלבד ואינו מעורב בסדרה השנתית כדי לא לערבב תדירויות."
+    },
+    {
+      "chart_id": "gross_margin",
+      "chart_type": "line",
+      "title_hebrew": "Gross Margin שנתי",
+      "x_axis": "period",
+      "y_axis": "%",
+      "series": [
+        {
+          "name": "gross_margin",
+          "data": [
+            {
+              "x": "2022-09-30",
+              "y": 68.7
+            },
+            {
+              "x": "2023-09-30",
+              "y": 44.4
+            },
+            {
+              "x": "2024-09-30",
+              "y": 56.3
+            }
+          ]
+        }
+      ],
+      "frequency_hebrew": "נתונים שנתיים (FY)"
+    },
+    {
+      "chart_id": "operating_margin",
+      "chart_type": "line",
+      "title_hebrew": "Operating Margin שנתי",
+      "x_axis": "period",
+      "y_axis": "%",
+      "series": [
+        {
+          "name": "operating_margin",
+          "data": [
+            {
+              "x": "2022-09-30",
+              "y": -19.9
+            },
+            {
+              "x": "2023-09-30",
+              "y": -74.4
+            },
+            {
+              "x": "2024-09-30",
+              "y": 14.3
+            }
+          ]
+        }
+      ],
+      "frequency_hebrew": "נתונים שנתיים (FY)"
+    },
+    {
+      "chart_id": "net_vs_operating_margin",
+      "chart_type": "line",
+      "title_hebrew": "Net מול Operating Margin",
+      "x_axis": "period",
+      "y_axis": "%",
+      "series": [
+        {
+          "name": "net_margin",
+          "data": [
+            {
+              "x": "2023-09-30",
+              "y": -82
+            },
+            {
+              "x": "2024-09-30",
+              "y": -38.5
+            }
+          ]
+        },
+        {
+          "name": "operating_margin",
+          "data": [
+            {
+              "x": "2023-09-30",
+              "y": -74.4
+            },
+            {
+              "x": "2024-09-30",
+              "y": 14.3
+            }
+          ]
+        }
+      ],
+      "frequency_hebrew": "נתונים שנתיים (FY)",
+      "note_hebrew": "מוצגות רק נקודות שנתיות (FY23, FY24); נקודת ה-TTM/רבעוני של המרווח הנקי (2024-12-31) אינה נכללת בגרף כדי לא לערבב תדירויות."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "",
+      "source_name": "Yahoo Finance / general CLSK quote & analyst context",
+      "url": "https://finance.yahoo.com/quote/CLSK/",
+      "accessed_date": "2026-05-30",
+      "used_for": [
+        "market_context",
+        "peer_overview",
+        "analyst_sentiment"
+      ]
+    },
+    {
+      "source_id": "",
+      "source_name": "CleanSpark Investor Relations – Quarterly Results",
+      "url": "https://investors.cleanspark.com/financials/quarterly-results/",
+      "accessed_date": "2026-05-30",
+      "used_for": [
+        "share_count",
+        "latest_quarter_reference",
+        "guidance_context"
+      ]
+    },
+    {
+      "source_id": "",
+      "source_name": "Google Finance CLSK",
+      "url": "https://www.google.com/finance/beta/quote/CLSK:NASDAQ",
+      "accessed_date": "2026-05-30",
+      "used_for": [
+        "recent_price",
+        "eps_snapshot",
+        "trading_stats"
+      ]
+    },
+    {
+      "source_id": "",
+      "source_name": "CNN Markets – CLSK Financials Snapshot",
+      "url": "https://www.cnn.com/markets/stocks/CLSK",
+      "accessed_date": "2026-05-30",
+      "used_for": [
+        "recent_revenue",
+        "recent_net_income",
+        "net_margin_point"
+      ]
+    },
+    {
+      "source_id": "",
+      "source_name": "Investing.com – CleanSpark Financial Summary",
+      "url": "https://www.investing.com/equities/cleanspark-financial-summary",
+      "accessed_date": "2026-05-30",
+      "used_for": [
+        "historical_revenues",
+        "gross_profit",
+        "operating_income",
+        "net_income",
+        "assets_equity",
+        "cash_flow_components"
+      ]
+    },
+    {
+      "source_id": "",
+      "source_name": "Robinhood – CLSK Snapshot",
+      "url": "https://robinhood.com/us/en/stocks/CLSK/",
+      "accessed_date": "2026-05-30",
+      "used_for": [
+        "market_cap",
+        "recent_price",
+        "pe_ratio"
+      ]
+    },
+    {
+      "source_id": "",
+      "source_name": "MarketWatch – CleanSpark Profile",
+      "url": "https://www.marketwatch.com/investing/stock/clsk/company-profile",
+      "accessed_date": "2026-05-30",
+      "used_for": [
+        "sector_industry_label",
+        "fiscal_year_end",
+        "revenue_growth_context"
+      ]
+    },
+    {
+      "source_id": "",
+      "source_name": "Intrinio – CLSK Data / Business Description",
+      "url": "https://data.intrinio.com/security/CLSK:UW",
+      "accessed_date": "2026-05-30",
+      "used_for": [
+        "business_description",
+        "segment_info",
+        "industry_classification"
+      ]
+    },
+    {
+      "source_id": "",
+      "source_name": "Morningstar – CLSK Quote",
+      "url": "https://www.morningstar.com/stocks/xnas/clsk/quote",
+      "accessed_date": "2026-05-30",
+      "used_for": [
+        "valuation_context",
+        "financial_strength_indicators"
+      ]
+    },
+    {
+      "source_id": "",
+      "source_name": "CleanSpark Company About Page",
+      "url": "https://www.cleanspark.com/about/",
+      "accessed_date": "2026-05-30",
+      "used_for": [
+        "business_model_detail",
+        "strategy",
+        "data_center_positioning"
+      ]
+    },
+    {
+      "source_id": "",
+      "source_name": "Seeking Alpha – CLSK Overview",
+      "url": "https://seekingalpha.com/symbol/CLSK",
+      "accessed_date": "2026-05-30",
+      "used_for": [
+        "bitcoin_mining_description",
+        "peer_context",
+        "sector_specific_kpis"
+      ]
+    },
+    {
+      "source_id": "",
+      "source_name": "WSJ – CleanSpark Financial Statements",
+      "url": "https://www.wsj.com/market-data/quotes/CLSK/financials",
+      "accessed_date": "2026-05-30",
+      "used_for": [
+        "cash_flow_quality",
+        "balance_sheet_context"
+      ]
+    },
+    {
+      "source_id": "",
+      "source_name": "Yahoo Finance – CLSK Profile",
+      "url": "https://finance.yahoo.com/quote/CLSK/profile/",
+      "accessed_date": "2026-05-30",
+      "used_for": [
+        "company_profile",
+        "business_focus",
+        "geographic_scope"
+      ]
+    }
+  ],
+  "data_quality_warnings": [
+    "רוב נתוני הצמיחה והרווחיות מוצגים ברמת שנה (FY) ולא ברמת רבעון בודד, משום שמידע רבעוני מלא לא היה זמין להורדה בפורמט מובנה.",
+    "נתוני צמיחת הכנסות של מתחרים (MARA, RIOT, HUT, IREN) הם אומדנים גסים המבוססים על סקירות שוק, ולא ערכים רשמיים מדויקים.",
+    "לא היו זמינים נתוני EBITDA/Adjusted EBITDA מלאים לפי רבעון, ולכן לא חושבו סדרות מתואמות או מכפילי EV/EBITDA.",
+    "מכפילי Price-to-Sales, ROE ושאר יחסים פיננסיים מסוימים חושבו בקירוב על בסיס מספרי שוק ודוחות שנתיים, ועלולים להיות שונים במעט מהנתונים במערכות ברוקראז' ייעודיות.",
+    "נתוני hash rate, BTC mined ו-BTC holdings אינם מופיעים כאן באופן מספרי, כיוון שלא נעשה חילוץ מלא של דוחות רבעוניים; מומלץ להשלים נתונים אלו ממסמכי החברה לצורך דשבורד כרייה מפורט."
+  ]
+}

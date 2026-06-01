@@ -1,0 +1,3067 @@
+{
+  "meta": {
+    "ticker": "CLSK",
+    "company_name": "CleanSpark, Inc.",
+    "exchange": "NASDAQ",
+    "sector": "Information Technology",
+    "industry": "Bitcoin Mining + AI/HPC Data Centers",
+    "business_model_hebrew": "CleanSpark מפעילה כריית Bitcoin בקנה מידה גדול בארה\"ב (GA/TN/MS/WY + TX/SD חדשים) ומפתחת חטיבת AI/HPC Data Center בשיתוף Submer. נכון ל-Q2 FY2026 (מאי 2026) ההכנסות התפעוליות מבוססות כמעט כולן על כרייה והחזקת/מכירת BTC; חוזי AI/HPC חתומים טרם דווחו.",
+    "currency": "USD",
+    "as_of_date": "2026-05-31",
+    "latest_reported_quarter": "Q2 FY2026 (March 31, 2026)",
+    "fiscal_year_end": "September 30",
+    "price_usd": 18.16,
+    "market_cap_usd": 4660000000,
+    "shares_outstanding_m": 256.6,
+    "price_note_hebrew": "מחיר ~$18.16 לפי Google Finance; מקור Robinhood מציג $17.86. טווח שווי שוק $4.63B–$4.69B בין מקורות שונים."
+  },
+  "executive_summary_hebrew": {
+    "one_liner": "CleanSpark היא Bitcoin Miner ציבורי בסקייל גדול שעובר במאי 2026 בלחץ מובהק: הכנסות Q2 FY2026 ירדו ל-$136.4M, מרווחים מצטמצמים, הפסד נקי של -$378M ברבעון מונע ברובו מהפסדי BTC FV (ASC 350-60), והחברה ממונפת חוב בהיקף $1.79B כדי לרכוש מניות ולממן הרחבת AI/HPC — בעוד שאין עדיין חוזי AI חתומים.",
+    "overall_view": "בהתבסס על הנתונים הקיימים: CleanSpark שמרה על מנהיגות תפעולית בכרייה (~50 EH/s peak, ~46-47 EH/s avg, יעילות 16.07 J/TH, מקום 3 בעולם בקרב מינרים ציבוריים עם ~4.78% מההאשרייט הגלובלי) ועברה לחוב מבני באמצעות $1.15B convertible notes (נוב' 2025). ההון העצמי התכווץ מ-$2.18B (ספט' 2025) ל-$986M (מרץ 2026) עקב הפסד H1 FY26 של $757M ורכישת מניות עצמית של $463M. המעבר ל-AI/HPC טרם מניב הכנסה חתומה.",
+    "bull_case": [
+      "מנהיגות תפעולית — מקום שלישי גלובלית בקרב מינרים ציבוריים (~4.78% global hashrate) עם ~50 EH/s peak ויעילות 16.07 J/TH.",
+      "פורטפוליו אנרגיה גדול — 1.8 GW under contract ו-808 MW utilized; בסיס לתפעול ארוך טווח ולמעבר חלקי ל-AI/HPC.",
+      "מעבר אסטרטגי ל-AI/HPC עם Submer כשותף ראשי, ואתרי Brazoria (300 MW ERCOT) ו-Austin (285 MW); פוטנציאל לדיברסיפיקציה מההכנסה התלויה במחיר BTC.",
+      "פעולת buyback אגרסיבית של $463M (28-30M מניות) באמצעות חוב — הפחתת מספר המניות ב-~10% מספט' 2025 למרץ 2026.",
+      "Strong Buy consensus מ-12 אנליסטים עם יעד מחיר ממוצע $19.85 (+9.3% upside מהמחיר הנוכחי), טווח $14-$26."
+    ],
+    "bear_case": [
+      "מרווחים בקריסה: מרווח גולמי ירד מ-69.3% (Q2 FY24) ל-40.1% (Q2 FY26); הכנסות Q2 FY26 ירדו ב-24.8% QoQ.",
+      "המינוף עלה דרמטית — Debt/Equity קפץ מ-0.04 (ספט' 2024) ל-1.82 (מרץ 2026); ההון העצמי התכווץ ב-55%.",
+      "BTC FV accounting (ASC 350-60) מסכן את הדוחות לתנודתיות חדה: H1 FY26 הפסד נקי $757M מונע ברובו מ-BTC FV/collateral losses (~$613M).",
+      "Net Cash שלילי משמעותית: -$1,530M ללא BTC, ובהכללת BTC ההצגה בקובץ המקור עצמה סותרת (הצגה -$865.5M מול חישוב נכון -$605.2M) — נדרש אימות 10-Q.",
+      "אין open-market insider buys ב-12 החודשים האחרונים; ~$2M+ מכירות שוק פתוח של דירקטורים. אין guidance כמותי להכנסות או CapEx ל-FY2026, ואין חוזי AI/HPC חתומים."
+    ],
+    "main_risks": [
+      "חשיפה ישירה למחיר BTC: עליות/ירידות BTC משפיעות באופן מהותי על שווי האחזקות, הרווח ה-GAAP, EBITDA ו-EPS.",
+      "סיכון אקרציה לחוב: $1.79B חוב מול $260M מזומן ו-$986M הון; ל-$1.15B convertibles 2030 יש דילול פוטנציאלי בהמרה.",
+      "סיכון ביצוע ב-AI/HPC: אין הסכמי דיירים חתומים; הצלחת המעבר תלויה ביכולת לחתום עם hyperscalers בתחרות מול חברות עם הון גדול יותר.",
+      "התייקרות עלות כרייה: חציון אנרגיה ~$0.056-$0.060/kWh, וצמצום שוליים אם מחיר BTC נשאר נמוך לאחר ההיווצרות החצי-שנתית של 2024.",
+      "סיכון רגולטורי וסביבתי לאתרי כרייה ב-TX/TN; השפעת מדיניות מקומית על מחירי אנרגיה ועל הענקת הרחבות."
+    ],
+    "main_opportunities": [
+      "חתימה ראשונה על חוזה AI/HPC: יכולה לשנות מהותית את פרופיל ההכנסה ולהפחית תלות במחיר BTC.",
+      "אופטימיזציית צי: ירידת מספר המכשירים מ-245K ל-224K תוך שמירה על 50 EH/s peak מעידה על שיפור יעילות והגדלת ההאשרייט-לכל-מכשיר.",
+      "ניצול הסיבולת התשתיתית — 1.8 GW under contract מאפשרת הרחבת קיבולת מבלי לרכוש קרקעות חדשות.",
+      "סבב BTC bull חיובי (אם יקרה) משחרר את הדוחות מהפסדי FV ומאפשר להציג רווחיות מובהקת.",
+      "המשך תוכנית רכישה עצמית אם ההון יורשה זאת — קיצור מספר מניות עשוי לחזק EPS עתידי."
+    ],
+    "what_to_watch_next_quarter": [
+      "האם Q3 FY2026 יוצגו חוזי AI/HPC חתומים (Submer/hyperscaler).",
+      "האם תיווכח התייצבות במרווח הגולמי (יציאה מ-40.1% של Q2) או המשך קריסה.",
+      "התפתחות מחזיקות BTC: בירור הפער הסטטיסטי בין HODL value מרץ ($925.2M) ל-13,453 BTC באפריל.",
+      "האם החברה תפרסם מחדש cost-to-mine רבעוני (מטריקה שפסקה מ-FY2026).",
+      "מבנה החוב: האם תהיה הנפקה נוספת/המרה של ה-convertibles 2030, או החזר/buyback של חלק מהם."
+    ],
+    "bottom_line_hebrew": "CleanSpark היא ספור מנהיגות תפעולית בכרייה מצד אחד וסטרס פיננסי-חשבונאי מתעצם מצד שני. המעבר ל-AI/HPC עוד לא הוכיח עצמו בהכנסה; הדוחות ה-GAAP מסולקים מ-BTC FV; וההון העצמי מתכווץ במקביל לעלייה חדה במינוף. ה-consensus האנליסטי האופטימי (Strong Buy, +9.3% upside) מתבסס על הנחת התאוששות BTC ו/או חתימת AI; שני אלה אינם וודאיים. נדרש משקיע בעל סבולת גבוהה לתנודתיות BTC ולמעקב צמוד אחר מאזן וחוזי AI."
+  },
+  "company_profile": {
+    "description_hebrew": "CleanSpark, Inc. (NASDAQ: CLSK) היא חברת כריית Bitcoin בקנה מידה גדול עם פעילות תפעולית ב-GA, TN, MS, WY, ומעבר לאתרי AI/HPC חדשים ב-TX (Austin/Brazoria) ו-SD. החברה דיווחה הכנסות $766.3M ב-FY2025 וגדלה משולש-ספרתי בארבע מהשנים הקודמות, אך FY2026 (סוף ספט' 2026) מציג ירידה רבעונית והפסדי GAAP מהותיים מבחינת חשבונאות BTC FV.",
+    "main_revenue_drivers": [
+      "כריית Bitcoin (BTC produced + sold)",
+      "החזקת BTC כנכס פיננסי (BTC FV accounting משפיע על נטו GAAP)",
+      "מקטע AI/HPC Data Center — בפיתוח, ללא חוזי הכנסה חתומים שדווחו"
+    ],
+    "geographic_exposure": [
+      "Georgia — כריית BTC + פיתוח AI (Sandersville)",
+      "Tennessee — ~11 אתרים, שותף demand-response של TVA",
+      "Mississippi, Wyoming — כריית BTC",
+      "Texas — Austin County (285 MW) ו-Brazoria County (300 MW ERCOT-approved) AI/HPC",
+      "South Dakota — אתר AI נוסף בפיתוח"
+    ],
+    "customer_segments": [
+      "השוק לBTC — הכנסות הכרייה ממומשות במחיר השוק העדכני של BTC.",
+      "שוק AI/HPC — בעתיד; אין דיירים/hyperscalers חתומים נכון ל-Q2 FY2026."
+    ],
+    "key_products_or_services": [
+      "ASIC mining fleet — 224,473 מכשירים פרוסים (אפר' 2026), יעילות peak 16.07 J/TH.",
+      "Power portfolio — 1.8 GW under contract, 808 MW utilized.",
+      "AI/HPC Data Centers — Submer כשותף אסטרטגי; תשתיות בהקמה.",
+      "Treasury BTC holdings — 13,453 BTC (אפר' 2026) המוצגים כ-current/non-current assets."
+    ],
+    "competitive_position_hebrew": "מקום שלישי בעולם בקרב מינרים ציבוריים לפי האשרייט (4.78% global) — אחרי MARA (7.28%) ו-Bitdeer (6.78%), ולפני RIOT (3.67%), IREN (3.63%), ו-ABTC (2.59%). דירוג זה מצוטט מ-BitcoinMiningStock.io (מקור שניוני). נתוני שווי שוק, יעילות צי, עלות כרייה ו-BTC holdings של MARA/RIOT/HUT/IREN/WULF לא נשלפו במחקר הייעודי הזה ולכן אינם מוצגים כאן."
+  },
+  "layers": {
+    "profitability": {
+      "01_revenue_growth": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "סדרת הכנסות שנתית FY2021-FY2025 מלאה ומאומתת. סדרה רבעונית כוללת רק רבעונים מאומתים מ-10-Q/PR; Q3 FY2024 מבוסס על מקור שניוני (CoinTelegraph/Bitbo), Q4 FY2024 ו-Q4 FY2025 הם הערכות בחיסור מהשנתי ולכן מסומנים estimated. השוואת עמיתים לא נשלפה במחקר ייעודי."
+        },
+        "description_hebrew": "הכנסות שנתיות CleanSpark צמחו מ-$39.3M ב-FY2021 ל-$766.3M ב-FY2025 (~19.5x). ב-FY2025 חל +102% YoY. בריבעוני זוהתה ירידה ב-FY2026: Q1 FY26 -19.0% QoQ ו-Q2 FY26 -24.8% QoQ — קריסה מהשיא הרבעוני של $223.7M (Q4 FY25 משוער).",
+        "company_data": [
+          {
+            "period": "FY2021",
+            "frequency": "שנתי (FY)",
+            "revenue": 39290000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "Revenue FY2021 לפי StockAnalysis."
+          },
+          {
+            "period": "FY2022",
+            "frequency": "שנתי (FY)",
+            "revenue": 131530000,
+            "yoy_growth": 235,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "Revenue FY2022 לפי StockAnalysis."
+          },
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (FY)",
+            "revenue": 168408000,
+            "yoy_growth": 28,
+            "confidence": "high",
+            "source": "CleanSpark 10-K / IR",
+            "calculation_method": "Revenue FY2023 מאומת ב-10-K."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (FY)",
+            "revenue": 378968000,
+            "yoy_growth": 125,
+            "confidence": "high",
+            "source": "CleanSpark FY2025 10-K (comparative)",
+            "calculation_method": "Revenue FY2024 מאומת ב-10-K FY2025."
+          },
+          {
+            "period": "FY2025",
+            "frequency": "שנתי (FY)",
+            "revenue": 766314000,
+            "yoy_growth": 102,
+            "confidence": "high",
+            "source": "CleanSpark FY2025 10-K",
+            "calculation_method": "Revenue FY2025 מאומת ב-10-K (Nov 2025)."
+          }
+        ],
+        "quarterly_revenue_confirmed": [
+          {
+            "period": "Q1 FY2024",
+            "frequency": "רבעוני",
+            "revenue": 73786000,
+            "confidence": "high",
+            "source": "CLSK 10-Q / Q2 FY2025 EX-99.1",
+            "calculation_method": "Revenue רבעוני מאומת ב-10-Q."
+          },
+          {
+            "period": "Q2 FY2024",
+            "frequency": "רבעוני",
+            "revenue": 111799000,
+            "qoq_growth": 51.5,
+            "confidence": "high",
+            "source": "CLSK 10-Q / Q2 FY2025 EX-99.1",
+            "calculation_method": "Revenue רבעוני מאומת ב-10-Q."
+          },
+          {
+            "period": "Q1 FY2025",
+            "frequency": "רבעוני",
+            "revenue": 162306000,
+            "qoq_growth": 81.4,
+            "confidence": "high",
+            "source": "CLSK Q1 FY2025 PR",
+            "calculation_method": "Revenue רבעוני מאומת ב-PR וב-10-Q."
+          },
+          {
+            "period": "Q2 FY2025",
+            "frequency": "רבעוני",
+            "revenue": 181712000,
+            "qoq_growth": 11.9,
+            "confidence": "high",
+            "source": "CLSK Q2 FY2025 10-Q",
+            "calculation_method": "Revenue רבעוני מאומת ב-10-Q."
+          },
+          {
+            "period": "Q3 FY2025",
+            "frequency": "רבעוני",
+            "revenue": 198600000,
+            "qoq_growth": 9.3,
+            "confidence": "high",
+            "source": "CLSK Q3 FY2025 PR",
+            "calculation_method": "Revenue רבעוני מאומת ב-Press Release."
+          },
+          {
+            "period": "Q1 FY2026",
+            "frequency": "רבעוני",
+            "revenue": 181180000,
+            "qoq_growth": -19.0,
+            "confidence": "high",
+            "source": "CLSK Q1 FY2026 10-Q",
+            "calculation_method": "Revenue רבעוני מאומת ב-10-Q."
+          },
+          {
+            "period": "Q2 FY2026",
+            "frequency": "רבעוני",
+            "revenue": 136408000,
+            "qoq_growth": -24.8,
+            "confidence": "high",
+            "source": "CLSK Q2 FY2026 PR/10-Q",
+            "calculation_method": "Revenue רבעוני מאומת ב-PR."
+          }
+        ],
+        "quarterly_revenue_estimated": [
+          {
+            "period": "Q3 FY2024",
+            "frequency": "רבעוני (מקור שניוני)",
+            "revenue": 104000000,
+            "confidence": "medium",
+            "source": "CoinTelegraph / Bitbo (secondary)",
+            "calculation_method": "מקור שניוני (~$104M); לא אומת ב-10-Q ייעודי. יש לאמת מ-10-Q."
+          },
+          {
+            "period": "Q4 FY2024",
+            "frequency": "רבעוני (מחושב)",
+            "revenue": 89383000,
+            "confidence": "low",
+            "source": "מחושב",
+            "calculation_method": "Revenue FY2024 $378.97M פחות Q1+Q2+Q3 (~$289.6M) = ~$89.4M. נדרש אימות מ-10-K."
+          },
+          {
+            "period": "Q4 FY2025",
+            "frequency": "רבעוני (מחושב)",
+            "revenue": 223696000,
+            "qoq_growth": 12.6,
+            "confidence": "low",
+            "source": "מחושב",
+            "calculation_method": "Revenue FY2025 $766.314M פחות Q1+Q2+Q3 ($542.618M) = ~$223.696M. נדרש אימות מ-10-K."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "sector_median": null,
+        "trend_hebrew": "מ-FY2021 ל-FY2025: ~19.5x צמיחה בהכנסות. אבל בריבעוני FY2026: ירידה רצופה — $181.2M ב-Q1 (-19% QoQ) ו-$136.4M ב-Q2 (-24.8% QoQ), קריסה מ-Q4 FY25 המשוער (~$223.7M).",
+        "interpretation_hebrew": "הצמיחה השנתית הדרמטית של FY2021-FY2025 הייתה תלויה במחיר BTC ובהרחבת קיבולת. הירידה הרבעונית של FY2026 משקפת את ירידת מחיר BTC ואת חיתוך תגמולי הכרייה (halving). לפי הנתונים הקיימים הצמיחה האורגנית מאיטה, וההצלחה ה-AI/HPC עדיין לא ניכרת בהכנסה.",
+        "chart_recommendation": {
+          "chart_id": "clsk_revenue_annual",
+          "chart_type": "bar",
+          "title_hebrew": "הכנסות שנתיות FY2021-FY2025"
+        }
+      },
+      "02_gross_margin": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "מרווח גולמי שנתי מלא FY2023-FY2025. רבעוני: Q1/Q2 FY24, Q1/Q2 FY25, Q1/Q2 FY26 — אך Q3/Q4 FY2025 חסרים (לא פורק ב-PR). השוואת עמיתים לא נשלפה. CLSK מחריגה D&A מ-Cost of Revenues."
+        },
+        "description_hebrew": "מרווח גולמי = (Revenue - Cost of Revenues ex-D&A) / Revenue. שנתי: 44.4% (FY23) → 56.3% (FY24) → 55.2% (FY25). רבעוני: שיא של 69.3% ב-Q2 FY24, ירידה הדרגתית ל-40.1% ב-Q2 FY26 — סימן מובהק ללחץ תפעולי.",
+        "company_data_annual": [
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (FY)",
+            "gross_margin": 44.4,
+            "revenue": 168408000,
+            "cost_of_revenue": 93580000,
+            "confidence": "high",
+            "source": "CleanSpark FY2025 10-K (comparative)",
+            "calculation_method": "(168408-93580)/168408*100 = 44.43%"
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (FY)",
+            "gross_margin": 56.3,
+            "revenue": 378968000,
+            "cost_of_revenue": 165516000,
+            "confidence": "high",
+            "source": "CleanSpark FY2025 10-K",
+            "calculation_method": "(378968-165516)/378968*100 = 56.32%"
+          },
+          {
+            "period": "FY2025",
+            "frequency": "שנתי (FY)",
+            "gross_margin": 55.2,
+            "revenue": 766314000,
+            "cost_of_revenue": 343101000,
+            "confidence": "high",
+            "source": "CleanSpark FY2025 10-K",
+            "calculation_method": "(766314-343101)/766314*100 = 55.21%"
+          }
+        ],
+        "company_data_quarterly": [
+          {
+            "period": "Q1 FY2024",
+            "frequency": "רבעוני",
+            "gross_margin": 60.8,
+            "confidence": "high",
+            "source": "SEC EX-99.1",
+            "calculation_method": "(73786-28896)/73786*100"
+          },
+          {
+            "period": "Q2 FY2024",
+            "frequency": "רבעוני",
+            "gross_margin": 69.3,
+            "confidence": "high",
+            "source": "SEC EX-99.1",
+            "calculation_method": "(111799-34298)/111799*100"
+          },
+          {
+            "period": "Q1 FY2025",
+            "frequency": "רבעוני",
+            "gross_margin": 56.7,
+            "confidence": "high",
+            "source": "CLSK Q1 FY2025 PR",
+            "calculation_method": "(162306-70290)/162306*100"
+          },
+          {
+            "period": "Q2 FY2025",
+            "frequency": "רבעוני",
+            "gross_margin": 53.0,
+            "confidence": "high",
+            "source": "CLSK Q2 FY2025 10-Q",
+            "calculation_method": "(181712-85424)/181712*100"
+          },
+          {
+            "period": "Q1 FY2026",
+            "frequency": "רבעוני",
+            "gross_margin": 47.2,
+            "confidence": "high",
+            "source": "CLSK Q1 FY2026 10-Q",
+            "calculation_method": "(181180-95621)/181180*100"
+          },
+          {
+            "period": "Q2 FY2026",
+            "frequency": "רבעוני",
+            "gross_margin": 40.1,
+            "confidence": "high",
+            "source": "CLSK Q2 FY2026 PR",
+            "calculation_method": "(136408-81691)/136408*100"
+          }
+        ],
+        "missing_quarters_hebrew": "Q3 FY2025 ו-Q4 FY2025: לא פורק מרווח גולמי ב-Press Release; נדרש אימות מ-10-K.",
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "sector_median": null,
+        "trend_hebrew": "מ-69.3% ב-Q2 FY24 ירידה רצופה ל-40.1% ב-Q2 FY26 — דחיסה של ~29 נקודות אחוז ב-8 רבעונים.",
+        "interpretation_hebrew": "הדחיסה בעיקרה משקפת ירידת מחיר BTC לאחר ה-halving + עליית עלויות אנרגיה. הירידה מ-Q1 FY26 (47.2%) ל-Q2 FY26 (40.1%) במיוחד מסמנת תזרים תפעולי בלחץ.",
+        "chart_recommendation": {
+          "chart_id": "clsk_gross_margin_annual",
+          "chart_type": "bar",
+          "title_hebrew": "מרווח גולמי שנתי FY2023-FY2025"
+        }
+      },
+      "03_operating_margin": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "Operating Income כולל את BTC fair-value gain/loss (ASC 350-60); מדד GAAP אינו משקף ביצועים תפעוליים נקיים. שנתי מלא FY2023-FY2025; רבעוני: Q1/Q2 FY25 ו-Q1/Q2 FY26 זמינים, Q3/Q4 FY2025 חסרים. FY25 +41.6% מבוסס ברובו על $425.6M BTC FV gain — normalized op margin (ללא BTC FV) ≈ -13.7%."
+        },
+        "description_hebrew": "מרווח תפעולי = Operating Income / Revenue. אזהרה חזקה: Operating Income של CLSK כולל את שינוי שווי ה-BTC לפי ASC 350-60, ולכן המספר ה-GAAP נע באופן דרמטי לפי מחיר BTC ולא לפי ביצוע תפעולי. למשל FY25 +41.6% מבוסס על $425.6M BTC FV gain (חלק עיקרי); FY26 H1 מציג הפסדים תפעוליים של -$316.6M (Q1) ו--$345.7M (Q2) בעקבות BTC FV losses.",
+        "company_data_annual": [
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (FY)",
+            "operating_margin": -77.8,
+            "operating_income": -131043000,
+            "revenue": 168408000,
+            "confidence": "high",
+            "source": "CleanSpark FY2025 10-K (comparative)",
+            "calculation_method": "Pre-ASC 350-60; אין BTC FV. הפסד תפעולי -$131M / $168.4M = -77.8%."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (FY)",
+            "operating_margin": -39.3,
+            "operating_income": -149043000,
+            "revenue": 378968000,
+            "confidence": "high",
+            "source": "CleanSpark FY2025 10-K (comparative)",
+            "calculation_method": "כולל $197M asset impairment."
+          },
+          {
+            "period": "FY2025",
+            "frequency": "שנתי (FY)",
+            "operating_margin": 41.6,
+            "operating_income": 318949000,
+            "revenue": 766314000,
+            "confidence": "high",
+            "source": "CleanSpark FY2025 10-K",
+            "calculation_method": "$318.9M / $766.3M = 41.6%. כולל $425.6M BTC FV gain (non-cash). Normalized ≈ -13.7%."
+          }
+        ],
+        "company_data_quarterly": [
+          {
+            "period": "Q1 FY2025",
+            "frequency": "רבעוני",
+            "operating_margin": 129.4,
+            "operating_income": 209976000,
+            "revenue": 162306000,
+            "confidence": "high",
+            "source": "CLSK Q1 FY2025 PR",
+            "calculation_method": "$209.976M / $162.306M = 129.4%. כולל BTC FV gain."
+          },
+          {
+            "period": "Q2 FY2025",
+            "frequency": "רבעוני",
+            "operating_margin": -76.0,
+            "operating_income": -138024000,
+            "revenue": 181712000,
+            "confidence": "high",
+            "source": "CLSK Q2 FY2025 10-Q",
+            "calculation_method": "-$138.024M / $181.712M = -76.0%."
+          },
+          {
+            "period": "Q1 FY2026",
+            "frequency": "רבעוני",
+            "operating_margin": -174.8,
+            "operating_income": -316554000,
+            "revenue": 181180000,
+            "confidence": "high",
+            "source": "CLSK Q1 FY2026 10-Q",
+            "calculation_method": "-$316.554M / $181.180M = -174.7%. BTC FV loss + collateral loss."
+          },
+          {
+            "period": "Q2 FY2026",
+            "frequency": "רבעוני",
+            "operating_margin": -253.4,
+            "operating_income": -345679000,
+            "revenue": 136408000,
+            "confidence": "high",
+            "source": "CLSK Q2 FY2026 PR",
+            "calculation_method": "-$345.679M / $136.408M = -253.4%. BTC FV loss + collateral loss."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "sector_median": null,
+        "trend_hebrew": "ה-Operating Margin GAAP אינו אינדיקטור עקבי: זינוקים/קריסות בהתאם למחיר BTC ברבעון.",
+        "interpretation_hebrew": "אסור לקרוא את ה-Operating Margin GAAP כאינדיקטור איכות תפעולית: שיא +129.4% ב-Q1 FY25 ו-קריסה -253.4% ב-Q2 FY26 נובעים בעיקר מ-BTC FV (gain/loss). יש לבחון נורמליזציה: FY25 normalized ≈ -13.7% (לפי הנהלה). נדרשת זהירות בפרשנות.",
+        "chart_recommendation": {
+          "chart_id": "clsk_operating_margin_annual",
+          "chart_type": "bar",
+          "title_hebrew": "מרווח תפעולי שנתי (כולל BTC FV) FY2023-FY2025"
+        }
+      },
+      "04_net_margin": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "Net Income כולל BTC fair-value gain/loss תחת ASC 350-60 ולכן ה-GAAP אינו משקף ביצועים תפעוליים נקיים. שנתי FY2023-FY2025 מלא. רבעוני: 7 רבעונים מאומתים; Q4 FY2025 הוערך בחיסור (~-$935K), confidence נמוך."
+        },
+        "description_hebrew": "מרווח נקי = Net Income / Revenue. סטיות עצומות תלויות במחיר BTC: Q1 FY25 +152.1% (BTC FV gain), Q2 FY26 -277.4% (BTC FV loss + collateral loss). FY2025 +47.6% מבוסס על $425.6M BTC FV gain — לא מייצג ביצועים תפעוליים בפועל.",
+        "company_data_annual": [
+          {
+            "period": "FY2022",
+            "frequency": "שנתי (FY)",
+            "net_margin": -43.6,
+            "net_income": -57330000,
+            "revenue": 131530000,
+            "confidence": "medium",
+            "source": "TipRanks/StockAnalysis (secondary)",
+            "calculation_method": "-$57.33M / $131.53M = -43.6%. כולל impairments + D&A."
+          },
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (FY)",
+            "net_margin": -82.0,
+            "net_income": -138148000,
+            "revenue": 168408000,
+            "confidence": "high",
+            "source": "CleanSpark FY2025 10-K",
+            "calculation_method": "-$138.148M / $168.408M = -82.0%. כולל BTC impairments + D&A."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (FY)",
+            "net_margin": -38.5,
+            "net_income": -145777000,
+            "revenue": 378968000,
+            "confidence": "high",
+            "source": "CleanSpark FY2025 10-K",
+            "calculation_method": "-$145.777M / $378.968M = -38.5%. כולל $197M asset impairment."
+          },
+          {
+            "period": "FY2025",
+            "frequency": "שנתי (FY)",
+            "net_margin": 47.6,
+            "net_income": 364464000,
+            "revenue": 766314000,
+            "confidence": "high",
+            "source": "CleanSpark FY2025 10-K",
+            "calculation_method": "$364.464M / $766.314M = 47.6%. כולל $425.6M BTC FV gain (non-cash)."
+          }
+        ],
+        "company_data_quarterly": [
+          {
+            "period": "Q1 FY2024",
+            "frequency": "רבעוני",
+            "net_margin": 35.1,
+            "net_income": 25909000,
+            "revenue": 73786000,
+            "confidence": "high",
+            "source": "CLSK Q1 FY2024 PR / Q2 FY2025 10-Q (comparative)",
+            "calculation_method": "$25.909M / $73.786M = 35.1%. כולל BTC FV gain $36M."
+          },
+          {
+            "period": "Q2 FY2024",
+            "frequency": "רבעוני",
+            "net_margin": 113.4,
+            "net_income": 126735000,
+            "revenue": 111799000,
+            "confidence": "high",
+            "source": "CLSK Q2 FY2024 / 10-Q",
+            "calculation_method": "$126.735M / $111.799M = 113.4%. כולל BTC FV gain $119.7M."
+          },
+          {
+            "period": "Q1 FY2025",
+            "frequency": "רבעוני",
+            "net_margin": 152.1,
+            "net_income": 246791000,
+            "revenue": 162306000,
+            "confidence": "high",
+            "source": "CLSK Q1 FY2025 PR",
+            "calculation_method": "$246.791M / $162.306M = 152.1%. כולל BTC FV gain $218.2M."
+          },
+          {
+            "period": "Q2 FY2025",
+            "frequency": "רבעוני",
+            "net_margin": -76.4,
+            "net_income": -138792000,
+            "revenue": 181712000,
+            "confidence": "high",
+            "source": "CLSK Q2 FY2025 10-Q",
+            "calculation_method": "-$138.792M / $181.712M = -76.4%. כולל BTC FV loss $127.7M."
+          },
+          {
+            "period": "Q3 FY2025",
+            "frequency": "רבעוני",
+            "net_margin": 129.6,
+            "net_income": 257400000,
+            "revenue": 198600000,
+            "confidence": "medium",
+            "source": "CoinTelegraph/Bitbo (secondary aggregation)",
+            "calculation_method": "$257.4M / $198.6M = 129.6%. נדרש אימות מ-10-Q."
+          },
+          {
+            "period": "Q4 FY2025",
+            "frequency": "רבעוני (מחושב)",
+            "net_income": -935000,
+            "net_margin": -0.4,
+            "revenue": 223696000,
+            "confidence": "low",
+            "source": "מחושב",
+            "calculation_method": "FY25 NI $364.464M פחות Q1+Q2+Q3 ($365.399M) = ~-$935K. נדרש אימות 10-K."
+          },
+          {
+            "period": "Q1 FY2026",
+            "frequency": "רבעוני",
+            "net_margin": -209.0,
+            "net_income": -378711000,
+            "revenue": 181180000,
+            "confidence": "high",
+            "source": "CLSK Q1 FY2026 10-Q",
+            "calculation_method": "-$378.711M / $181.180M = -209.0%. BTC FV loss $246.8M + collateral $103.6M."
+          },
+          {
+            "period": "Q2 FY2026",
+            "frequency": "רבעוני",
+            "net_margin": -277.4,
+            "net_income": -378343000,
+            "revenue": 136408000,
+            "confidence": "high",
+            "source": "CLSK Q2 FY2026 PR",
+            "calculation_method": "-$378.343M / $136.408M = -277.4%. BTC FV loss $224.1M + collateral $38.8M."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "sector_median": null,
+        "trend_hebrew": "Net Margin GAAP מתנודד בין +152% ל--277% בתוך 5 רבעונים — לא ייצוגי לביצועים תפעוליים.",
+        "interpretation_hebrew": "ה-net margin של CLSK הוא חוזה השקעה במחיר BTC, לא מטריקת רווחיות תפעולית. כל פרשנות חייבת לקחת בחשבון את BTC FV/collateral losses. נדרש לבחון נורמליזציה.",
+        "chart_recommendation": {
+          "chart_id": "clsk_net_margin_annual",
+          "chart_type": "bar",
+          "title_hebrew": "מרווח נקי שנתי (כולל BTC FV) FY2022-FY2025"
+        }
+      },
+      "05_eps_surprise": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "5 מתוך 6 רבעונים אחרונים זמינים. Q4 FY2025 לא נמצא במקורות שנסקרו (actual + consensus). 3 מ-5 הרבעונים הזמינים החטיאו (בעיקר FY2026). Q3 FY25 BEAT מבוסס על מקור שניוני (CoinTelegraph/Bitbo) → medium confidence."
+        },
+        "description_hebrew": "היסטוריית beat/miss מול קונצנזוס אנליסטים: 2 BEATs ב-FY2025 (Q1, Q3) שניהם מונעים מ-BTC FV gains; 3 MISSes (Q2 FY25, Q1 FY26, Q2 FY26) במרווחים גדולים. Q4 FY2025 חסר.",
+        "company_data": [
+          {
+            "period": "Q1 FY2025 (Dec 2024)",
+            "frequency": "רבעוני",
+            "reported_eps": 0.85,
+            "consensus_eps": 0.17,
+            "surprise_pct": 400.0,
+            "result": "BEAT",
+            "confidence": "high",
+            "source": "Investing.com",
+            "calculation_method": "actual $0.85 vs estimate $0.17 → +$0.68 beat."
+          },
+          {
+            "period": "Q2 FY2025 (Mar 2025)",
+            "frequency": "רבעוני",
+            "reported_eps": -0.49,
+            "consensus_eps": 0.04,
+            "result": "MISS",
+            "confidence": "high",
+            "source": "Investing.com",
+            "calculation_method": "actual -$0.49 vs estimate $0.04 → -$0.53 miss."
+          },
+          {
+            "period": "Q3 FY2025 (Jun 2025)",
+            "frequency": "רבעוני",
+            "reported_eps": 0.78,
+            "consensus_eps": 0.2,
+            "surprise_pct": 290.0,
+            "result": "BEAT",
+            "confidence": "medium",
+            "source": "CoinTelegraph/Bitbo (secondary)",
+            "calculation_method": "actual $0.78 vs estimate $0.20 → +$0.58 beat. מקור שניוני."
+          },
+          {
+            "period": "Q1 FY2026 (Dec 2025)",
+            "frequency": "רבעוני",
+            "reported_eps": -1.35,
+            "consensus_eps": -0.08,
+            "result": "MISS",
+            "confidence": "high",
+            "source": "Yahoo Finance",
+            "calculation_method": "actual -$1.35 vs estimate -$0.08 → -$1.27 miss."
+          },
+          {
+            "period": "Q2 FY2026 (Mar 2026)",
+            "frequency": "רבעוני",
+            "reported_eps": -1.52,
+            "consensus_eps": -0.25,
+            "result": "MISS",
+            "confidence": "high",
+            "source": "MarketBeat/Investing.com",
+            "calculation_method": "actual -$1.52 vs estimate -$0.25 → -$1.27 miss."
+          }
+        ],
+        "missing_quarters_hebrew": "Q4 FY2025 (Sep 2025): EPS בפועל וקונצנזוס לא נמצאו במקורות שנסקרו — חסר.",
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "trend_hebrew": "3 MISSes ב-3 רבעונים אחרונים (Q2 FY25, Q1 FY26, Q2 FY26) במרווחים גדולים; 2 BEATs (Q1, Q3 FY25) נבעו מ-BTC FV gains.",
+        "interpretation_hebrew": "כשל מובהק בעמידה בקונצנזוס מ-Q1 FY2026 ואילך. הירידה מ-+$0.85 ל--$1.52 משקפת את מעבר BTC ל-bear market והרחבה של הוצאות מימון אחרי הנפקת ה-convertibles. ה-beats ההיסטוריים אינם איכותיים: הם תוצר BTC FV, לא ביצוע תפעולי.",
+        "chart_recommendation": {
+          "chart_id": "clsk_eps_surprise",
+          "chart_type": "bar",
+          "title_hebrew": "EPS בפועל מול קונצנזוס — 5 רבעונים אחרונים"
+        }
+      },
+      "06_ebitda": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "Adjusted EBITDA של החברה כולל BTC FV gains/losses לאחר ASC 350-60 ולכן אינו נקי משינויי שווי BTC. שנתי FY2023-FY2025 מלא; רבעוני Q1/Q2 FY24, Q1/Q2 FY25, Q1/Q2 FY26 זמינים — Q3/Q4 FY2025 חסרים. ההנהלה ציינה Normalized EBITDA FY25 ~$305M (~40%) אך לא פורסם פורמלית בדוחות."
+        },
+        "description_hebrew": "Adjusted EBITDA לפי הגדרת CleanSpark: מחריג D&A, ריבית, מיסים, SBC, גודרים בלתי ממומשים, השפעות חד-פעמיות. **לא מחריג BTC fair-value** לאחר ASC 350-60. לכן Adj. EBITDA של FY25 $823M כולל ~$425.6M BTC FV gain. Normalized (לפי ההנהלה, לא פורמלי) ~$305M (~40% margin).",
+        "company_data_annual": [
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (FY)",
+            "adjusted_ebitda": 25028000,
+            "confidence": "high",
+            "source": "CleanSpark FY2025 10-K",
+            "calculation_method": "Pre-ASC 350-60 (BTC לא נכלל)."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (FY)",
+            "adjusted_ebitda": 245848000,
+            "yoy_growth": 882,
+            "confidence": "high",
+            "source": "CleanSpark FY2025 10-K",
+            "calculation_method": "כולל BTC FV gain ~$113M."
+          },
+          {
+            "period": "FY2025",
+            "frequency": "שנתי (FY)",
+            "adjusted_ebitda": 823373000,
+            "yoy_growth": 235,
+            "confidence": "high",
+            "source": "CleanSpark FY2025 10-K",
+            "calculation_method": "כולל $425.6M BTC FV gain. Normalized ~$305M לפי ההנהלה."
+          }
+        ],
+        "company_data_quarterly": [
+          {
+            "period": "Q1 FY2024",
+            "frequency": "רבעוני",
+            "adjusted_ebitda": 69090000,
+            "confidence": "high",
+            "source": "CLSK Q1 FY2025 filing (comparative)",
+            "calculation_method": "BTC FV gain ~$36M."
+          },
+          {
+            "period": "Q2 FY2024",
+            "frequency": "רבעוני",
+            "adjusted_ebitda": 181829000,
+            "confidence": "high",
+            "source": "CLSK Q2 FY2025 filing (comparative)",
+            "calculation_method": "BTC FV gain $119.7M."
+          },
+          {
+            "period": "Q1 FY2025",
+            "frequency": "רבעוני",
+            "adjusted_ebitda": 321649000,
+            "confidence": "high",
+            "source": "CLSK Q1 FY2025 PR",
+            "calculation_method": "BTC FV gain $218.2M."
+          },
+          {
+            "period": "Q2 FY2025",
+            "frequency": "רבעוני",
+            "adjusted_ebitda": -57789000,
+            "confidence": "high",
+            "source": "CLSK Q2 FY2025 10-Q",
+            "calculation_method": "BTC FV loss $127.7M."
+          },
+          {
+            "period": "Q1 FY2026",
+            "frequency": "רבעוני",
+            "adjusted_ebitda": -295415000,
+            "confidence": "high",
+            "source": "CLSK Q1 FY2026 10-Q",
+            "calculation_method": "BTC FV loss $246.8M + collateral $103.6M."
+          },
+          {
+            "period": "Q2 FY2026",
+            "frequency": "רבעוני",
+            "adjusted_ebitda": -241201000,
+            "confidence": "high",
+            "source": "CLSK Q2 FY2026 PR",
+            "calculation_method": "BTC FV loss $224.1M + collateral $38.8M."
+          }
+        ],
+        "missing_quarters_hebrew": "Q3 FY2025 ו-Q4 FY2025 לא דווחו ב-PR שנסקר; נדרש אימות מ-10-K.",
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "trend_hebrew": "Adj. EBITDA רבעוני נדנד בין +$321.6M (Q1 FY25) ל--$295.4M (Q1 FY26) — תנודתיות מסיבית מונעת BTC FV. השנתי FY2025 +$823M מבוסס על BTC FV gain.",
+        "interpretation_hebrew": "ה-Adjusted EBITDA של CLSK אינו נקי משינויי BTC ולכן אינו מהימן כמטריקת ביצוע תפעולית. נדרש לעבוד עם Normalized EBITDA (לא רשמי, ~$305M FY25 ~40% margin).",
+        "chart_recommendation": {
+          "chart_id": "clsk_ebitda_annual",
+          "chart_type": "bar",
+          "title_hebrew": "Adjusted EBITDA שנתי FY2023-FY2025 (כולל BTC FV)"
+        }
+      }
+    },
+    "valuation": {
+      "07_trailing_pe": {
+        "data_quality": {
+          "status": "na",
+          "note_hebrew": "TTM net income שלילי (~-$756M) הופך את ה-P/E עוקב ללא משמעותי. Google Finance מציג -8.70 (חישוב שונה); Morningstar מציג Normalized P/E 16.04-16.25 על בסיס earnings מתואמים — אין הסכמה. לא רלוונטי כמטריקת תמחור עיקרית."
+        },
+        "description_hebrew": "P/E עוקב = Price / TTM EPS. ב-CLSK ה-TTM EPS שלילי משמעותית (-$3.16 בקירוב) ולכן המדד אינו ניתן לפרשנות מעשית. Morningstar מציע Normalized P/E ~16.04-16.25 אך זה מבוסס על תיאומים. סטטוס: לא רלוונטי.",
+        "company_data": [
+          {
+            "period": "TTM 2026-05-31",
+            "frequency": "TTM",
+            "ttm_net_loss_usd": -756000000,
+            "confidence": "high",
+            "source": "CleanSpark Q1+Q2 FY2026 10-Qs",
+            "calculation_method": "H1 FY2026 alone: -$378.7M + -$378.3M ≈ -$757M."
+          },
+          {
+            "period": "Morningstar normalized",
+            "frequency": "TTM",
+            "normalized_pe": 16.25,
+            "confidence": "low",
+            "source": "Morningstar (secondary)",
+            "calculation_method": "Normalized P/E מבוסס על תיאום BTC FV ותיאומים אחרים; שיטה לא שקופה."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "interpretation_hebrew": "אסור להשתמש ב-P/E עוקב כמטריקת תמחור עבור CLSK בסביבה הנוכחית. נדרש לעבור ל-P/S, P/B, EV/Hashrate, Market Cap/EH.",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      },
+      "08_forward_pe": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "סתירה בין שלושה מקורות: GuruFocus 12.05 (15.5.2026), Morningstar Normalized 16.25, ו-GuruFocus reference 19 שמציין 18.77. כל המקורות שניוניים והערכים תנודתיים מאוד עקב BTC FV — confidence נמוך."
+        },
+        "description_hebrew": "Forward P/E מבוסס על תחזיות אנליסטים עתידיות. מקורות שונים מציגים ערכים שונים (12.05 / 16.25 / 18.77) בהתאם להנחות לגבי BTC FV עתידי. נדרשת זהירות בפרשנות.",
+        "company_data": [
+          {
+            "period": "May 2026 — GuruFocus (12.05)",
+            "frequency": "point-in-time",
+            "forward_pe": 12.05,
+            "confidence": "low",
+            "source": "GuruFocus (15.5.2026)",
+            "calculation_method": "מבוסס על forward EPS estimates; מקור שניוני."
+          },
+          {
+            "period": "May 2026 — Morningstar Normalized",
+            "frequency": "point-in-time",
+            "forward_pe": 16.25,
+            "confidence": "low",
+            "source": "Morningstar (secondary)",
+            "calculation_method": "Normalized; שיטה לא שקופה."
+          },
+          {
+            "period": "May 2026 — GuruFocus (alt)",
+            "frequency": "point-in-time",
+            "forward_pe": 18.77,
+            "confidence": "low",
+            "source": "GuruFocus reference (15.5.2026)",
+            "calculation_method": "ערך נוסף שמופיע ב-GuruFocus; סתירה עם ה-12.05."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "trend_hebrew": "סתירה בין מקורות: 12.05 / 16.25 / 18.77 — טווח רחב מאוד; ראוי להציג כטווח ולא כמספר אחד.",
+        "interpretation_hebrew": "ה-Forward P/E של CLSK אינו אמין כמטריקת תמחור: השוני בין מקורות נובע מהנחות שונות לגבי BTC FV עתידי. יש להשתמש ב-P/S, P/B כמטריקות תמחור עיקריות.",
+        "chart_recommendation": {
+          "chart_id": "clsk_forward_pe_sources",
+          "chart_type": "bar",
+          "title_hebrew": "Forward P/E — סתירה בין מקורות"
+        }
+      },
+      "09_price_to_sales": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "P/S מאומת ב-3 מקורות (StockAnalysis 6.34x, Morningstar 7.43x, FullRatio 6.62x); Forward P/S = 6.18x (StockAnalysis). הטווח (~6.3-7.4) משקף סבירות תקופות TTM שונות. חישוב נקי: Market Cap $4.66B / TTM Revenue ~$636M-$741M."
+        },
+        "description_hebrew": "P/S = Market Cap / TTM Revenue. שלושה מקורות מציגים 6.34x-7.43x. הפער נובע מתקופות TTM שונות. Forward P/S = 6.18x. זוהי המטריקת התמחור היחידה המעשית עבור CLSK בסביבה הנוכחית (P/E ו-EV/EBITDA לא רלוונטיים).",
+        "company_data": [
+          {
+            "period": "TTM May 2026 — StockAnalysis",
+            "frequency": "TTM",
+            "price_to_sales": 6.34,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "Market Cap $4.66B / TTM Revenue ~$735M."
+          },
+          {
+            "period": "TTM May 2026 — Morningstar",
+            "frequency": "TTM",
+            "price_to_sales": 7.43,
+            "confidence": "medium",
+            "source": "Morningstar (secondary)",
+            "calculation_method": "תקופת TTM קרובה יותר; משתמש ברווחים מתואמים."
+          },
+          {
+            "period": "TTM May 2026 — FullRatio",
+            "frequency": "TTM",
+            "price_to_sales": 6.62,
+            "confidence": "medium",
+            "source": "FullRatio (secondary)",
+            "calculation_method": "מקור שניוני נוסף בטווח דומה."
+          },
+          {
+            "period": "Forward — StockAnalysis",
+            "frequency": "Forward",
+            "price_to_sales": 6.18,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "Forward P/S לפי תחזיות הכנסות."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "trend_hebrew": "טווח 6.34x-7.43x — תמחור בינוני יחסית לתשואות הצמיחה ההיסטוריות, אך גבוה לעומת הירידה הרבעונית הנוכחית בהכנסות (-24.8% Q2 FY26).",
+        "interpretation_hebrew": "P/S של ~6.5x משקף הערכת שוק להתאוששות BTC ולמעבר ל-AI/HPC. סיכון: אם ההכנסות ימשיכו לרדת והמעבר ל-AI יתעכב — תמחור זה לא יישמר.",
+        "chart_recommendation": {
+          "chart_id": "clsk_ps_sources",
+          "chart_type": "bar",
+          "title_hebrew": "P/S — מקורות שונים (טווח)"
+        }
+      },
+      "10_ev_to_ebitda": {
+        "data_quality": {
+          "status": "na",
+          "note_hebrew": "TTM GAAP EBITDA שלילי; TTM Adjusted EBITDA (H2 FY25 + H1 FY26) גם שלילי בעקבות BTC FV losses. EV/EBITDA אינו מטריקה תקפה כעת. רכיבי EV מוצגים בנפרד."
+        },
+        "description_hebrew": "EV/EBITDA לא רלוונטי בעקבות EBITDA שלילי. מוצגים רכיבי EV לאומדן: Market Cap $4.66B + חוב $1.79B - מזומן $260M = EV (ללא BTC) ~$6.19B; בהכללת BTC $925.2M = ~$5.27B.",
+        "company_data": [
+          {
+            "period": "Mar 31, 2026",
+            "frequency": "point-in-time",
+            "market_cap": 4660000000,
+            "total_debt": 1790700000,
+            "cash": 260300000,
+            "btc_hodl_value": 925200000,
+            "ev_excluding_btc": 6190400000,
+            "ev_including_btc_as_cash": 5265200000,
+            "confidence": "medium",
+            "source": "CLSK Q2 FY2026 10-Q + market data",
+            "calculation_method": "EV (excl. BTC) = $4.66B + $1.7907B - $0.2603B = $6.1904B. EV (incl. BTC) = $6.1904B - $0.9252B = $5.2652B."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "interpretation_hebrew": "כש-EBITDA שלילי אסור להציג EV/EBITDA כמטריקת תמחור. ראוי לעבור ל-EV/Sales, EV/Hashrate, EV/BTC.",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      },
+      "11_peg_ratio": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "Forward EPS אינו אמין (BTC FV מסכן את התחזיות); EPS growth forecast אינו ניתן לחישוב מהימן. PEG אינו ניתן לחישוב."
+        },
+        "description_hebrew": "PEG דורש Forward P/E + תחזית צמיחת EPS. שניהם לא יציבים עבור CLSK עקב BTC FV. PEG אינו ניתן לחישוב מהימן.",
+        "company_data": [],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "interpretation_hebrew": "אין ניסיון לחשב PEG עבור CLSK בסביבה הנוכחית. יש להשתמש ב-P/S, P/B.",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      },
+      "12_price_to_book": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "P/B מאומת ב-3 מקורות (StockAnalysis 4.76, FullRatio 4.74, Morningstar). Book value התרסק מ-$2.175B (ספט' 2025) ל-$986M (מרץ 2026) — ירידה של 55% תוך 6 חודשים עקב הפסדי H1 FY26 ($757M) ו-buybacks ($463M)."
+        },
+        "description_hebrew": "P/B = Market Cap / Shareholders' Equity. עומד על ~4.74-4.76x נכון למאי 2026. ההון העצמי התרסק חזק ועם זאת ה-P/B עלה — אינדיקטור לתלות בציפיות עתידיות (AI/HPC + BTC recovery).",
+        "company_data": [
+          {
+            "period": "Mar 31, 2026",
+            "frequency": "point-in-time",
+            "price_to_book": 4.76,
+            "book_value_usd": 986200000,
+            "market_cap": 4660000000,
+            "confidence": "high",
+            "source": "CLSK Q2 FY2026 10-Q + StockAnalysis",
+            "calculation_method": "$4.66B / $986.2M = 4.76x."
+          },
+          {
+            "period": "Sep 30, 2025",
+            "frequency": "point-in-time",
+            "book_value_usd": 2175100000,
+            "confidence": "high",
+            "source": "CleanSpark FY2025 10-K",
+            "calculation_method": "ההון העצמי לסוף FY2025."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "trend_hebrew": "Book value: $2,175M (ספט' 2025) → $1,382M (דצמ' 2025) → $986M (מרץ 2026) — ירידה של 55% ב-6 חודשים.",
+        "interpretation_hebrew": "P/B 4.76x גבוה יחסית לחברה המאבדת הון עצמי בקצב מהיר. השוק מתמחר ציפיות לעלייה ב-BTC ולחתימה על AI/HPC contracts; אם אלה לא יתממשו — סיכון תיקון.",
+        "chart_recommendation": {
+          "chart_id": "clsk_book_value_trend",
+          "chart_type": "bar",
+          "title_hebrew": "Book Value — Sep 2025 → Mar 2026"
+        }
+      }
+    },
+    "cash_flow": {
+      "13_operating_cash_flow": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "OCF שנתי FY2022-FY2025 + TTM מ-StockAnalysis (מקור שניוני) — confidence בינוני. OCF רבעוני (Q1/Q2 FY2026) חסר; דורש חילוץ מ-10-Q. OCF שלילי באופן עקבי ב-FY2023-FY2025 ובכלל ה-TTM."
+        },
+        "description_hebrew": "OCF שלילי באופן עקבי משקף את העובדה שמוצרים מ-BTC mined מוכרים כהכנסה GAAP אבל לא כל כך הופכים למזומן. BTC שמוחזק בחברה אינו תזרים. החברה במהותה מודל הון-קפיטליסטי וצורכת מזומן באופן מבני.",
+        "company_data": [
+          {
+            "period": "FY2022",
+            "frequency": "שנתי (FY)",
+            "ocf": 73500000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "OCF שנתי FY2022 — חיובי."
+          },
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (FY)",
+            "ocf": -17300000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "OCF שלילי FY2023."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (FY)",
+            "ocf": -233700000,
+            "confidence": "medium",
+            "source": "TipRanks/StockAnalysis (secondary)",
+            "calculation_method": "OCF שלילי FY2024 — הרחבה אגרסיבית."
+          },
+          {
+            "period": "FY2025",
+            "frequency": "שנתי (FY)",
+            "ocf": -461000000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "OCF שלילי FY2025 — שיא הוצאה תזרימית."
+          },
+          {
+            "period": "TTM Mar 2026",
+            "frequency": "TTM",
+            "ocf": -526300000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "OCF TTM נכון למרץ 2026 — הידרדרות נוספת."
+          }
+        ],
+        "missing_quarters_hebrew": "OCF רבעוני Q1/Q2 FY2026 לא חולץ מ-10-Q במקור הנוכחי.",
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "trend_hebrew": "OCF הולך ומחמיר: $73M (FY22) → -$17M (FY23) → -$234M (FY24) → -$461M (FY25) → -$526M (TTM Mar 2026).",
+        "interpretation_hebrew": "החמרה רצופה ב-OCF משקפת כיווץ של עסקי הכרייה התזרימיים. מסוכן בייחוד בהינתן מינוף החוב הגבוה ועם זאת — לא ניתן לבסס פעילות תפעולית אורגנית במזומן.",
+        "chart_recommendation": {
+          "chart_id": "clsk_ocf_annual",
+          "chart_type": "bar",
+          "title_hebrew": "OCF שנתי FY2022-FY2025 + TTM"
+        }
+      },
+      "14_free_cash_flow": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "FCF מחושב מ-OCF + CapEx (CapEx negative). כל מקורות OCF שניוניים → confidence בינוני. אי-בהירות בהגדרה: האם BTC purchases נכללות. הנתון המוצג מבוסס על Property/Equipment CapEx בלבד. כל ה-FY שלילי משמעותית."
+        },
+        "description_hebrew": "FCF = OCF + CapEx. כל FY מ-FY2022 שלילי, עם שיא הפסד $1,040M ב-FY2024. הירידה התעלאית של CapEx ב-FY2025 (-$562.9M מ--$806.4M) הקטינה את ההפסד התזרימי, אך FCF נשאר שלילי משמעותית. אזהרה: מקורות אחרים מציגים FCF שונה כתלות בהכללת BTC.",
+        "company_data": [
+          {
+            "period": "FY2022",
+            "frequency": "שנתי (FY)",
+            "ocf": 73500000,
+            "capex": -190500000,
+            "fcf": -117000000,
+            "fcf_margin": -88.9,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "FCF = $73.5M + (-$190.5M) = -$117M."
+          },
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (FY)",
+            "ocf": -17300000,
+            "capex": -300900000,
+            "fcf": -318200000,
+            "fcf_margin": -189.0,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "FCF = -$17.3M + (-$300.9M) = -$318.2M."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (FY)",
+            "ocf": -233700000,
+            "capex": -806400000,
+            "fcf": -1040100000,
+            "fcf_margin": -274.5,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "FCF = -$233.7M + (-$806.4M) = -$1,040.1M. שיא ההפסד התזרימי."
+          },
+          {
+            "period": "FY2025",
+            "frequency": "שנתי (FY)",
+            "ocf": -461000000,
+            "capex": -562900000,
+            "fcf": -1023900000,
+            "fcf_margin": -133.6,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "FCF = -$461M + (-$562.9M) = -$1,023.9M."
+          },
+          {
+            "period": "TTM Mar 2026",
+            "frequency": "TTM",
+            "ocf": -526300000,
+            "capex": -307000000,
+            "fcf": -833300000,
+            "fcf_margin": -119,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "FCF TTM = -$526.3M + (-$307M) = -$833.3M."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "trend_hebrew": "FCF: -$117M (FY22) → -$318M (FY23) → -$1,040M (FY24) → -$1,024M (FY25) → -$833M (TTM).",
+        "interpretation_hebrew": "FCF שלילי באופן מבני. ה-FY24 שיא ההפסד עם CapEx של $806M. ההאטה ב-CapEx (FY25 ו-TTM) ממקדת את ה-FCF, אך עדיין שלילי משמעותית. כל זה ממומן ב-equity + convertible notes.",
+        "chart_recommendation": {
+          "chart_id": "clsk_fcf_annual",
+          "chart_type": "bar",
+          "title_hebrew": "FCF שנתי FY2022-FY2025 + TTM"
+        }
+      },
+      "15_fcf_margin": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "FCF Margin מחושב מ-FCF / Revenue, כש-FCF מבוסס על OCF + CapEx מ-StockAnalysis (שניוני). שלילי באופן מתמשך."
+        },
+        "description_hebrew": "FCF Margin = FCF / Revenue. שלילי באופן עקבי וחריג: -88.9% (FY22) → -189% (FY23) → -274.5% (FY24) → -133.6% (FY25) → ~-119% (TTM). עם ההאטה ב-CapEx הולך השיפור הקל.",
+        "company_data": [
+          {
+            "period": "FY2022",
+            "frequency": "שנתי (FY)",
+            "fcf_margin": -88.9,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "-$117M / $131.53M."
+          },
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (FY)",
+            "fcf_margin": -189.0,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "-$318.2M / $168.4M."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (FY)",
+            "fcf_margin": -274.5,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "-$1,040.1M / $378.97M."
+          },
+          {
+            "period": "FY2025",
+            "frequency": "שנתי (FY)",
+            "fcf_margin": -133.6,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "-$1,023.9M / $766.3M."
+          },
+          {
+            "period": "TTM Mar 2026",
+            "frequency": "TTM",
+            "fcf_margin": -119,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "-$833.3M / TTM Revenue ~$700M."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "trend_hebrew": "FCF Margin מציג שיפור הדרגתי משיא ההפסד -274.5% (FY24) ל-~-119% (TTM), אך עדיין שלילי משמעותית.",
+        "interpretation_hebrew": "FCF Margin שלילי משקף הון-קפיטליזם כבד; שיפור ב-TTM נובע מהאטת CapEx ולא מהתאוששות OCF.",
+        "chart_recommendation": {
+          "chart_id": "clsk_fcf_margin_annual",
+          "chart_type": "bar",
+          "title_hebrew": "FCF Margin שנתי FY2022-FY2025"
+        }
+      },
+      "16_fcf_yield": {
+        "data_quality": {
+          "status": "estimated",
+          "note_hebrew": "FCF Yield = FCF TTM / Market Cap. שלילי באופן מבני. ה-FCF מבוסס על OCF+CapEx (לא כולל BTC purchases)."
+        },
+        "description_hebrew": "FCF Yield = FCF (TTM) / Market Cap = ~-$833M / $4.66B = ~-17.9%. ערך שלילי חזק שמשקף הון-קפיטליזם. אינו אמור להתפרש כיעד תשואה.",
+        "company_data": [
+          {
+            "period": "TTM Mar 2026",
+            "frequency": "TTM",
+            "ltm_fcf": -833300000,
+            "market_cap": 4660000000,
+            "current_fcf_yield": -17.9,
+            "confidence": "medium",
+            "source": "StockAnalysis (FCF) + market data",
+            "calculation_method": "-$833.3M / $4,660M * 100 = -17.88%."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "interpretation_hebrew": "FCF Yield עמוקות שלילי. שילוב עם תמחור P/S גבוה (~6.5x) מצביע שהשוק מתמחר ציפייה לרווחיות עתידית — לא נוכחית.",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      }
+    },
+    "financial_health": {
+      "17_debt_to_equity": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "D/E ב-4 נקודות זמן מאומת מ-10-K/10-Q. עלייה מ-0.04 (ספט' 2024) ל-1.82 (מרץ 2026). החוב כולל בעיקר convertible notes 2030 ($1.15B) + convertible $650M קודם."
+        },
+        "description_hebrew": "D/E = Total Debt / Shareholders' Equity. עלייה דרמטית: 0.04 → 0.38 → 1.29 → 1.82 בתוך ~18 חודשים. החברה ממונפת בצורה משמעותית — דבר חריג עבור Bitcoin Miner.",
+        "company_data": [
+          {
+            "period": "Sep 30, 2024",
+            "frequency": "point-in-time",
+            "debt_to_equity": 0.04,
+            "total_debt": 65900000,
+            "equity": 1760800000,
+            "confidence": "high",
+            "source": "CLSK FY2025 10-K (comparative)",
+            "calculation_method": "$65.9M / $1,760.8M."
+          },
+          {
+            "period": "Sep 30, 2025",
+            "frequency": "point-in-time",
+            "debt_to_equity": 0.38,
+            "total_debt": 821200000,
+            "equity": 2175100000,
+            "confidence": "high",
+            "source": "CLSK FY2025 10-K",
+            "calculation_method": "$821.2M / $2,175.1M. כולל $650M convertible."
+          },
+          {
+            "period": "Dec 31, 2025",
+            "frequency": "point-in-time",
+            "debt_to_equity": 1.29,
+            "total_debt": 1789300000,
+            "equity": 1382300000,
+            "confidence": "high",
+            "source": "CLSK Q1 FY2026 10-Q",
+            "calculation_method": "$1,789.3M / $1,382.3M. הוספת $1.15B convertible 2030."
+          },
+          {
+            "period": "Mar 31, 2026",
+            "frequency": "point-in-time",
+            "debt_to_equity": 1.82,
+            "total_debt": 1790700000,
+            "equity": 986200000,
+            "confidence": "high",
+            "source": "CLSK Q2 FY2026 10-Q",
+            "calculation_method": "$1,790.7M / $986.2M = 1.815."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "trend_hebrew": "D/E: 0.04 (ספט' 2024) → 0.38 (ספט' 2025) → 1.29 (דצמ' 2025) → 1.82 (מרץ 2026). עלייה של ~45x ב-18 חודשים.",
+        "interpretation_hebrew": "המעבר ל-D/E גבוה ב-Bitcoin Miner הוא צעד נדיר ומסוכן: זה ממנף את החברה לתנודתיות BTC. אם BTC יורד — ההון העצמי יתכווץ נוסף וה-D/E יעלה.",
+        "chart_recommendation": {
+          "chart_id": "clsk_de_trend",
+          "chart_type": "bar",
+          "title_hebrew": "Debt-to-Equity — Sep 2024 → Mar 2026"
+        }
+      },
+      "18_net_cash_net_debt": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "Net Cash ללא BTC = -$1,530.4M מאומת. Net Cash כולל BTC: סתירה במקור — הצגה -$865.5M לעומת חישוב נכון $260.3M + $925.2M - $1,790.7M = -$605.2M. הפער (~$260M) לא הוסבר במקור; ייתכן ונובע מתיקון collateral receivable או הגדרה אחרת של BTC. עד אימות 10-Q — נציג את הרכיבים בנפרד עם אזהרה."
+        },
+        "description_hebrew": "Net Cash = Cash + (BTC?) - Debt. מאזן 31.3.2026: מזומן $260.3M, BTC HODL value $925.2M, חוב $1,790.7M. **סתירה במקור**: הצגה -$865.5M מול חישוב נכון -$605.2M. ייתכן ונובע מתיקון של $260M שלא הוסבר (collateral receivable, hedging מסוים, או סכום אחר). מומלץ לאמת ב-10-Q.",
+        "company_data": [
+          {
+            "period": "Mar 31, 2026 — מאזן רכיבים",
+            "frequency": "point-in-time",
+            "cash": 260300000,
+            "btc_hodl_value": 925200000,
+            "total_debt": 1790700000,
+            "confidence": "high",
+            "source": "CLSK Q2 FY2026 10-Q",
+            "calculation_method": "ערכי מאזן מאומתים."
+          },
+          {
+            "period": "Net Cash ללא BTC",
+            "frequency": "point-in-time",
+            "net_cash_or_net_debt": -1530400000,
+            "confidence": "high",
+            "source": "מחושב",
+            "calculation_method": "$260.3M - $1,790.7M = -$1,530.4M."
+          },
+          {
+            "period": "Net Cash כולל BTC — חישוב מהמספרים",
+            "frequency": "point-in-time",
+            "net_cash_or_net_debt": -605200000,
+            "confidence": "medium",
+            "source": "מחושב מהמקור",
+            "calculation_method": "$260.3M + $925.2M - $1,790.7M = -$605.2M (לפי הנוסחה הסטנדרטית)."
+          },
+          {
+            "period": "Net Cash כולל BTC — מוצג במקור",
+            "frequency": "point-in-time",
+            "net_cash_or_net_debt": -865500000,
+            "confidence": "low",
+            "source": "Perplexity Markdown (סתירה במקור)",
+            "calculation_method": "הערך המוצג במקור (-$865.5M) שונה מהחישוב (-$605.2M) ב-~$260M; הסיבה לא הוסברה."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "trend_hebrew": "Net Cash הולך וגרוע: עד ספט' 2024 החברה הייתה ב-net cash חיובי; עד מרץ 2026 — net debt חזק שלילי מעל $0.6B (כולל BTC) או מעל $1.5B (ללא BTC).",
+        "interpretation_hebrew": "מצב נזילות מתוח: גם בהכללת BTC כ-cash-equivalent (אופציה אופטימית), Net Cash שלילי. ה-BTC אינו נזיל באמת בלי השפעה על מחיר ופיזור — לכן יש לראות גם את התרחיש המחמיר (ללא BTC). הסתירה במקור מצריכה אימות 10-Q.",
+        "chart_recommendation": {
+          "chart_id": "clsk_net_cash_components",
+          "chart_type": "bar",
+          "title_hebrew": "רכיבי Net Cash במרץ 2026 — מזומן/BTC/חוב"
+        }
+      },
+      "19_current_ratio": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "3 נקודות זמן מאומתות מ-10-K/10-Q. גבוה מאוד (8.26x במרץ 2026) בעיקר כי BTC מסווג כ-current asset; נזילות פיזית נמוכה בהרבה."
+        },
+        "description_hebrew": "Current Ratio = Current Assets / Current Liabilities. 4.18 → 10.54 → 8.26. ערכים מאוד גבוהים אך מטעים: ~80% מ-current assets הם BTC ($813M מתוך $1,099M במרץ 2026). נזילות אמיתית (מזומן) קרובה ל-$260M מול חוב כולל $1.79B.",
+        "company_data": [
+          {
+            "period": "Sep 30, 2025",
+            "frequency": "point-in-time",
+            "current_ratio": 4.18,
+            "current_assets": 1320000000,
+            "current_liabilities": 315800000,
+            "confidence": "high",
+            "source": "CLSK FY2025 10-K",
+            "calculation_method": "$1,320M / $315.8M."
+          },
+          {
+            "period": "Dec 31, 2025",
+            "frequency": "point-in-time",
+            "current_ratio": 10.54,
+            "current_assets": 1470600000,
+            "current_liabilities": 139500000,
+            "confidence": "high",
+            "source": "CLSK Q1 FY2026 10-Q",
+            "calculation_method": "$1,470.6M / $139.5M."
+          },
+          {
+            "period": "Mar 31, 2026",
+            "frequency": "point-in-time",
+            "current_ratio": 8.26,
+            "current_assets": 1099000000,
+            "current_liabilities": 133100000,
+            "confidence": "high",
+            "source": "CLSK Q2 FY2026 10-Q",
+            "calculation_method": "$1,099M / $133.1M."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "trend_hebrew": "Current ratio נשאר גבוה (>8x) אך נזילות אמיתית מוגבלת — תלויה במכירת BTC.",
+        "interpretation_hebrew": "המספרים הגבוהים מטעים — BTC הוא רוב ה-current assets. נזילות מזומן בפועל היא $260M כנגד חוב $1.79B (אם כי חוב לא לטווח קצר). יש לקרוא בשילוב עם D/E והרכיבים.",
+        "chart_recommendation": {
+          "chart_id": "clsk_current_ratio_trend",
+          "chart_type": "bar",
+          "title_hebrew": "Current Ratio — Sep 2025 → Mar 2026"
+        }
+      },
+      "20_return_on_equity": {
+        "data_quality": {
+          "status": "na",
+          "note_hebrew": "ROE לא משמעותי: H1 FY26 הפסד $757M מול הון עצמי שיורד מ-$2.175B ל-$986M — ROE עמוק שלילי. FY2025 שלם +18.9% (אך מבוסס ברובו על BTC FV gain $425M). DuPont decomposition אינו אמין."
+        },
+        "description_hebrew": "ROE = Net Income / Avg Equity. ב-CLSK Net Income מסולק מ-BTC FV ולכן ROE GAAP אינו ייצוגי. FY2025 +18.9% מבוסס על $425M BTC FV gain. H1 FY2026 ROE עמוק שלילי. סטטוס: לא רלוונטי כמדד איכות.",
+        "company_data": [
+          {
+            "period": "FY2025 (לרושם)",
+            "frequency": "שנתי (FY)",
+            "roe": 18.9,
+            "confidence": "low",
+            "source": "CleanSpark FY2025 10-K",
+            "calculation_method": "$364.5M / avg($1,761M, $2,175M) = 18.9%. כולל $425M BTC FV gain."
+          },
+          {
+            "period": "H1 FY2026",
+            "frequency": "חצי-שנתי",
+            "h1_net_loss_usd": -757000000,
+            "confidence": "high",
+            "source": "CLSK 10-Qs",
+            "calculation_method": "Net Loss -$378.7M (Q1) + -$378.3M (Q2) = -$757M. ROE לא משמעותי בעקבות תנודתיות BTC FV."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "interpretation_hebrew": "ROE GAAP אינו מטריקה תקפה ל-CLSK. נדרשת מטריקת רווחיות אופרציונלית (cash cost per BTC, operational mining margin).",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      },
+      "21_return_on_invested_capital": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "ROIC לא ניתן לחישוב מהימן: (1) NOPAT מוטה מ-BTC FV; (2) Invested Capital — האם BTC treasury $925M ייכלל? לא ברור; (3) אין NOPAT proxy שמבודד פעילות כרייה במקורות הקיימים. ההמלצה: שימוש ב-Cost per BTC כ-proxy ליעילות תפעולית."
+        },
+        "description_hebrew": "ROIC לא ניתן לחישוב מהימן עבור CLSK בסביבת BTC FV. נדרש שימוש במטריקות תפעוליות ספציפיות (Cost-to-Mine BTC, mining margin).",
+        "company_data": [],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "interpretation_hebrew": "אסור לחשב ROIC על נתוני GAAP של CLSK; הם מסולקים מ-BTC FV. במקום זה — Cost per BTC.",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      }
+    },
+    "forward_signals": {
+      "22_management_guidance": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "הכוונה תפעולית קיימת (50 EH/s hashrate הושג, 1.8 GW under contract, AI/HPC באמצעות Submer); אבל אין guidance כמותי להכנסות או CapEx, ואין חוזי AI חתומים."
+        },
+        "description_hebrew": "ההנהלה סיפקה הכוונה תפעולית — לא הכנסתית: 50 EH/s peak (הושג), 1.8 GW under contract, 808 MW utilized, ושיתוף פעולה עם Submer ל-AI/HPC. **חסר**: guidance להכנסות FY2026, guidance ל-CapEx, וחוזי AI/HPC חתומים.",
+        "company_data": [
+          {
+            "period": "Q2 FY2026 (May 11, 2026)",
+            "frequency": "point-in-time",
+            "power_gw_contracted": 1.8,
+            "utilized_mw": 808,
+            "hashrate_target_eh": 50.0,
+            "confidence": "high",
+            "source": "CleanSpark Q2 FY2026 PR/earnings",
+            "calculation_method": "הכוונה תפעולית בלבד."
+          }
+        ],
+        "missing_items_hebrew": "Revenue guidance, CapEx guidance, AI/HPC signed contracts — כולם חסרים.",
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "interpretation_hebrew": "החברה מספקת הכוונה תפעולית ברורה (קיבולת אנרגיה, יעדי האשרייט, מעבר ל-AI) אך נמנעת מ-guidance כמותי הכנסתי — מה שעשוי לשקף חוסר ודאות לגבי מחיר BTC ו-AI revenue.",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      },
+      "23_analyst_consensus": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "12 אנליסטים, Strong Buy consensus, יעד מחיר ממוצע $19.85 (+9.3% upside), טווח $14-$26. הנתון מ-public.com / tickernerd.com (מקורות שניוניים) ב-31.5.2026."
+        },
+        "description_hebrew": "12 אנליסטים מכסים את CLSK. Strong Buy consensus עם 0 Hold/Sell. יעד מחיר ממוצע $19.85 (+9.3% מהמחיר הנוכחי $18.16), חציון $21.25 (+17.0%), גבוה $26.00 (BTIG), נמוך $14.00 (Cantor Fitzgerald).",
+        "company_data": [
+          {
+            "period": "May 31, 2026",
+            "frequency": "point-in-time",
+            "total_analysts": 12,
+            "bullish_percent": 100,
+            "buy": 12,
+            "hold": 0,
+            "sell": 0,
+            "average_price_target": 19.85,
+            "median_price_target": 21.25,
+            "high": 26.0,
+            "low": 14.0,
+            "upside_percent": 9.3,
+            "confidence": "medium",
+            "source": "public.com / tickernerd.com (secondary)",
+            "calculation_method": "Aggregated analyst data."
+          }
+        ],
+        "recent_actions": [
+          {
+            "analyst": "KBW (Stephen Glagola)",
+            "action": "Maintain Outperform",
+            "price_range": "$16.00",
+            "date": "2026-05-13",
+            "source": "tickernerd.com",
+            "confidence": "medium"
+          },
+          {
+            "analyst": "Maxim Group",
+            "action": "Maintain Buy",
+            "price_range": "$22.00",
+            "date": "2026-05-12",
+            "source": "tickernerd.com",
+            "confidence": "medium"
+          },
+          {
+            "analyst": "BTIG (Gregory Lewis)",
+            "action": "Reiterate Buy",
+            "price_range": "$26.00",
+            "date": "2026-05-12",
+            "source": "tickernerd.com",
+            "confidence": "medium"
+          },
+          {
+            "analyst": "HC Wainwright",
+            "action": "Lower target",
+            "price_range": "$27 → $22 (Buy)",
+            "date": "2026-02",
+            "source": "Investing.com",
+            "calculation_method": "הורדת יעד עקב BTC bear market.",
+            "confidence": "medium"
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "trend_hebrew": "Strong Buy consensus יציב; HC Wainwright הורידה יעד מ-$27 ל-$22 (פברואר 2026) — סימן זהיר ראשון. BTIG משאיר $26 אופטימי.",
+        "interpretation_hebrew": "ה-consensus אופטימי (12/12 Buy) ועם זאת המחיר רחוק מ-2-22% מהיעדים. ההנחה מאחורי ה-consensus היא התאוששות BTC + מעבר מוצלח ל-AI/HPC. נדרש לאמת מול 10-Q ולוודא שאינו מוטה מאופטימיזם של מפרסמים שניוניים.",
+        "chart_recommendation": {
+          "chart_id": "clsk_analyst_ratings",
+          "chart_type": "bar",
+          "title_hebrew": "התפלגות המלצות אנליסטים (Buy/Hold/Sell)"
+        }
+      },
+      "24_earnings_revisions": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "Q2 FY2026 היה miss משמעותי (EPS -$1.52 מול קונצנזוס -$0.25; revenue $136M מול $152M). תחזיות עתידיות זמינות (Q3FY26 ~$156M, Q4FY26 ~$168M, FY26 ~$642M) אך היסטוריית revisions מלאה (up/down/maintained) חסרה במקורות שנסקרו."
+        },
+        "description_hebrew": "Q2 FY2026 הציגה miss דרמטי — EPS -$1.52 מול -$0.25, revenue $136M מול $152M. תחזיות עתידיות (consensus): Q3 FY26 ~$156M, Q4 FY26 ~$168M, FY26 שלם ~$642M. היסטוריית revisions מלאה לא נמצאה.",
+        "company_data": [
+          {
+            "period": "Q2 FY2026 — miss דרמטי",
+            "frequency": "רבעוני",
+            "revenue_actual_usd": 136408000,
+            "revenue_consensus_usd": 152300000,
+            "eps_actual": -1.52,
+            "eps_consensus": -0.25,
+            "confidence": "high",
+            "source": "CLSK Q2 FY2026 PR + Yahoo Finance consensus",
+            "calculation_method": "Miss מ-2 רכיבים."
+          },
+          {
+            "period": "Q3 FY2026 (consensus)",
+            "frequency": "רבעוני (תחזית)",
+            "revenue_consensus_usd": 156000000,
+            "confidence": "medium",
+            "source": "Yahoo Finance",
+            "calculation_method": "Consensus עתידי."
+          },
+          {
+            "period": "Q4 FY2026 (consensus)",
+            "frequency": "רבעוני (תחזית)",
+            "revenue_consensus_usd": 168000000,
+            "confidence": "medium",
+            "source": "Yahoo Finance",
+            "calculation_method": "Consensus עתידי."
+          },
+          {
+            "period": "FY2026 שלם (consensus)",
+            "frequency": "שנתי (תחזית)",
+            "revenue_consensus_usd": 642000000,
+            "confidence": "medium",
+            "source": "Yahoo Finance",
+            "calculation_method": "Consensus שנתי."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "trend_hebrew": "תחזיות הכנסה לFY26 (~$642M) נמוכה משמעותית מ-FY25 ($766M) — ירידה צפויה של ~16%.",
+        "interpretation_hebrew": "הקונצנזוס עצמו צופה ירידת הכנסות ב-FY26; ה-miss הדרמטי של Q2 FY26 מעלה סבירות להמשך הורדות תחזיות. נדרש לעקוב אחר revisions חודשיים.",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      },
+      "25_share_buybacks": {
+        "data_quality": {
+          "status": "complete",
+          "note_hebrew": "Buyback program $460M+ (~28.6M מניות) ב-Q1 FY2026. סך treasury $608M (42.4M מניות) עד מרץ 2026. מספר מניות ירד מ-284.3M (ספט' 2025) ל-256.6M (מרץ 2026) — ירידה של 10%. ATM הופסקה בסוף 2024."
+        },
+        "description_hebrew": "תוכנית buyback אגרסיבית במימון convertible notes: $463M רכישות עצמיות, Treasury Stock גדל מ-$145M ל-$608M. **מסלול אטיפי**: ממנף החוב כדי לרכוש מניות — הימור על עליית מחיר עתידית.",
+        "company_data": [
+          {
+            "period": "Q1 FY2026 (Oct-Dec 2025)",
+            "frequency": "רבעוני",
+            "buyback_amount": 460000000,
+            "confidence": "high",
+            "source": "CLSK Q1 FY2026 PR",
+            "calculation_method": "~28.6M מניות נרכשו ב-Q1 FY26."
+          },
+          {
+            "period": "Mar 31, 2026 (total treasury)",
+            "frequency": "point-in-time",
+            "buyback_amount": 608000000,
+            "confidence": "high",
+            "source": "CLSK Q2 FY2026 10-Q",
+            "calculation_method": "42.4M מניות בטריזורי."
+          }
+        ],
+        "share_count_trend": [
+          {
+            "period": "Sep 2021",
+            "shares_m": 29,
+            "confidence": "medium",
+            "source": "KoalaGains (secondary)"
+          },
+          {
+            "period": "Sep 2022",
+            "shares_m": 43,
+            "confidence": "medium",
+            "source": "KoalaGains (secondary)"
+          },
+          {
+            "period": "Sep 2023",
+            "shares_m": 103,
+            "confidence": "high",
+            "source": "10-K"
+          },
+          {
+            "period": "Sep 2024",
+            "shares_m": 270.9,
+            "confidence": "high",
+            "source": "10-K"
+          },
+          {
+            "period": "Sep 2025",
+            "shares_m": 284.3,
+            "confidence": "high",
+            "source": "10-K"
+          },
+          {
+            "period": "Dec 2025",
+            "shares_m": 255.7,
+            "confidence": "high",
+            "source": "10-Q"
+          },
+          {
+            "period": "Mar 2026",
+            "shares_m": 256.6,
+            "confidence": "high",
+            "source": "10-Q"
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "trend_hebrew": "מ-Sep 2025 (284.3M) ל-Mar 2026 (256.6M) — ירידה של ~10% במניות הקיימות. ב-FY24 — דילול מאסיבי (+163%) משוק ה-ATM. ATM הסתיים בסוף 2024.",
+        "interpretation_hebrew": "אסטרטגיית buyback מאוחרת ואגרסיבית מ-FY26, ממומנת בחוב. הימור על עליית מחיר עתידית; אם BTC ימשיך לרדת — Buyback ימצא חברה מצב נזילות חלש יותר.",
+        "chart_recommendation": {
+          "chart_id": "clsk_share_count_trend",
+          "chart_type": "bar",
+          "title_hebrew": "מספר מניות במחזור Sep 2021 → Mar 2026"
+        }
+      },
+      "26_insider_transactions": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "9 עסקאות בולטות מ-12 החודשים האחרונים זוהו (Form 4). **אין open-market buys כלל**. ~$2M+ מכירות שוק פתוח של דירקטורים. שאר העסקאות tax withholding / exercise (לא העברת מזומן). מקורות SEC Form 4 + Benzinga/SimplyWallSt aggregation."
+        },
+        "description_hebrew": "**0 open-market insider buys** ב-12 החודשים האחרונים — סימן שלילי. סך מכירות שוק פתוח של דירקטורים: ~$2.4M (Thomas Wood, Amanda Cavaleri, Roger Beynon). שאר העסקאות tax withholding (לא מצביעות על דעה). SimplyWallSt: \"significant insider selling over the past 3 months: $693K sold.\"",
+        "company_data": [
+          {
+            "period": "12 חודשים אחרונים",
+            "frequency": "summary",
+            "total_transactions": 9,
+            "total_sell_value_6m": 2400000,
+            "open_market_buys_count": 0,
+            "buy_sell_ratio": 0,
+            "confidence": "medium",
+            "source": "SEC Form 4 + Benzinga/SimplyWallSt aggregation",
+            "calculation_method": "סכימה לפי Form 4 ב-SEC."
+          }
+        ],
+        "transactions": [
+          {
+            "date": "2025-12-23",
+            "insider": "Thomas Wood",
+            "type": "Open Market Sell",
+            "value_usd": 997000,
+            "source": "Benzinga",
+            "confidence": "high"
+          },
+          {
+            "date": "2025-12-03",
+            "insider": "Amanda Cavaleri",
+            "type": "Open Market Sell",
+            "value_usd": 495000,
+            "source": "Benzinga",
+            "confidence": "high"
+          },
+          {
+            "date": "2025-09-09",
+            "insider": "Matthew Schultz (CEO)",
+            "type": "Tax Withholding Sell",
+            "value_usd": 1710000,
+            "source": "SEC Form 4",
+            "confidence": "high"
+          },
+          {
+            "date": "2025-09-09",
+            "insider": "Gary Vecchiarelli (CFO)",
+            "type": "Tax Withholding Sell",
+            "value_usd": 493000,
+            "source": "SEC Form 4",
+            "confidence": "high"
+          },
+          {
+            "date": "2025-05-21",
+            "insider": "Roger Beynon (Director)",
+            "type": "Open Market Sell",
+            "value_usd": 525000,
+            "source": "Benzinga",
+            "confidence": "high"
+          },
+          {
+            "date": "2025-03-24",
+            "insider": "Thomas Wood",
+            "type": "Open Market Sell",
+            "value_usd": 357000,
+            "source": "Benzinga",
+            "confidence": "high"
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "CLSK Perplexity KPI Data Pack (31.5.2026) + CleanSpark IR/SEC/10-K/10-Q references",
+            "calculation_method": "השוואת עמיתים מלאה (MARA/RIOT/HUT/IREN/WULF) לא נשלפה במחקר הייעודי הזה ולכן מסומנת כחסרה; אין להציג ערכים משוערים לעמיתים."
+          }
+        ],
+        "trend_hebrew": "0 קניות שוק פתוח; ~$2.4M מכירות שוק פתוח של דירקטורים על פני 12 חודשים — אינדיקטור שלילי קל.",
+        "interpretation_hebrew": "היעדר open-market buys (גם במחיר נמוך) מצביע שמי שמכיר את החברה מבפנים אינו מאמין שהמחיר זול כעת. עם זאת, הסכומים אינם דרמטיים — לא 'אש נגד' חזק.",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      }
+    },
+    "sector_specific_metrics": {
+      "data_quality": {
+        "status": "partial",
+        "note_hebrew": "נתוני ביצוע תפעולי של CLSK כורה מדווחים חודשית; חלקם כוללים נקודות שניוניות (YouTube summary, Bitbo, BitcoinMiningStock.io). נתוני עמיתים — חסרים מלבד האשרייט שמדורג מ-BitcoinMiningStock.io."
+      },
+      "description_hebrew": "מדדים ייחודיים ל-Bitcoin Miners — נתוני הצי, התפוקה, האחזקות והעלות התפעולית של CLSK. נתוני CLSK עצמה בעיקרם complete; השוואת עמיתים partial/missing.",
+      "metrics": [
+        {
+          "key": "operational_hashrate_peak_EH_s",
+          "label_hebrew": "האשרייט תפעולי peak (EH/s)",
+          "frequency": "חודשי",
+          "data_quality": {
+            "status": "complete",
+            "note_hebrew": "Peak 50.0 EH/s יציב לאורך כל החודשים מאז Jun 2025."
+          },
+          "values": [
+            {
+              "period": "Jun 2025",
+              "value": 50.0,
+              "confidence": "high",
+              "source": "CLSK Jun 2025 Update"
+            },
+            {
+              "period": "Sep 30, 2025",
+              "value": 50.0,
+              "confidence": "high",
+              "source": "FY2025 10-K"
+            },
+            {
+              "period": "Dec 2025",
+              "value": 50.0,
+              "confidence": "high",
+              "source": "CLSK Dec 2025 Update"
+            },
+            {
+              "period": "Mar 2026",
+              "value": 50.0,
+              "confidence": "high",
+              "source": "CLSK Mar 2026 Update"
+            },
+            {
+              "period": "Apr 2026",
+              "value": 50.0,
+              "confidence": "high",
+              "source": "CLSK Apr 2026 Update"
+            }
+          ]
+        },
+        {
+          "key": "avg_operating_hashrate_EH_s",
+          "label_hebrew": "האשרייט תפעולי ממוצע (EH/s)",
+          "frequency": "חודשי",
+          "data_quality": {
+            "status": "complete",
+            "note_hebrew": "ערכים חודשיים מאומתים. Q2 FY25 ו-Jan 2026 חסרים."
+          },
+          "values": [
+            {
+              "period": "Dec 2025",
+              "value": 47.2,
+              "confidence": "high",
+              "source": "CLSK Dec Update"
+            },
+            {
+              "period": "Mar 2026",
+              "value": 47.3,
+              "confidence": "high",
+              "source": "CLSK Mar Update"
+            },
+            {
+              "period": "Apr 2026",
+              "value": 46.2,
+              "confidence": "high",
+              "source": "CLSK Apr Update"
+            }
+          ]
+        },
+        {
+          "key": "fleet_efficiency_J_TH",
+          "label_hebrew": "יעילות צי peak (J/TH)",
+          "frequency": "חודשי",
+          "data_quality": {
+            "status": "complete",
+            "note_hebrew": "Peak efficiency 16.07 J/TH יציב מ-Dec 2025; 10-K מציין avg 16.7 W/TH לצי הפרוס."
+          },
+          "values": [
+            {
+              "period": "Dec 2024 (Q1 FY25)",
+              "value": 16.15,
+              "confidence": "high",
+              "source": "CLSK Q1 FY25 PR"
+            },
+            {
+              "period": "Dec 2025",
+              "value": 16.07,
+              "confidence": "high",
+              "source": "CLSK Dec Update"
+            },
+            {
+              "period": "Mar 2026",
+              "value": 16.07,
+              "confidence": "high",
+              "source": "CLSK Mar Update"
+            },
+            {
+              "period": "Apr 2026",
+              "value": 16.07,
+              "confidence": "high",
+              "source": "CLSK Apr Update"
+            }
+          ]
+        },
+        {
+          "key": "deployed_fleet_count",
+          "label_hebrew": "מספר מכשירים פרוסים (count)",
+          "frequency": "חודשי",
+          "data_quality": {
+            "status": "complete",
+            "note_hebrew": "ירידה מ-245,199 ל-224,473 משקפת הסרת מכשירים פחות יעילים תוך שמירה על peak 50 EH/s."
+          },
+          "values": [
+            {
+              "period": "Dec 2025",
+              "value": 245199,
+              "confidence": "high",
+              "source": "CLSK Dec Update"
+            },
+            {
+              "period": "Mar 2026",
+              "value": 224473,
+              "confidence": "high",
+              "source": "CLSK Mar Update"
+            },
+            {
+              "period": "Apr 2026",
+              "value": 224473,
+              "confidence": "high",
+              "source": "CLSK Apr Update"
+            }
+          ]
+        },
+        {
+          "key": "btc_mined_monthly",
+          "label_hebrew": "BTC שנכרו (חודשי)",
+          "frequency": "חודשי",
+          "data_quality": {
+            "status": "partial",
+            "note_hebrew": "Dec, Mar, Apr — מאומתים. Jan 2026 ממקור YouTube summary (שניוני). Feb 2026 הוערך בחיסור (1799 YTD Mar - 573 Jan - 658 Mar = 568)."
+          },
+          "values": [
+            {
+              "period": "Dec 2025",
+              "value": 622,
+              "confidence": "high",
+              "source": "CLSK Dec Update"
+            },
+            {
+              "period": "Jan 2026",
+              "value": 573,
+              "confidence": "medium",
+              "source": "YouTube summary (secondary)",
+              "calculation_method": "מקור שניוני; נדרש אימות."
+            },
+            {
+              "period": "Feb 2026",
+              "value": 568,
+              "confidence": "low",
+              "source": "מחושב",
+              "calculation_method": "1799 YTD Mar - 573 Jan - 658 Mar = 568."
+            },
+            {
+              "period": "Mar 2026",
+              "value": 658,
+              "confidence": "high",
+              "source": "CLSK Mar Update"
+            },
+            {
+              "period": "Apr 2026",
+              "value": 640,
+              "confidence": "high",
+              "source": "CLSK Apr Update"
+            }
+          ]
+        },
+        {
+          "key": "btc_mined_annual",
+          "label_hebrew": "BTC שנכרו (שנתי)",
+          "frequency": "שנתי",
+          "data_quality": {
+            "status": "partial",
+            "note_hebrew": "FY שנים מ-10-K מאומתים; CY2024 implied (estimated)."
+          },
+          "values": [
+            {
+              "period": "CY2024 (implied)",
+              "value": 7030,
+              "confidence": "low",
+              "source": "מחושב",
+              "calculation_method": "מתוך +10% growth math; לא מאומת רשמית."
+            },
+            {
+              "period": "FY2024 (Oct23-Sep24)",
+              "value": 7092,
+              "confidence": "high",
+              "source": "FY2025 10-K"
+            },
+            {
+              "period": "CY2025",
+              "value": 7746,
+              "confidence": "high",
+              "source": "CLSK Dec 2025 Update"
+            },
+            {
+              "period": "FY2025 (Oct24-Sep25)",
+              "value": 7873,
+              "confidence": "high",
+              "source": "FY2025 10-K"
+            }
+          ]
+        },
+        {
+          "key": "cost_to_mine_BTC_usd",
+          "label_hebrew": "עלות לכריית BTC ($)",
+          "frequency": "רבעוני",
+          "data_quality": {
+            "status": "partial",
+            "note_hebrew": "Q1/Q2 FY25 דווחו ($34K / $42.6K). מ-Q3 FY25 — החברה חדלה לדווח מטריקה זו. Binance Q1 2026 הזכיר ~$45K shutdown price (מקור שניוני)."
+          },
+          "values": [
+            {
+              "period": "Q1 FY2025",
+              "value": 34000,
+              "confidence": "high",
+              "source": "CLSK Q1 FY2025 PR"
+            },
+            {
+              "period": "Q2 FY2025",
+              "value": 42600,
+              "confidence": "high",
+              "source": "CLSK Q2 FY2025 earnings call"
+            }
+          ]
+        },
+        {
+          "key": "energy_cost_per_kwh_usd",
+          "label_hebrew": "עלות אנרגיה ($/kWh)",
+          "frequency": "רבעוני/שנתי",
+          "data_quality": {
+            "status": "partial",
+            "note_hebrew": "Q2 FY25 מאומת; FY25 שנתי ממקור Kavout (שניוני)."
+          },
+          "values": [
+            {
+              "period": "Q2 FY2025",
+              "value": 0.06,
+              "confidence": "high",
+              "source": "CLSK Q2 FY2025 earnings call"
+            },
+            {
+              "period": "FY2025 (approx)",
+              "value": 0.056,
+              "confidence": "medium",
+              "source": "Kavout (secondary)"
+            }
+          ]
+        },
+        {
+          "key": "power_capacity_gw_contracted",
+          "label_hebrew": "קיבולת חשמל (GW under contract)",
+          "frequency": "point-in-time",
+          "data_quality": {
+            "status": "complete",
+            "note_hebrew": "1.8 GW under contract; 808 MW utilized (אפר' 2026)."
+          },
+          "values": [
+            {
+              "period": "Dec 2025",
+              "value": 1.8,
+              "confidence": "high",
+              "source": "CLSK Dec Update"
+            },
+            {
+              "period": "Apr 2026",
+              "value": 1.8,
+              "confidence": "high",
+              "source": "CLSK Apr Update"
+            }
+          ]
+        },
+        {
+          "key": "btc_holdings_count",
+          "label_hebrew": "אחזקות BTC (count)",
+          "frequency": "point-in-time",
+          "data_quality": {
+            "status": "partial",
+            "note_hebrew": "Mar 31, 2026 — לא ברור: HODL value $925.2M לעומת Apr 30 13,453 BTC. הפער (~4,500 BTC) לא הוסבר. ערכי Mar/Jun/Dec 2025 ו-Apr 2026 מאומתים. Jan 2026 ממקור שניוני (YouTube)."
+          },
+          "values": [
+            {
+              "period": "Mar 31, 2025",
+              "value": 11869,
+              "confidence": "high",
+              "source": "CLSK Q2 FY2025 10-Q"
+            },
+            {
+              "period": "Jun 30, 2025",
+              "value": 12703,
+              "confidence": "high",
+              "source": "CLSK Q3 FY2025 PR"
+            },
+            {
+              "period": "Dec 31, 2025",
+              "value": 13099,
+              "confidence": "high",
+              "source": "CLSK Dec Update"
+            },
+            {
+              "period": "Jan 31, 2026",
+              "value": 13513,
+              "confidence": "medium",
+              "source": "YouTube summary (secondary)"
+            },
+            {
+              "period": "Apr 30, 2026",
+              "value": 13453,
+              "confidence": "high",
+              "source": "Bitbo / Bitcoin Treasuries (secondary)"
+            }
+          ]
+        },
+        {
+          "key": "btc_sold_monthly",
+          "label_hebrew": "BTC שנמכרו (חודשי)",
+          "frequency": "חודשי",
+          "data_quality": {
+            "status": "partial",
+            "note_hebrew": "רק Dec 2025 דווח (577 BTC, $51.46M, $89,210/BTC). שאר החודשים חסרים."
+          },
+          "values": [
+            {
+              "period": "Dec 2025 (sold)",
+              "value": 577,
+              "confidence": "high",
+              "source": "CLSK Dec Update"
+            },
+            {
+              "period": "Dec 2025 (proceeds_usd)",
+              "value": 51461322,
+              "confidence": "high",
+              "source": "CLSK Dec Update"
+            },
+            {
+              "period": "Dec 2025 (avg_price_per_btc)",
+              "value": 89210,
+              "confidence": "high",
+              "source": "CLSK Dec Update"
+            }
+          ]
+        },
+        {
+          "key": "global_hashrate_share_pct",
+          "label_hebrew": "נתח האשרייט גלובלי (%)",
+          "frequency": "point-in-time",
+          "data_quality": {
+            "status": "partial",
+            "note_hebrew": "4.78% מ-BitcoinMiningStock.io (מקור שניוני)."
+          },
+          "values": [
+            {
+              "period": "Apr 2026",
+              "value": 4.78,
+              "confidence": "medium",
+              "source": "BitcoinMiningStock.io (secondary)"
+            }
+          ]
+        },
+        {
+          "key": "mining_utilization_pct",
+          "label_hebrew": "ניצול כרייה (avg/peak %)",
+          "frequency": "חודשי",
+          "data_quality": {
+            "status": "estimated",
+            "note_hebrew": "Proxy: Avg Operating Hashrate / Peak Hashrate (50 EH/s). לא מטריקה רשמית שדווחה."
+          },
+          "values": [
+            {
+              "period": "Dec 2025",
+              "value": 94.4,
+              "confidence": "medium",
+              "source": "מחושב",
+              "calculation_method": "47.2/50.0*100"
+            },
+            {
+              "period": "Mar 2026",
+              "value": 94.6,
+              "confidence": "medium",
+              "source": "מחושב",
+              "calculation_method": "47.3/50.0*100"
+            },
+            {
+              "period": "Apr 2026",
+              "value": 92.4,
+              "confidence": "medium",
+              "source": "מחושב",
+              "calculation_method": "46.2/50.0*100"
+            }
+          ]
+        },
+        {
+          "key": "peer_hashrate_ranking",
+          "label_hebrew": "דירוג גלובלי לפי האשרייט",
+          "frequency": "point-in-time",
+          "data_quality": {
+            "status": "partial",
+            "note_hebrew": "מיקום 3 גלובלי בקרב מינרים ציבוריים. נתוני שווי שוק/מטריקות פיננסיות של עמיתים — חסרים."
+          },
+          "values": [
+            {
+              "period": "Apr-May 2026 — Rank 3",
+              "value": 3,
+              "confidence": "medium",
+              "source": "BitcoinMiningStock.io (secondary)",
+              "calculation_method": "מיקום בין: MARA (#1, 72.2 EH/s), Bitdeer (#2, 65.5 EH/s), CLSK (#3, 46.2 EH/s), RIOT (#4, 36.4 EH/s), IREN (#5, 36.0 EH/s), ABTC (#6, 25.0 EH/s)."
+            }
+          ]
+        },
+        {
+          "key": "data_center_locations",
+          "label_hebrew": "מיקומי Data Center",
+          "frequency": "point-in-time",
+          "data_quality": {
+            "status": "complete",
+            "note_hebrew": "מיקומים ב-GA/TN/MS/WY + TX/SD חדשים ל-AI/HPC."
+          },
+          "values": [
+            {
+              "period": "Operational sites (Apr 2026)",
+              "value": 7,
+              "confidence": "high",
+              "source": "FY2025 10-K + Q2 FY2026",
+              "calculation_method": "GA, TN (~11 sites), MS, WY (Bitcoin mining); TX Austin/Brazoria (AI/HPC); SD (AI)."
+            }
+          ]
+        },
+        {
+          "key": "ai_hpc_status",
+          "label_hebrew": "סטטוס AI/HPC",
+          "frequency": "point-in-time",
+          "data_quality": {
+            "status": "partial",
+            "note_hebrew": "שותף ראשון (Submer) נבחר; אין חוזי דיירים חתומים שדווחו."
+          },
+          "values": [
+            {
+              "period": "May 2026 — partner only",
+              "value": 1,
+              "confidence": "high",
+              "source": "CLSK Q2 FY2026 PR",
+              "calculation_method": "Submer = שותף יחיד; 0 חוזי דיירים חתומים שדווחו."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "dashboard_summary": {
+    "scorecard": {
+      "growth_score_1_to_10": 4,
+      "profitability_score_1_to_10": 3,
+      "valuation_score_1_to_10": 5,
+      "cash_flow_score_1_to_10": 2,
+      "financial_health_score_1_to_10": 3,
+      "forward_signals_score_1_to_10": 5,
+      "overall_quality_score_1_to_10": 4
+    },
+    "traffic_lights": {
+      "growth": "yellow",
+      "profitability": "red",
+      "valuation": "yellow",
+      "cash_flow": "red",
+      "financial_health": "red",
+      "forward_signals": "yellow"
+    },
+    "top_positive_signals_hebrew": [
+      "מנהיגות תפעולית בכרייה (#3 גלובלי, 4.78% global hashrate, peak 50 EH/s).",
+      "יעילות צי גבוהה (16.07 J/TH peak); 1.8 GW under contract.",
+      "Strong Buy consensus מ-12 אנליסטים; טווח יעדים $14-$26.",
+      "Buyback אגרסיבי הקטין מספר מניות ב-10% (Sep 2025 → Mar 2026).",
+      "מעבר אסטרטגי ל-AI/HPC עם Submer ושני אתרי TX חדשים (585 MW)."
+    ],
+    "top_negative_signals_hebrew": [
+      "מרווח גולמי בקריסה: מ-69.3% (Q2 FY24) ל-40.1% (Q2 FY26).",
+      "D/E עלה מ-0.04 ל-1.82 ב-18 חודשים; ההון העצמי התכווץ ב-55% (Sep 2025 → Mar 2026).",
+      "Net Cash שלילי משמעותית (-$1.53B ללא BTC); הסתירה במקור לגבי -$865.5M / -$605.2M כולל BTC לא נפתרה.",
+      "OCF/FCF הולכים ומחמירים: FCF TTM -$833M; FCF Margin שלילי משמעותית.",
+      "Q2 FY2026 EPS miss חמור (-$1.52 מול -$0.25); ירידת הכנסות -24.8% QoQ.",
+      "0 open-market insider buys ב-12 חודשים; ~$2.4M מכירות שוק פתוח של דירקטורים."
+    ],
+    "key_questions_for_investor_hebrew": [
+      "האם החברה תחתום על חוזה AI/HPC ראשון ב-Q3/Q4 FY2026? בלעדיו, מבנה ההכנסה נשאר תלוי BTC.",
+      "האם המרווח הגולמי יתייצב סביב 40% או ימשיך לרדת? נדרש אימות מ-Q3 FY26.",
+      "האם תהיה הנפקה נוספת של מניות/חוב לחיזוק נזילות, או שהחברה תוכל לעמוד בהוצאות הקיימות?",
+      "מה הפער האמיתי של BTC count Mar 2026 לעומת Apr 2026 (~4,500 BTC) — collateral, רכישה, או טעות הצגה?",
+      "האם תוצאות עתידיות יסיטו את ה-consensus מ-Strong Buy אם תימשך החמרת המאזן?"
+    ],
+    "final_takeaway_hebrew": "CleanSpark משלבת מנהיגות תפעולית מובילה (peak 50 EH/s, יעילות 16.07 J/TH, #3 גלובלית) עם מצב פיננסי מתחזק לחיוב — D/E 1.82, FCF TTM -$833M, הון עצמי שהתכווץ ב-55% תוך 6 חודשים. ההימור האסטרטגי על AI/HPC (Submer + TX/SD) טרם מניב הכנסה חתומה. ההצדקה ל-Strong Buy consensus מבוססת על הנחות כפולות: התאוששות BTC + הצלחת AI. שתי הנחות אינן וודאיות. **מומלץ למשקיע שמכיר תנודתיות BTC, יודע להתעלם מ-GAAP מסולק BTC-FV, ומסוגל לעקוב צמוד אחר חוזי AI/HPC.**"
+  },
+  "chart_data": [
+    {
+      "chart_id": "clsk_revenue_annual",
+      "chart_type": "bar",
+      "title_hebrew": "הכנסות שנתיות FY2021-FY2025",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "נתונים שנתיים (FY)",
+      "series": [
+        {
+          "name": "revenue",
+          "data": [
+            {
+              "x": "FY2021",
+              "y": 39290000
+            },
+            {
+              "x": "FY2022",
+              "y": 131530000
+            },
+            {
+              "x": "FY2023",
+              "y": 168408000
+            },
+            {
+              "x": "FY2024",
+              "y": 378968000
+            },
+            {
+              "x": "FY2025",
+              "y": 766314000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_gross_margin_annual",
+      "chart_type": "bar",
+      "title_hebrew": "מרווח גולמי שנתי FY2023-FY2025",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "נתונים שנתיים (FY)",
+      "series": [
+        {
+          "name": "gross_margin",
+          "data": [
+            {
+              "x": "FY2023",
+              "y": 44.4
+            },
+            {
+              "x": "FY2024",
+              "y": 56.3
+            },
+            {
+              "x": "FY2025",
+              "y": 55.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_operating_margin_annual",
+      "chart_type": "bar",
+      "title_hebrew": "מרווח תפעולי שנתי (כולל BTC FV) FY2023-FY2025",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "נתונים שנתיים (FY) — GAAP כולל BTC FV",
+      "note_hebrew": "FY2025 41.6% מבוסס ברובו על $425.6M BTC FV gain (non-cash). Normalized op margin ≈ -13.7%.",
+      "series": [
+        {
+          "name": "operating_margin",
+          "data": [
+            {
+              "x": "FY2023",
+              "y": -77.8
+            },
+            {
+              "x": "FY2024",
+              "y": -39.3
+            },
+            {
+              "x": "FY2025",
+              "y": 41.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_net_margin_annual",
+      "chart_type": "bar",
+      "title_hebrew": "מרווח נקי שנתי (כולל BTC FV) FY2022-FY2025",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "נתונים שנתיים (FY) — GAAP כולל BTC FV",
+      "note_hebrew": "FY2025 47.6% מבוסס על $425.6M BTC FV gain (non-cash); אינו מייצג ביצועים תפעוליים.",
+      "series": [
+        {
+          "name": "net_margin",
+          "data": [
+            {
+              "x": "FY2022",
+              "y": -43.6
+            },
+            {
+              "x": "FY2023",
+              "y": -82.0
+            },
+            {
+              "x": "FY2024",
+              "y": -38.5
+            },
+            {
+              "x": "FY2025",
+              "y": 47.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_eps_surprise",
+      "chart_type": "bar",
+      "title_hebrew": "EPS בפועל מול קונצנזוס — 5 רבעונים אחרונים",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "רבעוני",
+      "note_hebrew": "Q4 FY2025 לא נמצא במקורות; Q3 FY25 BEAT מבוסס על מקור שניוני (CoinTelegraph/Bitbo).",
+      "series": [
+        {
+          "name": "reported_eps",
+          "data": [
+            {
+              "x": "Q1 FY25",
+              "y": 0.85
+            },
+            {
+              "x": "Q2 FY25",
+              "y": -0.49
+            },
+            {
+              "x": "Q3 FY25",
+              "y": 0.78
+            },
+            {
+              "x": "Q1 FY26",
+              "y": -1.35
+            },
+            {
+              "x": "Q2 FY26",
+              "y": -1.52
+            }
+          ]
+        },
+        {
+          "name": "consensus_eps",
+          "data": [
+            {
+              "x": "Q1 FY25",
+              "y": 0.17
+            },
+            {
+              "x": "Q2 FY25",
+              "y": 0.04
+            },
+            {
+              "x": "Q3 FY25",
+              "y": 0.2
+            },
+            {
+              "x": "Q1 FY26",
+              "y": -0.08
+            },
+            {
+              "x": "Q2 FY26",
+              "y": -0.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_ebitda_annual",
+      "chart_type": "bar",
+      "title_hebrew": "Adjusted EBITDA שנתי FY2023-FY2025 (כולל BTC FV)",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "נתונים שנתיים (FY)",
+      "note_hebrew": "FY2025 $823M כולל ~$425.6M BTC FV gain. Normalized ~$305M לפי ההנהלה.",
+      "series": [
+        {
+          "name": "adjusted_ebitda",
+          "data": [
+            {
+              "x": "FY2023",
+              "y": 25028000
+            },
+            {
+              "x": "FY2024",
+              "y": 245848000
+            },
+            {
+              "x": "FY2025",
+              "y": 823373000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_forward_pe_sources",
+      "chart_type": "bar",
+      "title_hebrew": "Forward P/E — סתירה בין מקורות",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "point-in-time (May 2026)",
+      "note_hebrew": "שלושה מקורות מציגים ערכים שונים. סטטוס: partial / low confidence.",
+      "series": [
+        {
+          "name": "forward_pe",
+          "data": [
+            {
+              "x": "GuruFocus 12.05",
+              "y": 12.05
+            },
+            {
+              "x": "Morningstar 16.25",
+              "y": 16.25
+            },
+            {
+              "x": "GuruFocus alt 18.77",
+              "y": 18.77
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_ps_sources",
+      "chart_type": "bar",
+      "title_hebrew": "P/S — מקורות שונים (טווח)",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "point-in-time (May 2026)",
+      "series": [
+        {
+          "name": "price_to_sales",
+          "data": [
+            {
+              "x": "StockAnalysis 6.34",
+              "y": 6.34
+            },
+            {
+              "x": "Morningstar 7.43",
+              "y": 7.43
+            },
+            {
+              "x": "FullRatio 6.62",
+              "y": 6.62
+            },
+            {
+              "x": "Forward StockAnalysis 6.18",
+              "y": 6.18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_book_value_trend",
+      "chart_type": "bar",
+      "title_hebrew": "Book Value — Sep 2025 → Mar 2026",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "point-in-time",
+      "note_hebrew": "ירידה של 55% תוך 6 חודשים עקב הפסדי H1 FY26 ($757M) ו-buybacks ($463M).",
+      "series": [
+        {
+          "name": "book_value_usd",
+          "data": [
+            {
+              "x": "Sep 2025",
+              "y": 2175100000
+            },
+            {
+              "x": "Dec 2025",
+              "y": 1382300000
+            },
+            {
+              "x": "Mar 2026",
+              "y": 986200000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_ocf_annual",
+      "chart_type": "bar",
+      "title_hebrew": "OCF שנתי FY2022-FY2025 + TTM Mar 2026",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "שנתי (FY) + TTM",
+      "note_hebrew": "כל הערכים ממקור StockAnalysis (שניוני).",
+      "series": [
+        {
+          "name": "ocf",
+          "data": [
+            {
+              "x": "FY2022",
+              "y": 73500000
+            },
+            {
+              "x": "FY2023",
+              "y": -17300000
+            },
+            {
+              "x": "FY2024",
+              "y": -233700000
+            },
+            {
+              "x": "FY2025",
+              "y": -461000000
+            },
+            {
+              "x": "TTM Mar 2026",
+              "y": -526300000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_fcf_annual",
+      "chart_type": "bar",
+      "title_hebrew": "FCF שנתי FY2022-FY2025 + TTM Mar 2026",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "שנתי (FY) + TTM",
+      "note_hebrew": "FCF = OCF + CapEx. CapEx negative.",
+      "series": [
+        {
+          "name": "fcf",
+          "data": [
+            {
+              "x": "FY2022",
+              "y": -117000000
+            },
+            {
+              "x": "FY2023",
+              "y": -318200000
+            },
+            {
+              "x": "FY2024",
+              "y": -1040100000
+            },
+            {
+              "x": "FY2025",
+              "y": -1023900000
+            },
+            {
+              "x": "TTM Mar 2026",
+              "y": -833300000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_fcf_margin_annual",
+      "chart_type": "bar",
+      "title_hebrew": "FCF Margin שנתי FY2022-FY2025",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "שנתי (FY)",
+      "series": [
+        {
+          "name": "fcf_margin",
+          "data": [
+            {
+              "x": "FY2022",
+              "y": -88.9
+            },
+            {
+              "x": "FY2023",
+              "y": -189.0
+            },
+            {
+              "x": "FY2024",
+              "y": -274.5
+            },
+            {
+              "x": "FY2025",
+              "y": -133.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_de_trend",
+      "chart_type": "bar",
+      "title_hebrew": "Debt-to-Equity — Sep 2024 → Mar 2026",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "point-in-time",
+      "note_hebrew": "עלייה של ~45x ב-18 חודשים.",
+      "series": [
+        {
+          "name": "debt_to_equity",
+          "data": [
+            {
+              "x": "Sep 2024",
+              "y": 0.04
+            },
+            {
+              "x": "Sep 2025",
+              "y": 0.38
+            },
+            {
+              "x": "Dec 2025",
+              "y": 1.29
+            },
+            {
+              "x": "Mar 2026",
+              "y": 1.82
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_net_cash_components",
+      "chart_type": "bar",
+      "title_hebrew": "רכיבי Net Cash במרץ 2026 — מזומן/BTC/חוב",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "point-in-time (31.3.2026)",
+      "note_hebrew": "חישוב: $260.3M + $925.2M - $1,790.7M = -$605.2M. ערך מוצג במקור היה -$865.5M — סתירה לא הוסברה.",
+      "series": [
+        {
+          "name": "amount_usd",
+          "data": [
+            {
+              "x": "מזומן",
+              "y": 260300000
+            },
+            {
+              "x": "BTC HODL value",
+              "y": 925200000
+            },
+            {
+              "x": "חוב כולל",
+              "y": -1790700000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_current_ratio_trend",
+      "chart_type": "bar",
+      "title_hebrew": "Current Ratio — Sep 2025 → Mar 2026",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "point-in-time",
+      "note_hebrew": "ערכים גבוהים מטעים: ~80% מ-current assets הם BTC. נזילות מזומן בפועל ~$260M.",
+      "series": [
+        {
+          "name": "current_ratio",
+          "data": [
+            {
+              "x": "Sep 2025",
+              "y": 4.18
+            },
+            {
+              "x": "Dec 2025",
+              "y": 10.54
+            },
+            {
+              "x": "Mar 2026",
+              "y": 8.26
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_analyst_ratings",
+      "chart_type": "bar",
+      "title_hebrew": "התפלגות המלצות אנליסטים (Buy/Hold/Sell)",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "point-in-time (May 2026)",
+      "series": [
+        {
+          "name": "count",
+          "data": [
+            {
+              "x": "Buy",
+              "y": 12
+            },
+            {
+              "x": "Hold",
+              "y": 0
+            },
+            {
+              "x": "Sell",
+              "y": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_share_count_trend",
+      "chart_type": "bar",
+      "title_hebrew": "מספר מניות במחזור Sep 2021 → Mar 2026",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "point-in-time (סוף תקופה)",
+      "note_hebrew": "ערכי 2021/2022 ממקור KoalaGains (שניוני).",
+      "series": [
+        {
+          "name": "shares_m",
+          "data": [
+            {
+              "x": "Sep 2021",
+              "y": 29
+            },
+            {
+              "x": "Sep 2022",
+              "y": 43
+            },
+            {
+              "x": "Sep 2023",
+              "y": 103
+            },
+            {
+              "x": "Sep 2024",
+              "y": 270.9
+            },
+            {
+              "x": "Sep 2025",
+              "y": 284.3
+            },
+            {
+              "x": "Dec 2025",
+              "y": 255.7
+            },
+            {
+              "x": "Mar 2026",
+              "y": 256.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_hashrate_avg_monthly",
+      "chart_type": "bar",
+      "title_hebrew": "האשרייט תפעולי ממוצע — חודשי (EH/s)",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "חודשי",
+      "series": [
+        {
+          "name": "avg_hashrate_eh",
+          "data": [
+            {
+              "x": "Dec 2025",
+              "y": 47.2
+            },
+            {
+              "x": "Mar 2026",
+              "y": 47.3
+            },
+            {
+              "x": "Apr 2026",
+              "y": 46.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_btc_mined_monthly",
+      "chart_type": "bar",
+      "title_hebrew": "BTC שנכרו — חודשי",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "חודשי",
+      "note_hebrew": "Jan 2026 ממקור שניוני; Feb 2026 הוערך בחיסור.",
+      "series": [
+        {
+          "name": "btc_mined",
+          "data": [
+            {
+              "x": "Dec 2025",
+              "y": 622
+            },
+            {
+              "x": "Jan 2026",
+              "y": 573
+            },
+            {
+              "x": "Feb 2026",
+              "y": 568
+            },
+            {
+              "x": "Mar 2026",
+              "y": 658
+            },
+            {
+              "x": "Apr 2026",
+              "y": 640
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_btc_holdings_trend",
+      "chart_type": "bar",
+      "title_hebrew": "אחזקות BTC — Mar 2025 → Apr 2026 (Mar 2026 הושמט)",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "point-in-time",
+      "note_hebrew": "Mar 31, 2026 הושמט מהגרף: סתירה בין HODL value $925.2M ל-Apr 30 13,453 BTC לא נפתרה.",
+      "series": [
+        {
+          "name": "btc_count",
+          "data": [
+            {
+              "x": "Mar 2025",
+              "y": 11869
+            },
+            {
+              "x": "Jun 2025",
+              "y": 12703
+            },
+            {
+              "x": "Dec 2025",
+              "y": 13099
+            },
+            {
+              "x": "Jan 2026",
+              "y": 13513
+            },
+            {
+              "x": "Apr 2026",
+              "y": 13453
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "clsk_cost_to_mine",
+      "chart_type": "bar",
+      "title_hebrew": "עלות לכריית BTC — Q1/Q2 FY2025 בלבד",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "רבעוני",
+      "note_hebrew": "מ-Q3 FY2025 ואילך — החברה הפסיקה לדווח עלות זו.",
+      "series": [
+        {
+          "name": "cost_to_mine_btc",
+          "data": [
+            {
+              "x": "Q1 FY2025",
+              "y": 34000
+            },
+            {
+              "x": "Q2 FY2025",
+              "y": 42600
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "clsk_perplexity_pack",
+      "source_name": "CLSK — CleanSpark Dashboard KPI Data Pack (Perplexity, May 31, 2026)",
+      "url": "local:CLSK_Perplexity_Pack.md",
+      "type": "Compiled research pack",
+      "notes": "מסמך אחיד שמסכם 10-K, 10-Q, PR, ומקורות שניוניים. סתירות פנימיות צוינו במפורש בכל KPI רלוונטי."
+    }
+  ],
+  "data_quality_warnings": [
+    "BTC Fair Value Accounting (ASC 350-60) — שינויי שווי BTC זורמים דרך ה-P&L רבעונית. כל מדדי ה-GAAP (Net Income, Operating Income, EBITDA, EPS, Net Margin, Operating Margin, ROE) אינם משקפים ביצועים תפעוליים נקיים. נדרשת תמיד פרשנות עם הפרדה מ-BTC FV.",
+    "Adjusted EBITDA כולל BTC FV — לאחר ASC 350-60, ה-Adjusted EBITDA של CleanSpark לא מחריג שינויי שווי BTC. FY2025 $823M כולל ~$425.6M BTC FV gain. Normalized ~$305M לפי ההנהלה (לא בדוחות הרשמיים).",
+    "FCF Definition Ambiguity — מקורות שונים מציגים FCF שונה לפי הכללת BTC purchases. הסדרה המוצגת מבוססת על OCF + Property/Equipment CapEx בלבד. כל מקורות OCF הם StockAnalysis (שניוני) — confidence בינוני.",
+    "BTC Holdings — סתירה בין Mar 31, 2026 ($925.2M HODL ≈ ~8,955 BTC במחיר ~$103K) ל-Apr 30, 2026 (13,453 BTC). הפער (~4,500 BTC) לא הוסבר במקור; ייתכן עקב collateral accounting/רכישה באפריל. נדרש 10-Q לאימות. נקודת Mar 2026 הושמטה מגרף ההחזקות.",
+    "Net Cash including BTC — סתירה במקור: ערך מוצג -$865.5M לעומת חישוב נכון מהמספרים ($260.3M + $925.2M - $1,790.7M) = -$605.2M. פער ~$260M ללא הסבר. עד אימות 10-Q — KPI 18 מציג את שתי הגרסאות בנפרד.",
+    "Forward P/E Conflict — שלושה ערכים סותרים מ-GuruFocus (12.05 ו-18.77) ו-Morningstar Normalized (16.25). אין הסכמה. מסומן partial / low confidence.",
+    "Q4 FY2024, Q4 FY2025 — Revenue, Net Income ו-Adj. EBITDA הם הערכות בחיסור מהנתון השנתי, לא מספרים רשמיים. סומנו estimated עם confidence נמוך.",
+    "Q3/Q4 FY2025 — Gross Profit, Operating Income ו-Adj. EBITDA רבעוניים לא פורקו ב-PR שנסקר; נדרש אימות מ-10-Q/10-K.",
+    "Q3 FY2025 Net Income & Q3 FY2024 Revenue — שני המקורות הראשיים הם שניוניים (CoinTelegraph/Bitbo). confidence בינוני; נדרש אימות מ-10-Q.",
+    "EPS Q3 FY2025 — $0.78 BEAT מבוסס על מקור שניוני (CoinTelegraph/Bitbo); נדרש אימות.",
+    "EPS Q4 FY2025 — actual + consensus חסרים במקורות שנסקרו.",
+    "Cost-to-Mine BTC — מ-Q3 FY2025 ואילך החברה הפסיקה לדווח באופן בולט מטריקה זו. רק Q1/Q2 FY2025 מוצגים.",
+    "Energy Cost FY2025 — $0.056/kWh מקור שניוני (Kavout); confidence בינוני.",
+    "OCF/CapEx/FCF Annual — כל הערכים ממקור StockAnalysis (שניוני); נדרש אימות 10-K.",
+    "Peer Comparison — נתוני MARA/RIOT/HUT/IREN/WULF (שווי שוק, יעילות צי, עלות כרייה, BTC holdings, power) לא נשלפו במחקר ייעודי. peer_comparison מוצג כ-missing בכל ה-KPIs ל-CLSK; אין להציג ערכים משוערים.",
+    "Insider Sells $2M+ — סכימה משוערת ממקורות שניוניים (Benzinga/SimplyWallSt). נדרש אימות מ-SEC Form 4.",
+    "Stock Price — ~$18.16 לפי Google Finance; מקור Robinhood מציג $17.86. שווי שוק בטווח $4.63B-$4.69B. הערך הסטנדרטי הוצג: $18.16 / $4.66B.",
+    "Mining Utilization — proxy מחושב (Avg Hashrate / Peak Hashrate); אינו מטריקה רשמית של החברה.",
+    "BTC Mined Feb 2026 — הוערך בחיסור (568 = YTD Mar 1799 - Jan 573 - Mar 658); confidence נמוך.",
+    "BTC Mined Jan 2026 — מקור YouTube summary (שניוני); confidence בינוני.",
+    "Peer Ranking — מבוסס על BitcoinMiningStock.io (מקור שניוני); נדרש אימות מ-IR/10-K של כל מתחרה.",
+    "Adjusted Operating Margin Normalized — ההנהלה הזכירה ~-13.7% עבור FY2025 ex-BTC FV; לא דווח רשמית בדוחות."
+  ]
+}

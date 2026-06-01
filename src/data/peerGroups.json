@@ -1,0 +1,24 @@
+{
+  "description": "Reusable peer groups keyed by group id. Companies reference these via meta.selected_peers or by sector.",
+  "groups": {
+    "us_bitcoin_miners": {
+      "label_hebrew": "כורי ביטקוין ותשתיות data center בארה\"ב",
+      "tickers": [
+        "CLSK",
+        "MARA",
+        "RIOT",
+        "HUT",
+        "IREN"
+      ]
+    },
+    "semiconductors_ai": {
+      "label_hebrew": "מוליכים-למחצה ותשתיות AI",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "INTC"
+      ]
+    }
+  }
+}

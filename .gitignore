@@ -1,0 +1,22 @@
+node_modules
+dist
+.DS_Store
+*.local
+
+# --- added for GitHub initial commit ---
+node_modules/
+dist/
+build/
+.env
+.env.*
+*.log
+.vite/
+coverage/
+
+# Claude Code local config (per-project)
+.claude/
+
+# editor / OS noise
+*.swp
+.idea/
+.vscode/

@@ -1,0 +1,1715 @@
+{
+  "meta": {
+    "ticker": "INFQ",
+    "company_name": "Infleqtion, Inc.",
+    "exchange": "NYSE",
+    "sector": "Information Technology",
+    "industry": "Quantum Computing / Quantum Sensing",
+    "business_model_hebrew": "Infleqtion (לשעבר ColdQuanta) מפתחת מערכות מחשוב וחישה קוונטיים מבוססות אטומים נייטרליים (neutral-atom) ופעילה בתחומי R&D, מערכות מסחריות, מערכות חישה, וחוזי ממשל/הגנה. החברה הפכה לציבורית ב-NYSE ב-2026 (ככל הנראה דרך מיזוג deSPAC); נתוני 2023-2024 משקפים את Infleqtion הפרטית והם לא בהכרח השוואתיים ישירות לציבורית 2026.",
+    "currency": "USD",
+    "as_of_date": "2026-05-13",
+    "latest_reported_quarter": "Q1 2026 (March 31, 2026)",
+    "fiscal_year_end": "December 31",
+    "price_usd": null,
+    "market_cap_usd": 2619311000,
+    "shares_outstanding_m": 216.472,
+    "data_pack_note_hebrew": "כל הנתונים בכמיסה זו נשלפו אך ורק מקובץ ה-Perplexity Data Pack המסונן (INFQ). הפלט עצמו מסונן אגרסיבית והפיל בכוונה רכיבים רועשים — לכן רוב הסיגנלים העתידיים, EPS, EBITDA מתואם, P/E עתידי, PEG, P/B, ROE, ROIC, קונצנזוס אנליסטים, רוויזיות, buybacks, insider transactions ו-Sector KPIs ספציפיים — חסרים מבחירה ולא מולאו על ידי הדאשבורד."
+  },
+  "executive_summary_hebrew": {
+    "one_liner": "Infleqtion (NYSE: INFQ) — חברת Quantum Computing/Sensing מבוססת אטומים-נייטרליים בשלב מסחור מוקדם: הכנסות FY24 ~$28.8M (+163% YoY), 2025 דווחו ~$32.5M, גיידנס 2026 ≥$40M, אבל הפסדים תפעוליים עמוקים, P/S ~84.7x ושינוי מבני משמעותי בהון המניות (deSPAC) שמקשה על השוואה בין-תקופתית.",
+    "overall_view": "בהתבסס על הנתונים הזמינים בפלט המסונן בלבד: Infleqtion מציגה צמיחת הכנסות חזקה (FY23→FY24 +163.34%; TTM Sep25 $30.93M; 2025 דווח $32.5M; גיידנס 2026 לפחות $40M) אך עדיין רחוקה מרווחיות תפעולית — מרווח תפעולי TTM ~-94.5% ו-OCF/FCF שליליים. המעבר לציבוריות הביא לקפיצה משמעותית במניות לסכום של ~216.5M מניות לעומת ~44M בתקופה הפרטית — מה שעלול לרמז על דילול דרמטי או הקצאה ב-merger. תמחור P/S TTM ~84.7x משקף ציפיות גבוהות מאוד לצמיחה עתידית, וכן לציפיות לבשלות מסחרית של פלטפורמת הקוונטים.",
+    "bull_case": [
+      "צמיחת הכנסות חזקה: FY24 $28.84M (+163% YoY); 2025 דווחו $32.5M; גיידנס FY2026 לפחות $40M.",
+      "Q1 2026 הציג שיא רבעוני: $9.5M הכנסות (+14% YoY) ממומשות לפי SEC EX-99.1 רשמי.",
+      "מצב פיננסי גמיש: D/E נמוך מאוד (0.06); Net Debt/Equity שלילי (-0.73) — כלומר חברה במצב Net Cash; Current Ratio גבוה (~5.06).",
+      "טכנולוגיית neutral-atom נחשבת לאחת הארכיטקטורות המבטיחות ב-Quantum; פלטפורמה דואלית למחשוב ולחישה.",
+      "מרווח גולמי TTM 46.86% עלה מ-36.01% (FY24) — שיפור פוטנציאלי במבנה עלות."
+    ],
+    "bear_case": [
+      "הפסדים תפעוליים גדולים: מרווח תפעולי FY24 -133.67%; TTM -94.53%; Net Margin TTM -92.82%.",
+      "תזרים תפעולי שלילי באופן עקבי: OCF FY24 -$32.47M; FCF FY24 -$35.33M; שורף מזומן מהותית.",
+      "תמחור קיצוני: P/S TTM ~84.7x — דורש הצדקה רק על בסיס ציפיות צמיחה שטרם מוצדקות בדוחות בפועל.",
+      "דילול דרמטי: מספר המניות גדל מ-35M (2023) ל-216.472M כעת — קפיצה של ~6x, חלקה ככל הנראה במהלך deSPAC.",
+      "אין סיגנלים עתידיים מלאים: EPS, Adj. EBITDA, Forward P/E, PEG, P/B, קונצנזוס אנליסטים, רוויזיות, buybacks, insider — כולם MISSING בפלט."
+    ],
+    "main_risks": [
+      "סיכון מסחור: טכנולוגיית Quantum עדיין בשלב מוקדם; אין הוכחה שמודל ההכנסות יוכל להתרחב פי 10 בלי הזרמת הון נוספת.",
+      "סיכון דילול נוסף: ב-ניצול מזומן שלילי משמעותית, גם במצב Net Cash, סבירות גבוהה להנפקות חוזרות.",
+      "סיכון תחרותי: IonQ, Rigetti, IBM, Google Quantum AI, Quantinuum, PsiQuantum — כולם מתחרים על אותו שוק; אין השוואת עמיתים בפלט הנוכחי.",
+      "סיכון תלות בחוזי ממשל/הגנה: ההכנסות עשויות להיות בעלות אופי שאינו חוזר (project-based), עם פוטנציאל קיפול בלוחות זמנים.",
+      "סיכון חשבונאי post-deSPAC: השוואת FY23/FY24 (פרטית) ל-Q1 2026 (ציבורית) דורשת זהירות; ייתכן תיאומי הון/דוחות פרופורמה."
+    ],
+    "main_opportunities": [
+      "הקצב הגוברת של אימוצי Quantum-ready solutions במגזרי הגנה, פארמה, פיננסים, ולוגיסטיקה.",
+      "מעבר ל-revenue mix של חוזי בערך גבוה (ARPA-H, DoD, DARPA, NIH, ESA וכו') יכול לייצב את הצמיחה.",
+      "טכנולוגיית neutral-atom נחשבת ליעילה יותר במונחי scalability והתאמה לתפעול בטמפרטורת חדר ביחס לארכיטקטורות superconducting (IBM/Google).",
+      "מעמדה כחברה הציבורית הראשונה ב-neutral-atom quantum יכול למשוך הון שוק והמשך אופרציה.",
+      "מנוף תפעולי: אם המודל יוכיח מסחיריות, גידול ההכנסה ל-$80-100M+ יכול לשפר את המרווח התפעולי דרסטית."
+    ],
+    "what_to_watch_next_quarter": [
+      "האם תפרסם החברה EPS וקונצנזוס לרבעון; כיום אין אקטואל-מול-תחזית מתועד.",
+      "האם הגיידנס 2026 (לפחות $40M) יתעדכן כלפי מעלה לאחר Q2 2026.",
+      "האם תפרסם Adjusted EBITDA מוגדרת חברה לפי דיפיניציה עקבית (כיום חסר).",
+      "האם דוחות 10-Q יציגו פירוט CapEx, R&D, ויחס SBC ל-Revenue.",
+      "האם תופענה הודעות על חוזים חתומים חדשים (גודל, משך, מנפיק) — כיום אין backlog/RPO זמין."
+    ],
+    "bottom_line_hebrew": "Infleqtion היא חברת Quantum Computing/Sensing בשלב מסחור מוקדם עם פרופיל סיכון/תמורה גבוה: צמיחת הכנסות חזקה אך תזרים והפסדים שליליים, ותמחור P/S קיצוני (~85x) שדורש מימוש הגיידנס ועוד. נתוני הפלט הנוכחי מסוננים אגרסיבית ולא כוללים סיגנלי שוק חיוניים (אנליסטים, EPS, insider, buybacks); נדרשת זהירות בפרשנות, ועדיף שמעקב יתבסס על דוחות SEC ראשוניים ועל הודעות החברה במישרין. **מתאימה רק למשקיע ספקולטיבי בעל סבילות גבוהה לתנודתיות ולשורת הפסדים מתמשכת.**"
+  },
+  "company_profile": {
+    "description_hebrew": "Infleqtion, Inc. (NYSE: INFQ) היא חברת Quantum Computing/Sensing המבוססת על טכנולוגיית neutral-atom — אטומים קרים-במיוחד הנשלטים בעזרת לייזרים בתוך תאי ואקום. החברה (לשעבר ColdQuanta) הפכה לציבורית ב-NYSE לקראת/במהלך 2026 (ככל הנראה במסגרת מיזוג deSPAC). מטה החברה ב-Boulder, Colorado. תחומי פעילות כוללים מערכות מחשוב קוונטיות, חישה קוונטית (שעון אטומי, מגנטומטר, גרבימטר), ופיתוח R&D.",
+    "main_revenue_drivers": [
+      "חוזי R&D ושירותים עם סוכנויות ממשל (DoD, DARPA, ESA, ARPA-H — לא מאומת בפלט הנוכחי)",
+      "מערכות חישה קוונטית (Atomic Clocks, Magnetometers, Gravimeters)",
+      "פלטפורמת מחשוב קוונטי (gate-based + analog) בגישת neutral-atom",
+      "שירותי תוכנה (Superstaq stack לקומפילציה קוונטית)"
+    ],
+    "geographic_exposure": [
+      "ארה\"ב — מטה ב-Boulder, Colorado; חוזי DoD/DARPA אמריקאיים",
+      "אירופה — נוכחות במ\"מ ב-UK; שיתוף ESA",
+      "ספציפיים נוספים — לא מאומתים בפלט הנוכחי"
+    ],
+    "customer_segments": [
+      "סוכנויות ממשל אמריקאיות וביטחוניות (חוזים מרכזיים)",
+      "מוסדות מחקר ואקדמיה",
+      "לקוחות מסחריים מוקדמים (פארמה, פיננסים) — לא מאומתים פרטנית בפלט"
+    ],
+    "key_products_or_services": [
+      "Neutral-atom Quantum Computer (mixed gate/analog)",
+      "Atomic Clocks (ground/space)",
+      "Quantum Magnetometers/Gravimeters (defense/geoscience)",
+      "Superstaq (compiler stack)"
+    ],
+    "competitive_position_hebrew": "Infleqtion היא חברת neutral-atom ציבורית מהבולטות (לצד QuEra הפרטית). מתחרות נוספות ב-Quantum כוללות את IonQ (trapped-ion, ציבורית IONQ), Rigetti (superconducting, RGTI), D-Wave (annealing, QBTS), Quantum Computing Inc. (QUBT), IBM/Google/Microsoft (פנים-תאגידיות). בפלט הנוכחי לא חולצו נתוני שווי שוק, P/S, או מטריקות פיננסיות של המתחרים — נדרש מחקר ייעודי לקביעת מיקום תמחורי יחסי."
+  },
+  "layers": {
+    "profitability": {
+      "01_revenue_growth": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "Annual FY2023 ו-FY2024 מ-StockAnalysis (שניוני); TTM through 2025-09-30 ($30.93M) מ-StockAnalysis; Q1 2026 ($9.5M, +14% YoY) ממקור SEC ראשוני (EX-99.1 dated 2026-05-13); 2025 reported $32.5M מהודעת ההנהלה (2026-04-07). אין סדרה רבעונית מלאה."
+        },
+        "description_hebrew": "Infleqtion הציגה צמיחה חזקה: FY24 $28.84M (+163.34% YoY מ-FY23 $10.95M). הנתון ה-TTM (סוף ספטמבר 2025) עלה ל-$30.93M, ו-2025 דווחו $32.5M (התראת הנהלה אפריל 2026, מרמזת Q4 2025 ~$1.57M). Q1 2026 הציג שיא רבעוני $9.5M (+14% YoY).",
+        "company_data": [
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (CY)",
+            "revenue": 10950000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "Revenue שנתי 2023 לפי StockAnalysis."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (CY)",
+            "revenue": 28840000,
+            "yoy_growth": 163.34,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "Revenue שנתי 2024 לפי StockAnalysis; (28.84-10.95)/10.95*100 = 163.38% (פערים בעיגול)."
+          },
+          {
+            "period": "TTM through 2025-09-30",
+            "frequency": "TTM",
+            "revenue": 30930000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "Revenue TTM נכון לסוף ספטמבר 2025."
+          },
+          {
+            "period": "FY2025 (reported)",
+            "frequency": "שנתי (CY)",
+            "revenue": 32500000,
+            "confidence": "high",
+            "source": "Infleqtion IR — guidance announcement (Apr 7, 2026)",
+            "calculation_method": "2025 הכנסות מדווחות לפי הודעת ההנהלה הרשמית."
+          },
+          {
+            "period": "Q1 2026",
+            "frequency": "רבעוני",
+            "revenue": 9500000,
+            "qoq_growth": null,
+            "yoy_growth": 14.0,
+            "confidence": "high",
+            "source": "SEC EX-99.1 (2026-05-13)",
+            "calculation_method": "Q1 2026 הכנסות $9.5M, +14% YoY (לפי Press Release רשמי). Q1 2025 משתמע ~$8.33M."
+          }
+        ],
+        "company_data_guidance": [
+          {
+            "period": "FY2026 (guidance, מינימום)",
+            "frequency": "שנתי (תחזית)",
+            "revenue_guidance_usd": 40000000,
+            "confidence": "high",
+            "source": "Infleqtion IR (Apr 7, 2026)",
+            "calculation_method": "גיידנס הכנסות 2026: 'לפחות $40M'. לא מספר ודאי, אלא floor."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "sector_median": null,
+        "trend_hebrew": "FY23 $10.95M → FY24 $28.84M (+163%) → 2025 דווחו $32.5M (+12.7% YoY) → גיידנס 2026 ≥$40M (+23% YoY). צמיחה גבוהה אך מאיטה ככל שהמספר המוחלט עולה.",
+        "interpretation_hebrew": "בהתבסס על הנתונים הקיימים: הצמיחה הדרמטית בין FY23 ל-FY24 משקפת מסחור מוקדם ובסיס נמוך. הקצב מאט (12.7% הצפויה ב-2025; ≥23% ב-2026). השאלה המהותית: האם CLR/חוזים חתומים יממשו את ה-floor של $40M ויעלו אותו? נדרשת זהירות בפרשנות.",
+        "chart_recommendation": {
+          "chart_id": "infq_revenue_annual",
+          "chart_type": "bar",
+          "title_hebrew": "הכנסות שנתיות FY2023-FY2025"
+        }
+      },
+      "02_gross_margin": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "FY23, FY24, TTM Sep25 בלבד מ-StockAnalysis (שניוני). אין סדרה רבעונית. ה-TTM (46.86%) שונה מהותית מ-FY24 (36.01%) — ייתכן ושיפור משקף מעבר ל-mix הכנסות ברווחיות גבוהה יותר ב-2025."
+        },
+        "description_hebrew": "מרווח גולמי = Gross Profit / Revenue. FY23: 40.51%; FY24: 36.01%; TTM Sep25: 46.86%. תנודה משמעותית בין השנים — דורש הסבר; ייתכן ושיפור TTM משקף mix מוצרים שונה.",
+        "company_data": [
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (CY)",
+            "gross_margin": 40.51,
+            "revenue": 10950000,
+            "gross_profit": 4440000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "4.44 / 10.95 * 100 = 40.55% (פערים בעיגול)."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (CY)",
+            "gross_margin": 36.01,
+            "revenue": 28840000,
+            "gross_profit": 10390000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "10.39 / 28.84 * 100 = 36.03% (פערים בעיגול)."
+          },
+          {
+            "period": "TTM through 2025-09-30",
+            "frequency": "TTM",
+            "gross_margin": 46.86,
+            "revenue": 30930000,
+            "gross_profit": 14490000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "14.49 / 30.93 * 100 = 46.85% (פערים בעיגול)."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "sector_median": null,
+        "trend_hebrew": "40.5% (FY23) → 36.0% (FY24) → 46.9% (TTM Sep25). השיפור ה-TTM מבטיח אך דורש אימות.",
+        "interpretation_hebrew": "המרווח הגולמי תנודתי וקשה לקבוע מגמה ברורה משלוש נקודות. שיפור ה-TTM ל-46.9% מבטיח, אך נדרשת זהירות — ייתכן ומשקף mix מקרי ולא שיפור אסטרטגי. אין נתונים רבעוניים לאישור.",
+        "chart_recommendation": {
+          "chart_id": "infq_gross_margin_annual",
+          "chart_type": "bar",
+          "title_hebrew": "מרווח גולמי שנתי FY2023-FY2024"
+        }
+      },
+      "03_operating_margin": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "FY23, FY24, TTM Sep25 מ-StockAnalysis (שניוני). אין נתון רבעוני. מרווח שלילי באופן עקבי אך משתפר (-509% → -134% → -94.5%) — מבני להפסד תפעולי בשלב הזה של החברה."
+        },
+        "description_hebrew": "מרווח תפעולי = Operating Income / Revenue. שלילי משמעותית: -509.56% (FY23), -133.67% (FY24), -94.53% (TTM Sep25). השיפור הברור הוא בשורת ההכנסה שצומחת מהר יותר מההוצאות התפעוליות, אך החברה רחוקה מרווחיות תפעולית.",
+        "company_data": [
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (CY)",
+            "operating_margin": -509.56,
+            "operating_income": -55800000,
+            "revenue": 10950000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "-55.80 / 10.95 * 100 = -509.59% (פערים בעיגול)."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (CY)",
+            "operating_margin": -133.67,
+            "operating_income": -38550000,
+            "revenue": 28840000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "-38.55 / 28.84 * 100 = -133.66% (פערים בעיגול)."
+          },
+          {
+            "period": "TTM through 2025-09-30",
+            "frequency": "TTM",
+            "operating_margin": -94.53,
+            "operating_income": -29240000,
+            "revenue": 30930000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "-29.24 / 30.93 * 100 = -94.55% (פערים בעיגול)."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "sector_median": null,
+        "trend_hebrew": "השיפור הרצוף: -509.56% → -133.67% → -94.53% מצביע על מנוף תפעולי חיובי, אך עדיין רחוק מנקודת איזון.",
+        "interpretation_hebrew": "ה-trend חיובי אך לא מספיק: מרווח תפעולי -94.5% TTM מעיד ש-Infleqtion מוציאה ~$2 על כל $1 הכנסות. נדרש המשך גידול חד בהכנסות (לפי גיידנס 2026 ≥$40M) כדי להגיע ליחסים בני קיימא.",
+        "chart_recommendation": {
+          "chart_id": "infq_operating_margin_annual",
+          "chart_type": "bar",
+          "title_hebrew": "מרווח תפעולי שנתי FY2023-FY2024"
+        }
+      },
+      "04_net_margin": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "FY23, FY24, TTM Sep25 מ-StockAnalysis (שניוני). אין נתון רבעוני. נטו שלילי משמעותית באופן עקבי; משתפר בקצב דומה ל-Operating Margin."
+        },
+        "description_hebrew": "מרווח נקי = Net Income to Common / Revenue. -481.88% (FY23), -184.40% (FY24), -92.82% (TTM Sep25). שיפור משמעותי אך עדיין רחוק מנקודת איזון.",
+        "company_data": [
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (CY)",
+            "net_margin": -481.88,
+            "net_income": -52770000,
+            "revenue": 10950000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "-52.77 / 10.95 * 100 = -481.92% (פערים בעיגול)."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (CY)",
+            "net_margin": -184.4,
+            "net_income": -53170000,
+            "revenue": 28840000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "-53.17 / 28.84 * 100 = -184.36% (פערים בעיגול)."
+          },
+          {
+            "period": "TTM through 2025-09-30",
+            "frequency": "TTM",
+            "net_margin": -92.82,
+            "net_income": -28710000,
+            "revenue": 30930000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "-28.71 / 30.93 * 100 = -92.82%."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "sector_median": null,
+        "trend_hebrew": "-481.88% → -184.40% → -92.82%. שיפור רצוף; אם הקצב יישמר ב-FY26 ה-Net Margin יוכל להגיע לטריטוריה -40% עד -60%.",
+        "interpretation_hebrew": "השיפור מעיד שהמנוף התפעולי עובד, אך הפסד נטו $28.71M ב-TTM (על הכנסות $30.93M) הוא עדיין משמעותי. נדרשת המשך הזרמת הון או הכנסות גבוהות יותר.",
+        "chart_recommendation": {
+          "chart_id": "infq_net_margin_annual",
+          "chart_type": "bar",
+          "title_hebrew": "מרווח נקי שנתי FY2023-FY2024"
+        }
+      },
+      "05_eps_surprise": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "ה-Perplexity Data Pack המסונן הסיר במכוון את כל היסטוריית ה-EPS Beat/Miss בגלל חוסר מקור עקבי. נדרש לחפש דוחות EPS Actual ו-Consensus ישירות מ-Investing.com, MarketBeat, או SEC."
+        },
+        "description_hebrew": "אין נתוני EPS Beat/Miss בפלט הנוכחי — לא דווח actual-vs-consensus היסטוריה.",
+        "company_data": [],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "interpretation_hebrew": "ללא היסטוריית EPS לא ניתן לכמת את עקביות עמידת ההנהלה בקונצנזוס. נדרש מעקב ב-Q2 2026 ואילך.",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      },
+      "06_ebitda": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "Adjusted EBITDA (לפי הגדרת חברה) — MISSING בפלט המסונן. EBITDA לא-מתואמת זמינה: FY23 -$53.66M, FY24 -$35.83M, TTM Sep25 -$25.93M (StockAnalysis, שניוני). אין אינדיקטור 'מנוטרל'."
+        },
+        "description_hebrew": "EBITDA לא-מתואם שלילי משמעותית; משתפר עם גידול ההכנסות. Adjusted EBITDA לפי הגדרת החברה — לא דווחה במקור הנתונים הקיים.",
+        "company_data": [
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (CY)",
+            "ebitda_unadjusted": -53660000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "EBITDA לא מתואם."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (CY)",
+            "ebitda_unadjusted": -35830000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "EBITDA לא מתואם."
+          },
+          {
+            "period": "TTM through 2025-09-30",
+            "frequency": "TTM",
+            "ebitda_unadjusted": -25930000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "EBITDA TTM לא מתואם."
+          }
+        ],
+        "missing_components_hebrew": "Adjusted EBITDA לפי הגדרת החברה — לא קיים בפלט; נדרש לחלץ מ-Press Release/Earnings Call.",
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "trend_hebrew": "EBITDA לא מתואם: -$53.66M → -$35.83M → -$25.93M. שיפור משמעותי, מקביל ל-Operating Margin.",
+        "interpretation_hebrew": "EBITDA-לא-מתואם משקף כיוון חיובי, אך לא חליפי ל-Adjusted EBITDA (שכן SBC ו-תיאומים אחרים אינם מוסרים).",
+        "chart_recommendation": {
+          "chart_id": "infq_ebitda_annual",
+          "chart_type": "bar",
+          "title_hebrew": "EBITDA לא-מתואם שנתי FY2023-FY2024"
+        }
+      }
+    },
+    "valuation": {
+      "07_trailing_pe": {
+        "data_quality": {
+          "status": "na",
+          "note_hebrew": "TTM net income שלילי (-$28.71M); ה-EPS עוקב לא משמעותי. P/E עוקב לא קיים כמטריקת תמחור תקפה ולכן n/a."
+        },
+        "description_hebrew": "P/E עוקב = Price / TTM EPS. ב-INFQ ה-TTM EPS שלילי, ולכן המדד אינו ניתן לפרשנות. סטטוס: לא רלוונטי.",
+        "company_data": [
+          {
+            "period": "TTM through 2025-09-30",
+            "frequency": "TTM",
+            "ttm_net_income_usd": -28710000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "Net Income TTM שלילי; P/E לא רלוונטי."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "interpretation_hebrew": "אסור להשתמש ב-P/E עוקב כמטריקת תמחור עבור INFQ. נדרשות מטריקות חליפיות (P/S, EV/Revenue).",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      },
+      "08_forward_pe": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "Forward EPS Consensus לא נשמרה בפלט המסונן (אין מקור בעל ביטחון גבוה). לכן Forward P/E לא ניתן לחישוב."
+        },
+        "description_hebrew": "Forward P/E דורש Forward EPS Consensus — לא קיימת בפלט. לא ניתן לחשב.",
+        "company_data": [],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "interpretation_hebrew": "ללא Consensus עתידי, אין מטריקה זו זמינה. נדרש מקור Consensus (Yahoo Finance, Refinitiv).",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      },
+      "09_price_to_sales": {
+        "data_quality": {
+          "status": "estimated",
+          "note_hebrew": "P/S TTM = 84.67x מחושב מ-Market Cap $2,619.311M (Barchart, 2026-05-05) חלקי TTM Revenue $30.93M (StockAnalysis, סוף ספט' 2025). שני מקורות שניוניים. P/S גבוה מאוד — משקף ציפיות צמיחה אגרסיביות מהשוק."
+        },
+        "description_hebrew": "P/S TTM = 84.67x. מחושב כ-$2,619.311M / $30.93M. תמחור קיצוני שמשקף ציפיות הצמיחה של השוק; דורש מימוש משמעותי של הגיידנס 2026 (≥$40M) ושיפור מרווחים.",
+        "company_data": [
+          {
+            "period": "TTM through 2025-09-30 (P/S)",
+            "frequency": "TTM",
+            "price_to_sales": 84.67,
+            "market_cap": 2619311000,
+            "ttm_revenue": 30930000,
+            "confidence": "high",
+            "source": "Calculated from Barchart + StockAnalysis (secondary inputs)",
+            "calculation_method": "2,619.311 / 30.93 = 84.687x (פערים בעיגול)."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "trend_hebrew": "אין סדרה זמנית — נקודה יחידה. P/S כזה (>80x) נמצא בקצה העליון של תמחורי השוק לחברות צמיחה.",
+        "interpretation_hebrew": "P/S 84.67x משקף הימור על מימוש פוטנציאל ה-Quantum. למשוואה — אם הכנסות 2026 יגיעו ל-$40M, P/S יורד ל-~65x; אם יגיעו ל-$80M (תקווה מקסימלית) — ל-~33x. עדיין יקר ביחס לחברות תוכנה צומחות במהירות.",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      },
+      "10_ev_to_ebitda": {
+        "data_quality": {
+          "status": "na",
+          "note_hebrew": "TTM EBITDA שלילי (-$25.93M). EV/EBITDA לא משמעותי. רכיבי EV: Market Cap $2,619.311M, EV $2,618.611M (פער 0.7M), שמרמז על Net Cash זעיר — לא עולה בקנה אחד עם Net Debt/Equity = -0.73 (מצב Net Cash משמעותי). יש כאן חוסר עקביות בין מקורות."
+        },
+        "description_hebrew": "EV/EBITDA לא תקף בגלל EBITDA שלילי. ייצוג ה-EV מ-Barchart ($2,618.611M) דומה כמעט ב-100% ל-Market Cap, אך נתון Net Debt/Equity של -0.73 מרמז על Net Cash גדול יותר. סתירה זו דורשת אימות במאזן הציבורי הראשון של INFQ.",
+        "company_data": [
+          {
+            "period": "2026-05-05",
+            "frequency": "point-in-time",
+            "market_cap": 2619311000,
+            "enterprise_value": 2618611000,
+            "ttm_ebitda": -25930000,
+            "confidence": "medium",
+            "source": "Barchart + StockAnalysis (secondary)",
+            "calculation_method": "EV מ-Barchart; EBITDA TTM שלילי → EV/EBITDA לא חישובי."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "interpretation_hebrew": "אסור להציג EV/EBITDA. נדרש לאמת את ה-EV מול דוחות 10-Q של INFQ הציבורית; הפער הקטן בין EV ל-Market Cap סותר את Net Debt/Equity של -0.73.",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      },
+      "11_peg_ratio": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "Forward EPS Growth Forecast לא קיים בפלט המסונן. PEG דורש Forward P/E + EPS Growth — שניהם אינם זמינים."
+        },
+        "description_hebrew": "PEG דורש Forward P/E + צמיחת EPS עתידית. שני הרכיבים חסרים. PEG לא ניתן לחישוב.",
+        "company_data": [],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "interpretation_hebrew": "PEG לא קיים. נדרש להמתין לסדרת קונצנזוס מאנליסטים.",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      },
+      "12_price_to_book": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "Book Value לא נשמר בפלט המסונן. P/B לא ניתן לחישוב."
+        },
+        "description_hebrew": "P/B דורש Shareholders' Equity / Book Value. לא קיים בפלט. נדרש מ-10-Q ראשון של INFQ הציבורית.",
+        "company_data": [],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "interpretation_hebrew": "P/B לא קיים. ה-D/E (0.06) ו-Net Debt/Equity (-0.73) מרמזים על Equity גדול יחסית לחוב — אך ללא ערך מוחלט אי אפשר לחשב P/B.",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      }
+    },
+    "cash_flow": {
+      "13_operating_cash_flow": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "FY23, FY24, TTM Sep25 מ-StockAnalysis (שניוני). OCF רבעוני לא קיים. שלילי באופן עקבי אך משתפר (-47.33 → -32.47 → -18.83). תקופות 2023-2024 ככל הנראה מתייחסות ל-Infleqtion הפרטית, ולכן זהירות בהשוואה ל-Q1 2026 הציבורי."
+        },
+        "description_hebrew": "OCF שלילי באופן עקבי אך משתפר: -$47.33M (FY23) → -$32.47M (FY24) → -$18.83M (TTM Sep25). שורת השיפור עולה בקנה אחד עם מנוע התפעולי המשתפר.",
+        "company_data": [
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (CY)",
+            "ocf": -47330000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "OCF שנתי 2023 לפי StockAnalysis."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (CY)",
+            "ocf": -32470000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "OCF שנתי 2024."
+          },
+          {
+            "period": "TTM through 2025-09-30",
+            "frequency": "TTM",
+            "ocf": -18830000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "OCF TTM נכון לסוף ספט' 2025."
+          }
+        ],
+        "missing_components_hebrew": "OCF רבעוני (Q1 2026 וכו') לא חולץ מ-10-Q במקור הנוכחי.",
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "trend_hebrew": "OCF משתפר רצוף: -$47.33M → -$32.47M → -$18.83M. במידה והקצב יישמר Q1 2026 צפוי להיות באזור -$5M עד -$7M.",
+        "interpretation_hebrew": "ה-Trend חיובי, אך OCF שלילי משמעותית. החברה עדיין שורפת מזומן ב-~$19M/שנה. בהינתן Net Cash position זה ניתן לתקופה, אך לא ללא הגבלה.",
+        "chart_recommendation": {
+          "chart_id": "infq_ocf_annual",
+          "chart_type": "bar",
+          "title_hebrew": "OCF שנתי FY2023-FY2024"
+        }
+      },
+      "14_free_cash_flow": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "FY23, FY24, TTM Sep25 מ-StockAnalysis (שניוני). שלילי באופן עקבי אך משתפר. CapEx לא חולץ במפורש בפלט (אך מ-FCF=OCF+CapEx ניתן להסיק CapEx ~$2-4M/שנה — לא מוצג כי המקור לא מספק את הערך ישירות)."
+        },
+        "description_hebrew": "FCF שלילי באופן עקבי: -$51.01M (FY23) → -$35.33M (FY24) → -$20.85M (TTM Sep25). CapEx לא קיים בפלט כ-line item נפרד.",
+        "company_data": [
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (CY)",
+            "fcf": -51010000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "FCF שנתי 2023."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (CY)",
+            "fcf": -35330000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "FCF שנתי 2024."
+          },
+          {
+            "period": "TTM through 2025-09-30",
+            "frequency": "TTM",
+            "fcf": -20850000,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "FCF TTM נכון לסוף ספט' 2025."
+          }
+        ],
+        "missing_components_hebrew": "CapEx פרטני (line-item) לא קיים בפלט. FCF=OCF+CapEx מקובל; CapEx נגזר לכאורה הוא ~$2-4M/שנה אך לא נשמר כערך עצמאי בפלט המסונן.",
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "trend_hebrew": "FCF משתפר רצוף: -$51M → -$35M → -$21M. במידה והקצב יישמר, FY26 צפוי FCF ~-$10M.",
+        "interpretation_hebrew": "החברה שורפת מזומן כל שנה אך הקצב יורד. Net Cash position מסייע, אך נדרש המשך גידול ההכנסות ושיפור מרווחים כדי להגיע ל-FCF חיובי.",
+        "chart_recommendation": {
+          "chart_id": "infq_fcf_annual",
+          "chart_type": "bar",
+          "title_hebrew": "FCF שנתי FY2023-FY2024"
+        }
+      },
+      "15_fcf_margin": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "FCF Margin מ-StockAnalysis: -465.83% (FY23), -122.50% (FY24), -67.40% (TTM Sep25). שיפור חזק; אבל עדיין שלילי משמעותית."
+        },
+        "description_hebrew": "FCF Margin = FCF / Revenue. שלילי משמעותית אבל משתפר רצוף: -465.83% → -122.50% → -67.40%. המגמה מצביעה על מנוע תפעולי משתפר.",
+        "company_data": [
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (CY)",
+            "fcf_margin": -465.83,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "-51.01 / 10.95 * 100 = -465.84% (פערים בעיגול)."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (CY)",
+            "fcf_margin": -122.5,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "-35.33 / 28.84 * 100 = -122.50%."
+          },
+          {
+            "period": "TTM through 2025-09-30",
+            "frequency": "TTM",
+            "fcf_margin": -67.4,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "-20.85 / 30.93 * 100 = -67.41%."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "trend_hebrew": "-465.83% → -122.50% → -67.40%. שיפור דרמטי, אך עדיין רחוק מנקודת איזון.",
+        "interpretation_hebrew": "השיפור משקף מנוע תפעולי טוב, אך FCF Margin -67% עדיין משמעותי. נדרשת המשך צמיחה.",
+        "chart_recommendation": {
+          "chart_id": "infq_fcf_margin_annual",
+          "chart_type": "bar",
+          "title_hebrew": "FCF Margin שנתי FY2023-FY2024"
+        }
+      },
+      "16_fcf_yield": {
+        "data_quality": {
+          "status": "estimated",
+          "note_hebrew": "FCF Yield = TTM FCF / Market Cap = -20.85 / 2,619.311 * 100 = -0.80%. שני מקורות שניוניים. שלילי — בהינתן ש-FCF שלילי, FCF Yield שלילי בהגדרה."
+        },
+        "description_hebrew": "FCF Yield = -0.80%. בגלל FCF שלילי, ה-Yield שלילי. ערך לא משמעותי כיעד תשואה — מוצג להמחשת קצב שריפת מזומן ביחס לשווי שוק.",
+        "company_data": [
+          {
+            "period": "TTM through 2025-09-30 (yield)",
+            "frequency": "TTM",
+            "current_fcf_yield": -0.8,
+            "ltm_fcf": -20850000,
+            "market_cap": 2619311000,
+            "confidence": "high",
+            "source": "Calculated from StockAnalysis + Barchart",
+            "calculation_method": "(-20.85 / 2,619.311) * 100 = -0.796%."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "interpretation_hebrew": "FCF Yield שלילי. שריפת המזומן ביחס לשווי שוק לא משמעותית (כ-0.8% לשנה), בעיקר כי שווי השוק עצמו גדול ($2.6B) ביחס לקצב השריפה — אך אינדיקציה לחוסר רווחיות יסודית.",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      }
+    },
+    "financial_health": {
+      "17_debt_to_equity": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "D/E ב-3 נקודות מ-StockAnalysis Ratios (שניוני): 0.06 (2023), 0.09 (2024), 0.06 (נכון ל-2026-03-31). חוב נמוך מאוד. נתוני סך חוב/הון מוחלטים לא קיימים בפלט."
+        },
+        "description_hebrew": "D/E נמוך מאוד: 0.06 → 0.09 → 0.06. החברה כמעט ללא חוב. הערכים המוחלטים של Debt ו-Equity לא קיימים בפלט.",
+        "company_data": [
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (CY)",
+            "debt_to_equity": 0.06,
+            "confidence": "medium",
+            "source": "StockAnalysis Ratios (secondary)",
+            "calculation_method": "D/E 2023."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (CY)",
+            "debt_to_equity": 0.09,
+            "confidence": "medium",
+            "source": "StockAnalysis Ratios (secondary)",
+            "calculation_method": "D/E 2024."
+          },
+          {
+            "period": "Current to 2026-03-31",
+            "frequency": "point-in-time",
+            "debt_to_equity": 0.06,
+            "confidence": "medium",
+            "source": "StockAnalysis Ratios (secondary)",
+            "calculation_method": "D/E עדכני."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "trend_hebrew": "D/E יציב סביב 0.06-0.09. החברה לא ממונפת כיום.",
+        "interpretation_hebrew": "מצב D/E מצוין — החברה כמעט ללא חוב. בהינתן Net Cash position, יש לה גמישות גבוהה למימון תפעולי.",
+        "chart_recommendation": {
+          "chart_id": "infq_de_trend",
+          "chart_type": "bar",
+          "title_hebrew": "Debt-to-Equity — FY23 → Current 2026-03-31"
+        }
+      },
+      "18_net_cash_net_debt": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "Net Debt/Equity מ-StockAnalysis: -0.62 (2023), -0.64 (2024), -0.73 (current). ערכים שליליים → מצב Net Cash. ה-EV מ-Barchart $2,618.611M כמעט שווה ל-Market Cap $2,619.311M (פער 0.7M) — סתירה לכאורה עם Net Debt/Equity של -0.73. נדרש אימות במאזן 10-Q."
+        },
+        "description_hebrew": "Net Debt/Equity = -0.73 (current) → מצב Net Cash. אבל הפער EV-Market Cap של $0.7M סותר את הציפייה ש-Net Cash משמעותי. ייתכן ש-EV מ-Barchart לא משקף Net Cash מלא, או שיש פערי הגדרה. נדרש אימות 10-Q.",
+        "company_data": [
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (CY)",
+            "net_debt_to_equity": -0.62,
+            "confidence": "medium",
+            "source": "StockAnalysis Ratios (secondary)",
+            "calculation_method": "Net Debt/Equity 2023. שלילי = Net Cash."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (CY)",
+            "net_debt_to_equity": -0.64,
+            "confidence": "medium",
+            "source": "StockAnalysis Ratios (secondary)",
+            "calculation_method": "Net Debt/Equity 2024."
+          },
+          {
+            "period": "Current to 2026-03-31",
+            "frequency": "point-in-time",
+            "net_debt_to_equity": -0.73,
+            "confidence": "medium",
+            "source": "StockAnalysis Ratios (secondary)",
+            "calculation_method": "Net Debt/Equity עדכני."
+          },
+          {
+            "period": "EV-Market Cap implied net cash (Barchart 2026-05-05)",
+            "frequency": "point-in-time",
+            "market_cap": 2619311000,
+            "enterprise_value": 2618611000,
+            "implied_net_cash_usd": 700000,
+            "confidence": "low",
+            "source": "Barchart (secondary)",
+            "calculation_method": "Market Cap - EV = $0.7M. סתירה לכאורה עם Net Debt/Equity -0.73."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "trend_hebrew": "Net Debt/Equity הופך שלילי יותר: -0.62 → -0.64 → -0.73 — אינדיקציה לעלייה ב-Net Cash position.",
+        "interpretation_hebrew": "החברה במצב Net Cash משמעותי לפי StockAnalysis (-0.73 Net Debt/Equity), אך הפער EV-Market Cap הקטן (0.7M) סותר. בהינתן הפסדי OCF/FCF, ה-Net Cash הוא משאב קריטי לקיום פעילות. נדרש אימות 10-Q.",
+        "chart_recommendation": {
+          "chart_id": "infq_net_debt_equity_trend",
+          "chart_type": "bar",
+          "title_hebrew": "Net Debt/Equity — FY23 → Current 2026-03-31"
+        }
+      },
+      "19_current_ratio": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "Current Ratio ו-Quick Ratio מ-StockAnalysis (שניוני) ב-3 נקודות. Current 5.34 → 3.73 → 5.06; Quick 4.79 → 3.41 → 4.48. גמישות נזילות גבוהה."
+        },
+        "description_hebrew": "Current Ratio גבוה (5.06 current) — נזילות חזקה. Quick Ratio גבוה גם הוא (4.48), מה שמעיד שרוב הנכסים השוטפים נזילים מהותית.",
+        "company_data": [
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (CY)",
+            "current_ratio": 5.34,
+            "quick_ratio": 4.79,
+            "confidence": "medium",
+            "source": "StockAnalysis Ratios (secondary)",
+            "calculation_method": "Current/Quick ratios 2023."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (CY)",
+            "current_ratio": 3.73,
+            "quick_ratio": 3.41,
+            "confidence": "medium",
+            "source": "StockAnalysis Ratios (secondary)",
+            "calculation_method": "Current/Quick ratios 2024."
+          },
+          {
+            "period": "Current to 2026-03-31",
+            "frequency": "point-in-time",
+            "current_ratio": 5.06,
+            "quick_ratio": 4.48,
+            "confidence": "medium",
+            "source": "StockAnalysis Ratios (secondary)",
+            "calculation_method": "Current/Quick ratios עדכניים."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "trend_hebrew": "Current Ratio: 5.34 → 3.73 → 5.06. ירידה ב-2024 ושיפור ל-current — ייתכן שמעבר ל-ציבוריות (deSPAC) הזרים מזומן.",
+        "interpretation_hebrew": "נזילות חזקה. החברה לא בסיכון תזרימי קצר טווח. עם זאת — שריפת המזומן השנתית ($-19M OCF) דורשת מעקב; ללא מימון חוזר, Current Ratio ירד עם השנים.",
+        "chart_recommendation": {
+          "chart_id": "infq_current_ratio_trend",
+          "chart_type": "bar",
+          "title_hebrew": "Current Ratio — FY23 → Current 2026-03-31"
+        }
+      },
+      "20_return_on_equity": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "ROE לא נשמר בפלט המסונן. DuPont decomposition לא קיים. נדרש חישוב ידני מ-10-Q."
+        },
+        "description_hebrew": "ROE לא קיים בפלט. בהינתן הפסדים תפעוליים גדולים, ROE צפוי להיות שלילי באופן עקבי.",
+        "company_data": [],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "interpretation_hebrew": "ROE שלילי צפוי, אך אינו זמין במקור הקיים. נדרש 10-Q לאימות.",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      },
+      "21_return_on_invested_capital": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "ROIC עצמו MISSING בפלט. ROCE (Return on Capital Employed) קיים כ-proxy: -88.9% (FY23), -54.9% (FY24), -29.0% (current). מקור: StockAnalysis Ratios (שניוני). ROCE משתפר עם הזמן בעקבות גידול ההכנסות."
+        },
+        "description_hebrew": "ROIC לא קיים. ROCE כ-proxy: -88.9% → -54.9% → -29.0%. שיפור משמעותי, אך עדיין שלילי. ROCE מודד את הרווח התפעולי ביחס להון מועסק; שלילי בעקבות הפסד תפעולי.",
+        "company_data": [
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (CY)",
+            "roce_proxy": -88.9,
+            "confidence": "medium",
+            "source": "StockAnalysis Ratios (secondary)",
+            "calculation_method": "ROCE proxy 2023. ROIC עצמו לא נשמר."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (CY)",
+            "roce_proxy": -54.9,
+            "confidence": "medium",
+            "source": "StockAnalysis Ratios (secondary)",
+            "calculation_method": "ROCE proxy 2024."
+          },
+          {
+            "period": "Current to 2026-03-31",
+            "frequency": "point-in-time",
+            "roce_proxy": -29.0,
+            "confidence": "medium",
+            "source": "StockAnalysis Ratios (secondary)",
+            "calculation_method": "ROCE proxy עדכני."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "trend_hebrew": "ROCE: -88.9% → -54.9% → -29.0%. השיפור משקף את גידול ההכנסה במנוף תפעולי, אך עדיין רחוק מ-WACC.",
+        "interpretation_hebrew": "ROCE שלילי הוא מצב נורמלי לחברת Quantum בשלב מסחור מוקדם. כיוון השיפור חיובי, אבל החברה לא יוצרת ערך עבור בעלי ההון כיום. נדרשת המשך התקדמות לפיברל ב-FY26.",
+        "chart_recommendation": {
+          "chart_id": "infq_roce_trend",
+          "chart_type": "bar",
+          "title_hebrew": "ROCE (proxy ל-ROIC) — FY23 → Current 2026-03-31"
+        }
+      }
+    },
+    "forward_signals": {
+      "22_management_guidance": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "גיידנס הכנסות 2026 (לפחות $40M) ו-2025 reported ($32.5M) מהודעת ההנהלה הרשמית (2026-04-07). Q1 2026 בפועל $9.5M מ-SEC EX-99.1 ראשוני. EPS guidance, margin guidance, CapEx guidance — לא קיימים."
+        },
+        "description_hebrew": "ההנהלה סיפקה: 2025 reported $32.5M; גיידנס 2026 לפחות $40M; Q1 2026 בפועל $9.5M (+14% YoY). חסר: EPS guidance, margin guidance, CapEx guidance, חוזים חתומים.",
+        "company_data": [
+          {
+            "period": "2025 (reported)",
+            "frequency": "שנתי (CY)",
+            "revenue_actual_usd": 32500000,
+            "confidence": "high",
+            "source": "Infleqtion IR + Quantum Insider (2026-04-08)",
+            "calculation_method": "2025 הכנסות מדווחות."
+          },
+          {
+            "period": "2026 (guidance ≥)",
+            "frequency": "שנתי (תחזית)",
+            "revenue_guidance_usd": 40000000,
+            "confidence": "high",
+            "source": "Infleqtion IR (2026-04-07)",
+            "calculation_method": "גיידנס floor ל-2026: 'לפחות $40M'."
+          },
+          {
+            "period": "Q1 2026 (actual)",
+            "frequency": "רבעוני",
+            "revenue_actual_usd": 9500000,
+            "yoy_growth": 14.0,
+            "confidence": "high",
+            "source": "SEC EX-99.1 (2026-05-13)",
+            "calculation_method": "Q1 2026 רבעוני בפועל."
+          }
+        ],
+        "missing_items_hebrew": "EPS guidance, Margin guidance, CapEx guidance, חוזים חתומים חדשים — לא קיימים בפלט.",
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "trend_hebrew": "מ-2025 $32.5M ל-2026 ≥$40M = צמיחה צפויה ≥23%. Q1 2026 $9.5M (Q1*4=annualized ~$38M, קרוב לגיידנס).",
+        "interpretation_hebrew": "הגיידנס מספק מסגרת אך ללא פרטים: אם Infleqtion תעמוד ב-floor של $40M, הצמיחה מאטה ל-23%. נדרש מעקב אם הגיידנס יעודכן ל-FY26 אחרי Q2 2026.",
+        "chart_recommendation": {
+          "chart_id": "infq_guidance_vs_actual",
+          "chart_type": "bar",
+          "title_hebrew": "הכנסות מדווחות 2025 ו-Guidance 2026"
+        }
+      },
+      "23_analyst_consensus": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "ה-Perplexity Data Pack המסונן לא שמר נתוני קונצנזוס אנליסטים. אין מספר אנליסטים, המלצה ממוצעת, יעד מחיר, או גידור."
+        },
+        "description_hebrew": "אין נתוני קונצנזוס אנליסטים בפלט. ייתכן ש-INFQ עדיין לא מכוסה רחבות על ידי האנליסטים בעקבות מעבר deSPAC, או שהמקור לא שמר את הנתון.",
+        "company_data": [],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "interpretation_hebrew": "לא ניתן להעריך את תחושת השוק האנליסטית. נדרש לחפש Yahoo Finance, MarketBeat, או Public.com.",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      },
+      "24_earnings_revisions": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "ה-Perplexity Pack המסונן לא שמר היסטוריית רוויזיות אנליסטים — לא לתחזיות הכנסה ולא ל-EPS."
+        },
+        "description_hebrew": "אין נתוני רוויזיות בפלט. לא ניתן לקבוע אם תחזיות עתידיות עולות או יורדות.",
+        "company_data": [],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "interpretation_hebrew": "אינדיקטור חסר. נדרש מעקב חודשי לאחר Q1 2026.",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      },
+      "25_share_buybacks": {
+        "data_quality": {
+          "status": "partial",
+          "note_hebrew": "Buybacks: MISSING (לא דווחו). Dilution: סדרת מספר מניות 2023→2024→TTM Sep25 (35M → 40M → 44M) מ-StockAnalysis. **סתירה מהותית**: Barchart מציגה Shares Outstanding נוכחי 216.472M — פי 4.9 מ-44M ה-TTM. ההסבר הסביר: מעבר ל-ציבוריות (deSPAC) הוסיף מניות באופן משמעותי. השוואה ישירה בין-תקופתית אינה אפשרית."
+        },
+        "description_hebrew": "Buybacks: לא דווחו. Dilution: לפני מעבר לציבוריות, מספר המניות עלה 35M (2023) → 44M (TTM Sep25). **לאחר מעבר ל-ציבוריות (ככל הנראה deSPAC ב-Q4 2025/Q1 2026), Shares Outstanding נוכחי = 216.472M — קפיצה של ~4.9x.** ההשוואה הישירה בין הסדרה ההיסטורית (35-44M) לנוכחי (216M) אינה תקפה ללא תיאום פרופורמה.",
+        "company_data": [
+          {
+            "period": "FY2023",
+            "frequency": "שנתי (CY) — pre-deSPAC",
+            "shares_outstanding_m": 35.0,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "Basic/Diluted shares לפני מעבר לציבוריות."
+          },
+          {
+            "period": "FY2024",
+            "frequency": "שנתי (CY) — pre-deSPAC",
+            "shares_outstanding_m": 40.0,
+            "confidence": "medium",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "Basic/Diluted shares 2024."
+          },
+          {
+            "period": "TTM through 2025-09-30",
+            "frequency": "TTM — pre/around deSPAC",
+            "shares_outstanding_m": 44.0,
+            "confidence": "low",
+            "source": "StockAnalysis (secondary)",
+            "calculation_method": "Basic/Diluted shares TTM Sep 2025. ייתכן שלא משקף את ה-merger המלא."
+          },
+          {
+            "period": "Current (Barchart, 2026-05-05) — post-deSPAC",
+            "frequency": "point-in-time",
+            "shares_outstanding_m": 216.472,
+            "confidence": "high",
+            "source": "Barchart",
+            "calculation_method": "מספר מניות נוכחי לאחר מעבר לציבוריות. **קפיצה של ~4.9x ביחס ל-TTM Sep25** — סתירה מבנית."
+          }
+        ],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "trend_hebrew": "סדרה pre-deSPAC: 35M → 40M → 44M (גידול ~26% תוך 2 שנים). post-deSPAC current: 216.5M — קפיצה של ~4.9x. סדרות לא ניתן להשוות ישירות.",
+        "interpretation_hebrew": "הדילול ההיסטורי היה מתון (~26% תוך שנתיים), אך מעבר ה-deSPAC הוסיף ~170M מניות חדשות. זוהי קפיצה משמעותית שדורשת בחינה ב-S-4/10-K הראשון של INFQ הציבורית להבנת מבנה ההון החדש (sponsor shares, warrants, public float, lock-ups).",
+        "chart_recommendation": {
+          "chart_id": "infq_share_count_pre_despac",
+          "chart_type": "bar",
+          "title_hebrew": "מספר מניות לפני deSPAC (2023-TTM Sep25)"
+        }
+      },
+      "26_insider_transactions": {
+        "data_quality": {
+          "status": "missing",
+          "note_hebrew": "Insider Transactions לא נשמרו בפלט המסונן. מעבר deSPAC מציין שמבני בעלי המניות (sponsor, founders, PIPE) עדיין מתייצב; נדרש Form 4 ראשוני."
+        },
+        "description_hebrew": "אין נתוני insider transactions בפלט. נדרש SEC Form 4.",
+        "company_data": [],
+        "peer_comparison": [
+          {
+            "ticker": "—",
+            "confidence": "missing",
+            "source": "INFQ Perplexity Data Pack (clean) + StockAnalysis + Barchart + SEC EX-99.1 + Infleqtion IR",
+            "calculation_method": "השוואת עמיתים לא נכללת — הפלט המסונן של פרפלקסיטי לא שמר נתוני עמיתים מאומתים בתחום ה-Quantum Computing (IonQ, Rigetti, D-Wave, Quantum Computing Inc וכו'). נדרש מחקר ייעודי."
+          }
+        ],
+        "interpretation_hebrew": "ללא נתוני insider, לא ניתן להעריך אם להיר בעלי עניין רוכשים או מוכרים. סימן שלילי אופייני לתקופה post-deSPAC: lock-up periods שמונעים מכירה.",
+        "chart_recommendation": {
+          "chart_id": "_skip",
+          "chart_type": "none",
+          "title_hebrew": ""
+        }
+      }
+    },
+    "sector_specific_metrics": {
+      "data_quality": {
+        "status": "missing",
+        "note_hebrew": "ה-Perplexity Pack המסונן לא שמר נתוני KPI ספציפיים ל-Quantum Computing (qubit count, T1/T2 coherence, gate fidelity, system deliveries, government contract backlog, R&D intensity, patent count). כל המדדים הסקטוריים חסרים — נדרש מחקר ייעודי מתוך 10-K, מצגות משקיעים, ופרסומים מדעיים."
+      },
+      "description_hebrew": "Quantum Computing/Sensing הוא תחום עם מטריקות תפעוליות ייחודיות. אף אחת מהן לא חולצה בפלט הנוכחי. הרשימה למטה מציגה את הקטגוריות הצפויות — כולן MISSING — לצורך בנייה עתידית.",
+      "metrics": [
+        {
+          "key": "qubit_count",
+          "label_hebrew": "מספר qubits במערכת",
+          "frequency": "point-in-time",
+          "data_quality": {
+            "status": "missing",
+            "note_hebrew": "מספר qubits של מערכת ה-Infleqtion הציבורית לא דווח בפלט."
+          },
+          "values": []
+        },
+        {
+          "key": "qubit_fidelity",
+          "label_hebrew": "Gate fidelity (% הצלחה)",
+          "frequency": "point-in-time",
+          "data_quality": {
+            "status": "missing",
+            "note_hebrew": "Gate fidelity 1Q/2Q לא דווח בפלט."
+          },
+          "values": []
+        },
+        {
+          "key": "coherence_time",
+          "label_hebrew": "T1/T2 coherence time (ms)",
+          "frequency": "point-in-time",
+          "data_quality": {
+            "status": "missing",
+            "note_hebrew": "Coherence time לא דווח."
+          },
+          "values": []
+        },
+        {
+          "key": "commercial_system_deliveries",
+          "label_hebrew": "מערכות מסחריות שסופקו",
+          "frequency": "שנתי",
+          "data_quality": {
+            "status": "missing",
+            "note_hebrew": "מספר מערכות מסחריות שסופקו ללקוחות — לא קיים בפלט."
+          },
+          "values": []
+        },
+        {
+          "key": "government_contracts_backlog",
+          "label_hebrew": "Backlog חוזי ממשל ($)",
+          "frequency": "point-in-time",
+          "data_quality": {
+            "status": "missing",
+            "note_hebrew": "Backlog חוזים חתומים לא דווח."
+          },
+          "values": []
+        },
+        {
+          "key": "rd_intensity_pct",
+          "label_hebrew": "R&D / Revenue (%)",
+          "frequency": "שנתי",
+          "data_quality": {
+            "status": "missing",
+            "note_hebrew": "R&D פרטני וכן R&D/Revenue ratio לא דווחו בפלט."
+          },
+          "values": []
+        },
+        {
+          "key": "patent_count",
+          "label_hebrew": "מספר פטנטים פעילים",
+          "frequency": "point-in-time",
+          "data_quality": {
+            "status": "missing",
+            "note_hebrew": "מספר פטנטים לא דווח."
+          },
+          "values": []
+        },
+        {
+          "key": "key_partnerships",
+          "label_hebrew": "שותפויות מפתח (DoD, DARPA, ESA, NIH וכו')",
+          "frequency": "point-in-time",
+          "data_quality": {
+            "status": "missing",
+            "note_hebrew": "פירוט שותפויות עם סוכנויות ממשל ומחקר לא דווח בפלט הנוכחי."
+          },
+          "values": []
+        }
+      ]
+    }
+  },
+  "dashboard_summary": {
+    "scorecard": {
+      "growth_score_1_to_10": 7,
+      "profitability_score_1_to_10": 2,
+      "valuation_score_1_to_10": 2,
+      "cash_flow_score_1_to_10": 3,
+      "financial_health_score_1_to_10": 6,
+      "forward_signals_score_1_to_10": 3,
+      "overall_quality_score_1_to_10": 3
+    },
+    "traffic_lights": {
+      "growth": "green",
+      "profitability": "red",
+      "valuation": "red",
+      "cash_flow": "red",
+      "financial_health": "yellow",
+      "forward_signals": "yellow"
+    },
+    "top_positive_signals_hebrew": [
+      "צמיחת הכנסות חזקה: FY24 +163% YoY; 2025 reported $32.5M; גיידנס 2026 ≥$40M.",
+      "Q1 2026 הציג שיא רבעוני $9.5M (+14% YoY).",
+      "מצב Net Cash (D/E 0.06, Net Debt/Equity -0.73); Current Ratio 5.06 — נזילות חזקה.",
+      "מנוע תפעולי משתפר: OCF/FCF Margin משתפרים רצוף.",
+      "טכנולוגיית neutral-atom — אחת הארכיטקטורות המבטיחות ב-Quantum."
+    ],
+    "top_negative_signals_hebrew": [
+      "הפסדים תפעוליים גדולים: Operating Margin TTM -94.5%, Net Margin -92.8%, FCF -$20.85M TTM.",
+      "תמחור קיצוני: P/S TTM 84.67x. דורש מימוש משמעותי של הגיידנס.",
+      "דילול דרמטי בעקבות deSPAC: 44M מניות (TTM Sep25 pre) → 216.5M (current post) — קפיצה ~4.9x.",
+      "סיגנלים עתידיים חסרים: EPS, Adj. EBITDA, Forward P/E, PEG, P/B, אנליסטים, רוויזיות, buybacks, insider — כולם MISSING.",
+      "סתירה ב-EV: $0.7M נטו cash implied לעומת Net Debt/Equity -0.73; נדרש אימות 10-Q."
+    ],
+    "key_questions_for_investor_hebrew": [
+      "האם גיידנס 2026 (≥$40M) יתממש או יעודכן ב-Q2 2026?",
+      "האם החברה תתחיל לדווח Adjusted EBITDA לפי דיפיניציה רשמית?",
+      "מהו מבנה ההון המעודכן לאחר deSPAC — sponsor shares, warrants, PIPE, lock-ups?",
+      "האם אנליסטים יחלו לכסות INFQ ולפרסם קונצנזוס?",
+      "מהן יחידות התפעול הקוונטיות (qubit count, fidelity, system deliveries) שמתעדות מסחיריות?"
+    ],
+    "final_takeaway_hebrew": "Infleqtion (INFQ) היא חברת Quantum Computing/Sensing בשלב מסחור מוקדם עם פרופיל השקעה ספקולטיבי גבוה: צמיחה חזקה אבל הפסדים עמוקים, תמחור P/S קיצוני ~85x, ומבנה הון שמתייצב לאחר deSPAC. סיגנלים מהותיים רבים חסרים בפלט הנוכחי (EPS, Adj. EBITDA, אנליסטים, buybacks). **מתאימה רק למשקיע ספקולטיבי עם סבילות גבוהה לתנודתיות, ויש למעקב צמוד אחר Q2 2026 ועדכון הגיידנס.**"
+  },
+  "chart_data": [
+    {
+      "chart_id": "infq_revenue_annual",
+      "chart_type": "bar",
+      "title_hebrew": "הכנסות שנתיות FY2023-FY2025",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "נתונים שנתיים (CY)",
+      "note_hebrew": "FY2025 מקור: הודעת ההנהלה (אפר' 2026). גיידנס FY2026 ≥$40M לא נכלל כי הוא תחזית לא ודאי.",
+      "series": [
+        {
+          "name": "revenue",
+          "data": [
+            {
+              "x": "FY2023",
+              "y": 10950000
+            },
+            {
+              "x": "FY2024",
+              "y": 28840000
+            },
+            {
+              "x": "FY2025 (reported)",
+              "y": 32500000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "infq_gross_margin_annual",
+      "chart_type": "bar",
+      "title_hebrew": "מרווח גולמי שנתי FY2023-FY2024",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "נתונים שנתיים (CY)",
+      "note_hebrew": "TTM Sep25 (46.86%) לא נכלל בגרף כי תקופה שונה (TTM ≠ annual).",
+      "series": [
+        {
+          "name": "gross_margin",
+          "data": [
+            {
+              "x": "FY2023",
+              "y": 40.51
+            },
+            {
+              "x": "FY2024",
+              "y": 36.01
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "infq_operating_margin_annual",
+      "chart_type": "bar",
+      "title_hebrew": "מרווח תפעולי שנתי FY2023-FY2024",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "נתונים שנתיים (CY)",
+      "note_hebrew": "TTM Sep25 (-94.53%) לא נכלל בגרף כי תקופה שונה.",
+      "series": [
+        {
+          "name": "operating_margin",
+          "data": [
+            {
+              "x": "FY2023",
+              "y": -509.56
+            },
+            {
+              "x": "FY2024",
+              "y": -133.67
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "infq_net_margin_annual",
+      "chart_type": "bar",
+      "title_hebrew": "מרווח נקי שנתי FY2023-FY2024",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "נתונים שנתיים (CY)",
+      "note_hebrew": "TTM Sep25 (-92.82%) לא נכלל.",
+      "series": [
+        {
+          "name": "net_margin",
+          "data": [
+            {
+              "x": "FY2023",
+              "y": -481.88
+            },
+            {
+              "x": "FY2024",
+              "y": -184.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "infq_ebitda_annual",
+      "chart_type": "bar",
+      "title_hebrew": "EBITDA לא-מתואם שנתי FY2023-FY2024",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "נתונים שנתיים (CY)",
+      "note_hebrew": "Adjusted EBITDA לפי הגדרת חברה — חסר בפלט. TTM Sep25 (-25.93M) לא נכלל.",
+      "series": [
+        {
+          "name": "ebitda_unadjusted",
+          "data": [
+            {
+              "x": "FY2023",
+              "y": -53660000
+            },
+            {
+              "x": "FY2024",
+              "y": -35830000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "infq_ocf_annual",
+      "chart_type": "bar",
+      "title_hebrew": "OCF שנתי FY2023-FY2024",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "נתונים שנתיים (CY)",
+      "note_hebrew": "TTM Sep25 (-$18.83M) לא נכלל.",
+      "series": [
+        {
+          "name": "ocf",
+          "data": [
+            {
+              "x": "FY2023",
+              "y": -47330000
+            },
+            {
+              "x": "FY2024",
+              "y": -32470000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "infq_fcf_annual",
+      "chart_type": "bar",
+      "title_hebrew": "FCF שנתי FY2023-FY2024",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "נתונים שנתיים (CY)",
+      "note_hebrew": "TTM Sep25 (-$20.85M) לא נכלל.",
+      "series": [
+        {
+          "name": "fcf",
+          "data": [
+            {
+              "x": "FY2023",
+              "y": -51010000
+            },
+            {
+              "x": "FY2024",
+              "y": -35330000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "infq_fcf_margin_annual",
+      "chart_type": "bar",
+      "title_hebrew": "FCF Margin שנתי FY2023-FY2024",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "נתונים שנתיים (CY)",
+      "note_hebrew": "TTM Sep25 (-67.40%) לא נכלל.",
+      "series": [
+        {
+          "name": "fcf_margin",
+          "data": [
+            {
+              "x": "FY2023",
+              "y": -465.83
+            },
+            {
+              "x": "FY2024",
+              "y": -122.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "infq_de_trend",
+      "chart_type": "bar",
+      "title_hebrew": "Debt-to-Equity — FY23 → Current 2026-03-31",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "ratio — point-in-time",
+      "series": [
+        {
+          "name": "debt_to_equity",
+          "data": [
+            {
+              "x": "FY2023",
+              "y": 0.06
+            },
+            {
+              "x": "FY2024",
+              "y": 0.09
+            },
+            {
+              "x": "Current 2026-03",
+              "y": 0.06
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "infq_net_debt_equity_trend",
+      "chart_type": "bar",
+      "title_hebrew": "Net Debt/Equity — FY23 → Current 2026-03-31",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "ratio — point-in-time",
+      "note_hebrew": "ערכים שליליים = מצב Net Cash. סתירה לכאורה עם Market Cap-EV=$0.7M בלבד.",
+      "series": [
+        {
+          "name": "net_debt_to_equity",
+          "data": [
+            {
+              "x": "FY2023",
+              "y": -0.62
+            },
+            {
+              "x": "FY2024",
+              "y": -0.64
+            },
+            {
+              "x": "Current 2026-03",
+              "y": -0.73
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "infq_current_ratio_trend",
+      "chart_type": "bar",
+      "title_hebrew": "Current vs Quick Ratio — FY23 → Current 2026-03-31",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "ratio — point-in-time",
+      "series": [
+        {
+          "name": "current_ratio",
+          "data": [
+            {
+              "x": "FY2023",
+              "y": 5.34
+            },
+            {
+              "x": "FY2024",
+              "y": 3.73
+            },
+            {
+              "x": "Current 2026-03",
+              "y": 5.06
+            }
+          ]
+        },
+        {
+          "name": "quick_ratio",
+          "data": [
+            {
+              "x": "FY2023",
+              "y": 4.79
+            },
+            {
+              "x": "FY2024",
+              "y": 3.41
+            },
+            {
+              "x": "Current 2026-03",
+              "y": 4.48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "infq_roce_trend",
+      "chart_type": "bar",
+      "title_hebrew": "ROCE (proxy ל-ROIC) — FY23 → Current 2026-03-31",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "%",
+      "note_hebrew": "ROIC עצמו חסר; ROCE משמש כ-proxy.",
+      "series": [
+        {
+          "name": "roce_proxy",
+          "data": [
+            {
+              "x": "FY2023",
+              "y": -88.9
+            },
+            {
+              "x": "FY2024",
+              "y": -54.9
+            },
+            {
+              "x": "Current 2026-03",
+              "y": -29.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "infq_share_count_pre_despac",
+      "chart_type": "bar",
+      "title_hebrew": "מספר מניות לפני deSPAC (2023-TTM Sep25)",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "מיליוני מניות",
+      "note_hebrew": "**Current post-deSPAC = 216.472M מניות** — לא נכלל בגרף כי לא תואם תקופה pre-deSPAC.",
+      "series": [
+        {
+          "name": "shares_m",
+          "data": [
+            {
+              "x": "FY2023",
+              "y": 35
+            },
+            {
+              "x": "FY2024",
+              "y": 40
+            },
+            {
+              "x": "TTM Sep25",
+              "y": 44
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chart_id": "infq_guidance_vs_actual",
+      "chart_type": "bar",
+      "title_hebrew": "הכנסות מדווחות 2025 ו-Guidance 2026",
+      "x_axis": "category",
+      "y_axis": "value",
+      "frequency_hebrew": "שנתי (CY)",
+      "note_hebrew": "Guidance מציין floor של $40M — ערך מינימום.",
+      "series": [
+        {
+          "name": "revenue_usd",
+          "data": [
+            {
+              "x": "2025 reported",
+              "y": 32500000
+            },
+            {
+              "x": "2026 guidance ≥",
+              "y": 40000000
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "infq_perplexity_pack",
+      "source_name": "INFQ — Infleqtion Dashboard KPI Data Pack (Perplexity, clean)",
+      "url": "local:infq_kpi_data_pack_clean.md",
+      "type": "Compiled research pack — filtered/cleaned",
+      "notes_hebrew": "פלט פרפלקסיטי שמסנן בכוונה רכיבים רועשים. רוב הסיגנלים העתידיים מסומנים MISSING במכוון. כל סתירה שמופיעה בפלט עצמו מסומנת ב-data_quality_warnings."
+    },
+    {
+      "source_id": "stockanalysis_secondary",
+      "source_name": "StockAnalysis.com (Financials, Cash Flow, Ratios)",
+      "url": "https://stockanalysis.com/stocks/infq/",
+      "type": "Secondary aggregator",
+      "notes_hebrew": "מקור שניוני; confidence cap בינוני אלא אם מצולב עם 10-K/10-Q."
+    },
+    {
+      "source_id": "barchart_market_snapshot",
+      "source_name": "Barchart INFQ Profile",
+      "url": "https://www.barchart.com/stocks/quotes/INFQ/profile",
+      "type": "Market data aggregator",
+      "notes_hebrew": "Market Cap $2,619.311M, EV $2,618.611M, Shares 216.472M (נכון 2026-05-05). פער EV-MC של $0.7M סותר את Net Debt/Equity של -0.73 — נדרש אימות 10-Q."
+    },
+    {
+      "source_id": "sec_q1_2026",
+      "source_name": "SEC EX-99.1 — Infleqtion Q1 2026 Results",
+      "url": "https://www.sec.gov/Archives/edgar/data/2007825/000119312526224350/d89415dex991.htm",
+      "type": "Primary SEC filing",
+      "notes_hebrew": "ראשוני; confidence גבוה ל-Q1 2026 revenue $9.5M (+14% YoY)."
+    },
+    {
+      "source_id": "infleqtion_ir_guidance",
+      "source_name": "Infleqtion IR — 2026 Revenue Guidance Announcement",
+      "url": "https://infleqtion.com/infleqtion-announces-2026-revenue-guidance-of-40-million/",
+      "type": "Primary IR press release",
+      "notes_hebrew": "ראשוני; confidence גבוה ל-2026 guidance ≥$40M ול-2025 reported $32.5M."
+    }
+  ],
+  "data_quality_warnings": [
+    "Filtered Perplexity output — הפלט הנוכחי מסונן בכוונה והפיל רכיבים רועשים. לכן: EPS Beat/Miss, Adjusted EBITDA, Forward P/E, PEG, P/B, ROE, Analyst Consensus, Earnings Revisions, Buyback Details, Insider Transactions, Sector-specific KPIs (qubit count, fidelity, T1/T2, system deliveries, contracts backlog, R&D intensity, patent count) ו-Peer Comparison — כולם MISSING מבחירה, לא מתוך חיפוש כושל.",
+    "Share count conflict (major) — סדרה pre-deSPAC: 35M (2023) → 40M (2024) → 44M (TTM Sep25). Current post-deSPAC: 216.472M. קפיצה של ~4.9x. ההסבר הסביר: deSPAC merger ב-Q4 2025/Q1 2026 הוסיף ~170M מניות. השוואה בין-תקופתית אינה תקפה; נדרש 10-K/S-4 הראשון של INFQ הציבורית להבנת sponsor shares, PIPE, warrants, lock-ups.",
+    "EV vs Market Cap inconsistency — Barchart: EV $2,618.611M, Market Cap $2,619.311M (פער $0.7M = Net Cash זעיר). אבל StockAnalysis: Net Debt/Equity = -0.73 (מצב Net Cash משמעותי). הסתירה לא הוסברה במקור; נדרש אימות 10-Q של INFQ הציבורית.",
+    "Pre-deSPAC vs post-deSPAC accounting discontinuity — FY23, FY24, TTM Sep25 מתייחסים ל-Infleqtion הפרטית. Q1 2026 מתייחס ל-INFQ הציבורית. ייתכן ויש תיאומי פרופורמה שאינם נכללים בנתונים השניוניים של StockAnalysis.",
+    "All StockAnalysis source dates = 'latest available' — אין תאריך מקור ספציפי. לכן confidence cap בינוני; הנתונים עשויים להיות עדכניים אך לא מאומתים מול תאריך 10-Q ספציפי.",
+    "Adjusted EBITDA (company-defined) MISSING — רק EBITDA לא מתואם זמין (-$53.66M FY23, -$35.83M FY24, -$25.93M TTM Sep25). Adjusted EBITDA לפי הגדרת החברה (מחריג SBC, deal costs, וכו') לא דווח.",
+    "EPS Beat/Miss MISSING — לא נשמר actual-vs-consensus היסטוריה. נדרש Investing.com / MarketBeat / SEC.",
+    "CapEx MISSING — לא חולץ כ-line item נפרד. ניתן להסיק CapEx ~$2-4M/שנה מ-FCF=OCF+CapEx, אך לא מוצג כי המקור לא מסר את הערך ישירות (הימנעות מהמצאת נתון).",
+    "Forward P/E, PEG, P/B MISSING — אין Forward EPS Consensus, אין Forward Growth Forecast, אין Book Value. שלוש מטריקות תמחור חסרות.",
+    "Analyst Consensus + Earnings Revisions MISSING — סביר ש-INFQ עדיין לא מכוסה בקונצנזוס רחב פוסט-deSPAC. נדרש Yahoo Finance / Public.com / MarketBeat.",
+    "Insider Transactions MISSING — צפוי בעקבות lock-up period פוסט-deSPAC. נדרש מעקב SEC Form 4.",
+    "Sector-specific KPIs (Quantum Computing) MISSING — qubit count, gate fidelity, T1/T2 coherence, commercial system deliveries, government contract backlog, R&D intensity, patent count, partnerships — כולם חסרים. נדרש מחקר ייעודי מ-10-K, מצגות משקיעים, פרסומים מדעיים.",
+    "Peer Comparison MISSING — לא חולצו נתוני IonQ (IONQ), Rigetti (RGTI), D-Wave (QBTS), Quantum Computing Inc (QUBT), Quantinuum, PsiQuantum, IBM Quantum, Google Quantum AI. נדרש מחקר ייעודי לשווי שוק, P/S, hashrate-equivalent (qubit-volume), ו-revenue mix.",
+    "Trailing P/E ו-EV/EBITDA = n/a — TTM Net Income ו-TTM EBITDA שליליים. אסור להציג ערכים שליליים כמטריקת תמחור.",
+    "Negative FCF Yield (-0.80%) — סטטוס estimated; שלילי כי FCF שלילי. לא יעד תשואה אלא אינדיקציה לקצב שריפת מזומן ביחס לשווי שוק.",
+    "ROIC MISSING, ROCE כ-proxy בלבד — ROCE: -88.9% (FY23), -54.9% (FY24), -29.0% (current). שיפור משמעותי אך עדיין שלילי.",
+    "Sources are mostly secondary (StockAnalysis, Barchart) — confidence נמוך-בינוני. נתונים ראשוניים (SEC EX-99.1, Infleqtion IR) זמינים רק ל-Q1 2026 ו-FY2025/FY2026 guidance."
+  ]
+}
